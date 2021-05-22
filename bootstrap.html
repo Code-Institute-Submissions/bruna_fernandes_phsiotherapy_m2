@@ -16,21 +16,14 @@
 
         .my-row {
             border: 3px solid red;
-            margin-left: 10px;
-            margin-right: 10px;
         }
 
         .my-col {
             border: 3px dotted blue;
-            margin-left: 10px;
         }
 
         .nav-row {
             border: 2px solid orange;
-        }
-
-        .box-1 {
-            border: 1px dotted black;
         }
     </style>
 </head>
@@ -49,31 +42,29 @@
         
         <div class="row my-row">
             <!-----Columns are used to put cells in your grids----->
-                                    
-                <div class="col my-col">
-                        
-                    <div class="row my-row">
+            <div class="col-3 my-col">
+<!--This line of code tells BS from 12 available columns this column should take 4 (the width of 4 columns) -->
+                Content Box 1
+            </div>
+<!---This line of code tells BS to take 8 from the remaining of 12 because col 1 is using 4-->            
+            <div class="col-3 my-col">
+                Content Box 2
+            </div>
+<!------This line of code has "col" when it's just col and no number width assigned  it will fill the remaining space automatically------------>
+            <div class="col-3 my-col">
+                Content Box 3
+            </div>
 
-                        <div class="col box-1">
-                            Content Box 1
-                        </div>
+            <div class="col-3 my-col">
+                Content Box 4
+            </div>
 
-                        <div class="col box-2">
-                            Content Box 2
-                        </div>
-
-                    </div>
-
-                    </div>                             
         </div>
 
 
-     <!-------In the row class you add columns, columns are where you put your actual content-->
+        <!-------In the row class you add columns, columns are where you put your actual content-->
         <div class="row my-row">
-            <div class="col-6 my-col">
-                Footer
-            </div>
-            <div class="col-6 my-col">
+            <div class="col my-col">
                 Footer
             </div>
         </div>
