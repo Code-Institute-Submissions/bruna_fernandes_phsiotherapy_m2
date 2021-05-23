@@ -1,3 +1,7 @@
+body {
+    font-family: 'Oswald', serif;
+}
+
 /*----------------------------Navbar Styling------------------------*/
 .bg-dark {
     background-color: #1d203f!important;
@@ -39,7 +43,7 @@ ul {
     align-items: center;
     color: #fff;
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: 55px;
     margin-top: 15px;
     cursor: pointer
 }
@@ -66,7 +70,7 @@ ul {
 }
 
 .social-icon i {
-    transition: 0.4s all
+    transition: 1s all
 }
 
 .social-icon:hover i {
@@ -84,6 +88,23 @@ a {
 a:hover {
     color: #70c5a3;
     text-decoration: none;
+}
+
+/*-------------------hover on the navbar links-------------------------------------*/
+#navscale:hover {
+    transition: 1.2s all;
+    transform: scale(1.6);
+    padding-top: 30px;
+}
+
+#navscale {
+    padding: 25px;
+}
+
+#slogin:hover {
+    transition: 0.4s all;
+    transform: scale(1.2);
+    color: #70c5a3;
 }
 
 .navbar-dark .navbar-nav .nav-link {
