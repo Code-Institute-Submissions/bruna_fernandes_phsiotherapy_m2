@@ -1,9 +1,11 @@
+/*----------------------------Navbar Styling------------------------*/
 .bg-dark {
     background-color: #1d203f!important;
     border-style: solid;
     border-color: #70c5a3;
 }
 
+/*--------------------------------Footer section + social icons-----------------------*/
 .footer {
     position: absolute;
     bottom: 0;
@@ -15,6 +17,8 @@
     border-color: #70c5a3;
 }
 
+
+/*-------------------------Styling of the text and anchor links-----------------------*/
 a {
     color: white;
     text-decoration: none;
@@ -37,8 +41,25 @@ a:hover {
     color: #70c5a3
 }
 
-.nav-item-login {
-    border: solid;
+/*------------------------Styling of the buttons------------------*/
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 5px;
     border-color: #70c5a3;
-    
+    padding: 15px;
+    margin: 10px;
+    background-color: #1d203f;
+}
+
+/*----------------------Hamgburger button styling-----------------------*/
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #70c5a3;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
