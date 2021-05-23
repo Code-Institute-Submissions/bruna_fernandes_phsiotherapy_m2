@@ -1,7 +1,7 @@
 .bg-dark {
     background-color: #1d203f!important;
     border-style: solid;
-    border-color: green;
+    border-color: #70c5a3;
 }
 
 .footer {
@@ -12,5 +12,33 @@
     line-height: 60px;
     background-color: #1d203f;
     border-style: solid;
-    border-color: green;
+    border-color: #70c5a3;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #70c5a3;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link:hover {
+    color: #70c5a3;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #70c5a3
+}
+
+.nav-item-login {
+    border: solid;
+    border-color: #70c5a3;
+    
 }
