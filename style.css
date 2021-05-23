@@ -1,3 +1,21 @@
-.navbar-dark .navbar-toggler-icon {
-    background-image: url( width='30' height='30');
+body {
+background-image: url(assets/images/cartao_final_curva-page-001.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+.navbar-brand {
+    border-style: solid ;    
+}
+
+.navbar {
+    border-style: solid 1px;
+    border-color: green;
+    }
+
+.bg-dark {
+    background-color: #1d203f!important;
 }
