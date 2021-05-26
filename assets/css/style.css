@@ -141,3 +141,7 @@ button, input, optgroup, select, textarea {
     border: 1px solid transparent;
     border-radius: .25rem;
 }
+
+#prof-img {
+    margin-top: 40px;
+}
