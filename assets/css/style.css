@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-image: none;
+    background-color: #1d203f;
 }
 
 /* All container styling */
@@ -65,3 +65,82 @@ header {
    header .current a {
        color: #70c5a3;
    }
+
+   /* Banner */
+   #banner {
+       /* To be flexible and responsive */
+       min-height: 350px;
+       color: white;
+       background-color: #1d203f;
+       text-align: center;
+                    
+    }
+
+    #banner h1 {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        font-size: 55px;
+    }
+
+    #banner p {
+        font-size: 20px;
+    }
+
+    .banner-h1:hover {
+        color: #70c5a3;
+        cursor: pointer;
+    }
+    
+    .banner-p:hover {
+        color: #70c5a3;
+        cursor: pointer;
+    }
+
+    /* Boxes */
+
+    #boxes {
+        margin-top: 20px;
+    }
+
+    #boxes .box {
+        float: left;
+        text-align: center;
+        /* Responsive */
+        width: 30%;
+        padding: 15px;
+    }
+
+    .fa-gem {
+        color: white;
+    }
+
+    .fa-calendar-alt {
+        color: white;
+    }
+
+    .fa-star {
+        color: white;
+    }
+    
+    hr {
+        border-color: #70c5a3;
+        width: 80%;
+    }
+
+    .mem-area {
+        color: white;
+    }
+
+    .app-area {
+        color: white;
+    }
+
+    .test-area {
+        color: white;
+    }
+
+    footer {
+        padding: 20px;
+        margin-top: 20px;
+        border: solid #70c5a3;
+    }
