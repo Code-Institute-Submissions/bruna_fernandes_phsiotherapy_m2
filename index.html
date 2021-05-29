@@ -6,13 +6,11 @@
     <title>Bruna Fernandes Fisioteropia | Welcome</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-</head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
-        <img src="assets/images/BF-logo.png" height="70" width="70" alt="">
-        <a href="/" class="navbar-brand">Bruna Fernandes Fisioteropia</a>
+        <a href="/" class="navbar-brand"><img src="assets/images/BF-logo.png" height="70" width="70" alt=""></a>
         <!----ml-auto will push this button to the right------data toggle tells Bootstrap that it will be used as a trigger for a collapsable element on the page------------->
         <!----data-target is the ID of the collapsible element-----aria = accessible rich internet applications provides accessibility options to screen readers----->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target ="#navbarNavDropdown"
@@ -22,33 +20,90 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        <ul class="navbar-nav ml-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/">Services</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link nav-link-color" href="/">Home</a></li>
+                         
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-link-color" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item nav-link-color" href="#"> Appointments</a>  
+                        </div>
+                </li>
             
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-                <a class="dropdown-item" href="#">Appointments</a>
-                
-            </div>
-            </li>
+            <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="/">Members</a></li>
+
+               <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-link-color" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="nav-link nav-link-color" href="/">Bruna Fernandes</a> 
+                        <a class="nav-link nav-link-color" href="/">Contact</a> 
+                    </div>
+                </li>            
+
             
-            <li class="nav-item mr-2"><a class="nav-link" href="/">Members</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/">Contact</a></li>
             <!---Will only display on a mob device with "d-block + d-sm-none--->
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+            <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal"><p class="nav-link-color">Sign In / Sign Up</p></button></li>
         </ul>
         </div>
         <div class="d-none d-md-block">
-            <a href="/login">Sign In / Sign Up</a>
+            <button data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</button>
         </div>    
     </nav>
+ <!-----Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body---->
+ <!-----A modal is described as being an island of content that sits in the middle of the page. The modal is hidden by default----->   
+ <div class="modal" tabindex="-1" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up to BF Fisioteropia!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
 
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+</div>
+
+<footer class="footer fixed-bottom container-fluid">
+      <ul class="social-networks">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> </a>
+                </li>
+            </ul> 
+</footer>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -1,0 +1,28 @@
+/*---------------------Navbar Section---------------------------------------*/
+#navbar-color {
+    background-color: #1e203f!important;
+}
+
+.nav-link-color {
+    color: white!important;
+}
+
+/*---------------------Footer Section---------------------------------------*/
+footer {
+    background-color: #1e203f;
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li{
+  display:inline;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding-top: 20px;
+    /* color: #777777; */
+    font-size: 28px;
+}
