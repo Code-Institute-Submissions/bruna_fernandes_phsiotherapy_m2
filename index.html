@@ -67,17 +67,19 @@
             <div class="container-fluid home-boxes">
         <section class="home">
             <div class="row justify-content-around">
-                <div class="col-sm-12 col-md-4" id="box-1">
-                    <i class="fas fa-users fa-8x"></i>
-                    <h2>Members</h2>
-                    <p>New to BF Fisioteropia?
+                <div class="col-sm-12 col-md-4 text-center p-5" id="box-1">
+                    <i class="fas fa-users fa-6x" style="color: #6fc4a2;"></i>
+                    <h2 class="h2-mem">Members</h2>
+                    <hr class="hr-mem">
+                    <p class="p-mem">New to BF Fisioteropia?
                         Become a memeber and gain access to a library of interactive excercises
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-4" id="box-2">
-                    <i class="fas fa-phone fa-8x"></i>
-                    <h2>Appointments</h2>
-                    <p>Taking appointments for physiotherapy & pilates
+                <div class="col-sm-12 col-md-4 text-center p-5" id="box-2">
+                    <i class="fas fa-phone fa-6x icon-align-center" style="color: #6fc4a2";></i>
+                    <h2 class="h2-app">Appointments</h2>
+                    <hr class="hr-p">
+                    <p class="p-app">Taking appointments for physiotherapy & pilates
                         You can arrange to have the session in my studio or in the comfort and privacy of your
                         own home
                     </p>
@@ -87,37 +89,71 @@
             </div>
 
             <div class="container">
-                  <div class="col-sm-12">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                <h2>Reviewer 1</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
-                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
+                <div class ="row">
+                    
+            <div class="col-lg-10 offset-lg-1 pt-5 pb-5 ">
+                <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
+                    <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active text-center p-4">
+                        <blockquote class="blockquote text-center">
+                        <p class="mb-0"><i class="fa fa-quote-left"></i> Bruna is a true professional who I have been attending to for many years, I cannot stress how much I reccommend her practice.
+                        </p>
+                        <footer class="blockquote-footer">Cristina <cite title="Source Title"></cite></footer>
+                        <!-- Client review stars -->
+                        <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                        <p class="client-review-stars">
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                            <i class="fas fa-star" style="color: gold;"></i>
+                        </p>
+                        </blockquote>
+                    </div>
+                        <div class="carousel-item text-center p-4">
+                            <blockquote class="blockquote text-center">
+                            <p class="mb-0"><i class="fa fa-quote-left"></i> Bruna is an excellent professional, punctual and listens which is what is important to me!
+                                I can't rate her any higher, a client for life!
+                            </p>
+                            <footer class="blockquote-footer"> Fernando Silva<cite title="Source Title">Lecturer</cite></footer>
+                            <!-- Client review stars -->
+                            <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                            <p class="client-review-stars">
+                                <i class="fas fa-star" style="color: gold;"></i>
+                                <i class="fas fa-star" style="color: gold;"></i>
+                                <i class="fas fa-star" style="color: gold;"></i>
+                                <i class="fas fa-star" style="color: gold;"></i>
+                                <i class="fas fa-star" style="color: gold;"></i>
+                            </p>
+                            </blockquote>
+                        </div>
+                                    <div class="carousel-item text-center p-4">
+                                        <blockquote class="blockquote text-center">
+                                        <p><i class="fa fa-quote-left"></i> Can't wait for my next pilates session with Bruna, her work is excellent!
+                                        </p>
+                                        <footer class="blockquote-footer"> Camila Rodriguez<cite title="Source Title"></cite></footer>
+                                        <!-- Client review stars -->
+                                        <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                        <p class="client-review-stars">
+                                            <i class="fas fa-star" style="color: gold;"></i>
+                                            <i class="fas fa-star" style="color: gold;"></i>
+                                            <i class="fas fa-star" style="color: gold;"></i>
+                                            <i class="fas fa-star" style="color: gold;"></i>
+                                            <i class="fas fa-star" style="color: gold;"></i>
+                                        </p>
+                                        </blockquote>
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                <h2>Reviewer 2</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
-                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
-                                </div>
-                                <div class="carousel-item">
-                                <h2>Reviewer 3</h2>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
-                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
+                                <ol class="carousel-indicators">
+                                <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                                <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+                                </ol>
                                 </div>
                             </div>
-                         </div>
-                    </div>                                       
-            </div>
-            
-
-            
-
-    </main>
+                        </div>
+                    </div>                            
+               </main>
 
  <!-----Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body---->
  <!-----A modal is described as being an island of content that sits in the middle of the page. The modal is hidden by default----->   

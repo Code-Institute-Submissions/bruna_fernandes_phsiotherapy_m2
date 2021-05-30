@@ -48,6 +48,87 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
+/*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
+
+#box-1 {
+    margin-top: 40px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+}
+
+#box-2 {
+    margin-top: 40px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+}
+
+.h2, h2 {
+    font-size: 1.5rem!important;
+}
+
+.h2-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.p-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.h2-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.p-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.hr-mem {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hr-p {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*----------------------Carousel Styling---------------------------------------------*/
+.carousel {
+    margin: 30px 30px;
+    padding-top: 100px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    color: white;
+  
+}
+
+#client-testimonial-carousel {
+    min-height: 300px!important;
+    margin: 5px 0 10px!important;
+    padding-top: 45px!important;
+    border: solid transparent!important;
+}
+
+.blockquote-footer {
+    background-color: #1e203f;
+    border: solid transparent!important;
+    /* border-width: 1px; */
+}
+
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
 .dropdown-menu {
     position: absolute;
@@ -148,3 +229,9 @@ footer {
     padding-top: 100px;
     border: solid   black;
 }
+
+#client-testimonial-carousel {
+    min-height: 400px;
+    margin: 30px 0 10px;
+}
+
