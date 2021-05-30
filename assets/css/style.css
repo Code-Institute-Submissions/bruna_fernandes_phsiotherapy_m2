@@ -7,6 +7,39 @@
     color: white!important;
 }
 
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    border-color: rgb(111 196 162);
+    background-color: rgb(111 196 162);
+}
+
+/*---------------------Navbar Dropdown Menu-----------------------------------*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #1e203f!important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6fc4a2!important;
+    text-decoration: none;
+    background-color: #1e203f!important;
+}
+
 /*---------------------Footer Section---------------------------------------*/
 footer {
     background-color: #1e203f;
