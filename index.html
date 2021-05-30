@@ -13,7 +13,7 @@
 <body>
     
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
-        <a href="/" class="navbar-brand"><img src="assets/images/BF-logo.png" height="70" width="70" alt=""></a>
+        <a href="/" class="navbar-brand"><img src="assets/images/bf-logo (1).png" height="60" width="60" class="nav-img" alt=""></a>
         <!----ml-auto will push this button to the right------data toggle tells Bootstrap that it will be used as a trigger for a collapsable element on the page------------->
         <!----data-target is the ID of the collapsible element-----aria = accessible rich internet applications provides accessibility options to screen readers----->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target ="#navbarNavDropdown"
@@ -45,11 +45,11 @@
 
             
             <!---Will only display on a mob device with "d-block + d-sm-none--->
-            <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal"><p class="nav-link-color">Sign In / Sign Up</p></button></li>
+            <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal" class="sign-btn"><p class="nav-link-color" class="sign-btn">Sign In / Sign Up</p></button></li>
         </ul>
         </div>
         <div class="d-none d-md-block">
-            <button data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</button>
+            <button data-toggle="modal" data-target="#signUpModal" class="sign-btn">Sign In / Sign Up</button>
         </div>    
     </nav>
 
@@ -59,11 +59,64 @@
         <section class="banner-logo">
             <div class="row">
                 <div class="col-12" id="bf-logo">
-                    <img src="assets/images/BF-logo.png" alt="business logo">        
+                    <img src="assets/images/bf-logo (1).png" class="bf-brand" height="150" width="150" alt="business logo">        
                 </div>
-        </section>
+            </section>
             </div>
-       
+
+            <div class="container-fluid home-boxes">
+        <section class="home">
+            <div class="row justify-content-around">
+                <div class="col-sm-12 col-md-4" id="box-1">
+                    <i class="fas fa-users fa-8x"></i>
+                    <h2>Members</h2>
+                    <p>New to BF Fisioteropia?
+                        Become a memeber and gain access to a library of interactive excercises
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4" id="box-2">
+                    <i class="fas fa-phone fa-8x"></i>
+                    <h2>Appointments</h2>
+                    <p>Taking appointments for physiotherapy & pilates
+                        You can arrange to have the session in my studio or in the comfort and privacy of your
+                        own home
+                    </p>
+                </div>
+                </div>
+            </section>
+            </div>
+
+            <div class="container">
+                  <div class="col-sm-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <h2>Reviewer 1</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
+                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
+                                </div>
+                                <div class="carousel-item">
+                                <h2>Reviewer 2</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
+                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
+                                </div>
+                                <div class="carousel-item">
+                                <h2>Reviewer 3</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Veniam mollitia, sed ipsa consequatur magnam architecto illo amet officiis ea nulla 
+                                    necessitatibus culpa nemo distinctio tenetur natus numquam consectetur placeat dolorem.</p>
+                                </div>
+                            </div>
+                         </div>
+                    </div>                                       
+            </div>
+            
+
+            
+
     </main>
 
  <!-----Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body---->
@@ -101,7 +154,7 @@
         </div>
 </div>
 
-<footer class="footer fixed-bottom container-fluid">
+<footer class="footer fixed container-fluid">
       <ul class="social-networks">
                 <li>
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>

@@ -1,4 +1,6 @@
-
+html body {
+    font-family: 'Oswald' sans-serif!important;
+}
 
 /*---------------------Navbar Section---------------------------------------*/
 #navbar-color {
@@ -10,10 +12,40 @@
     color: white!important;
 }
 
+.nav-link-color:hover {
+    color: #6fc4a2!important;
+}
+
 .navbar-light .navbar-toggler {
     color: #f8f9fa;
     border-color: rgb(111 196 162);
     background-color: rgb(111 196 162);
+}
+
+.nav-img {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.sign-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sign-btn:hover {
+    color: #6fc4a2;
+}
+
+p.nav-link-color {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
 }
 
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
@@ -78,7 +110,41 @@ footer {
 }
 
 #bf-logo {
-    background-color: #1e203f;
+    background-color: #181a3d;
     text-align: center!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
+.bf-brand {
+    border: groove #6fc4a2;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*--------------------Home page boxes------------------------*/
+
+#box-1 {    
+    margin-top: 40px;
+    border: solid black;
+}
+
+
+#box-2 {
+    margin-top: 40px;
+    border: solid black;
+}
+
+.home-testimonial {
+    border: solid black;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.carousel {
+    margin: 30px 30px;
+    padding-top: 100px;
+    border: solid   black;
 }
