@@ -308,3 +308,40 @@ img.bf-brand:hover {
     border-color: #6fc4a2!important;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+
+/*-------------------------------------------Bruna Page-----------------------------------*/
+
+.bruna-image {
+    border-radius: 30px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 30px!important;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 400px;
+}
+
+div.card-info {
+    background-color: #181a3d!important;
+    border-radius: 0 0 30px 30px;
+}
+
+.bf-card-details {
+    color: #6fc4a2!important;
+}
+
+.bf-card-job {
+    color: #6fc4a2!important;
+}
