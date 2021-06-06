@@ -331,6 +331,7 @@ img.bf-brand:hover {
     margin-right: auto;
     margin-bottom: 80px;
     max-width: 400px;
+    height: max-content;
 }
 
 div.card-info {
@@ -363,4 +364,5 @@ div.card-info {
     margin-right: auto;
     margin-bottom: 80px;
     max-width: 400px;
+    max-height: max-content;
 }
