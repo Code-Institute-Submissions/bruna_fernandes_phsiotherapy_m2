@@ -69,7 +69,7 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                            <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
+                            <small id="emailHelp"">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
@@ -89,17 +89,17 @@
 </div>
 
 <section>
-    <div class="container">
-                <div class="row">
+    <div class="container-fluid">
+                <div class="row" justify-content-around>
                     
-                    <div class="col-sm-12 col-lg-6">
-                        <form action="">
-                            <fieldset>
-                                <legend>
-                                    Your Contact Details
+                    <div class="col-sm-12 col-lg-4">
+                        <form class="form-text" action="">
+                            
+                                <legend class="contact-heading">
+                                    Contact Us
                                 </legend>
                                 <label for="">
-                                    First Name:
+                                    Name:
                                     <input type="text" name="first" size="30" maxlength="80">
                                 </label>
                                 <br />
@@ -108,36 +108,101 @@
                                     <input type="email" name="email" size="30" maxlength="80">
                                 </label>
                                 <br />
-                            </fieldset>
+                           
+                            <br>
+                            
                                 <legend>
                                     What seems to be the problem?
                                 </legend>
+                                
+                                <p>
+                                <label for="">
+                                Tell us what you would like..
+                                </label>
+                                    <select name="service" id="problem">
+                                        <option value="#">Select this dropdown</option>
+                                        <option value="">Consultation</option>
+                                        <option value="">Query</option>
+                                        <option value="">Emergency request</option>
+                                    </select>
+                                </p>
                                 <p>
                                     <label for="">
                                         What areas are you experiencing pain in?
                                     </label>
-                                    <select name="areas" id="pain">
+                                    <br>
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="neck" multiple>
+                                        Neck Pain
+                                    </label>
 
-                                    </select>
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="back" multiple>
+                                        Back Pain
+                                    </label>
+
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="arm" multiple>
+                                        Arm Pain
+                                    </label>
+
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="shoulder" multiple>
+                                        Shoulder Pain
+                                    </label>
+
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="leg" multiple>
+                                        Leg Pain
+                                    </label>
+
+                                    <label for="">
+                                        <input id="checkbox" type="checkbox" name="pain-area" value="foot" multiple>
+                                        Foot Pain
+                                    </label>
                                 </p>
+
+                                <label for="message">
+                                    <h6>Message box</h6>
+                                        <textarea name="message" id="message" cols="32" rows="10" placeholder="Type your message here (optional)"></textarea>
+                                </label>
+                                <br>
+                                <input type="submit" value="Send">
+                            
                         </form>
                     </div>
                 
-                    <div class="col-sm-12 col-lg-6">
-                        <div class="card">
-
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="contact-card">
+                            <img src="assets/images/bf-logo (1).png" alt="">
                         </div>
                     </div>
 
-                </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div id="map">
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="card" id="address">
+                            <address>
+                            <p>
+                                <h2>Address</h2>
+                                44, Travessa Pombo,
+                                <br>
+                                Campo Grande,
+                                <br>
+                                Mato Grosso du Sol,
+                                <br>
+                                Minas Gerales,
+                                <br>
+                                Brazil
+                            </p>
+                            </address>
+                        </div>
+                            <div id="map">
 
-                                    </div>
-                                </div>
                             </div>
-    </div>
+                    </div>
+
+                </div>
+                        
+        </div>
 </section>
 
 
@@ -163,5 +228,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLwAss2a7UGHc5dEoh_TX1LFkdPj5Bqjg&callback=initMap" type="text/javascript"> </script>
     <script src="assets/javaScript/maps.js"></script>
-</body>
+    </body>
 </html>

@@ -368,4 +368,52 @@ div.card-info {
 }
 
 /*--------------------------------Google Map---------------------------------*/
-#map {min-height: 360px;}
+#map {
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    min-height: 350px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+/*------------------------------------------Form Text-------------------------------*/
+
+
+
+.form-text {
+    display: block;
+    margin-top: 2.25rem!important;
+    margin-bottom: 2.25rem!important;
+    color: #6fc4a2;
+    border-style: solid;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+#message {
+    border-color: #6fc4a2;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#address {
+    color: #6fc4a2;
+    text-align: center;
+}
+
+div.contact-card {
+    text-align: center;
+    margin-top: 40%;
+}
+
+div.contact-card:hover {
+   transform: scale(1.5)!important;
+    transition: 5s;
+}
