@@ -373,7 +373,7 @@ div.card-info {
     border-radius: 25px;
     border-color: #6fc4a2;
     box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    min-height: 350px;
+    min-height: 530px;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -387,8 +387,7 @@ div.card-info {
     display: block;
     margin-top: 2.25rem!important;
     margin-bottom: 2.25rem!important;
-    color: #6fc4a2;
-    border-style: solid;
+    color: white;
     border-color: #6fc4a2;
     box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 25px;
@@ -404,7 +403,7 @@ div.card-info {
 }
 
 #address {
-    color: #6fc4a2;
+    color: white;
     text-align: center;
 }
 
@@ -417,3 +416,21 @@ div.contact-card:hover {
    transform: scale(1.5)!important;
     transition: 5s;
 }
+
+#checkbox {
+    cursor: pointer;
+}
+
+#problem {
+    cursor: pointer;
+}
+
+.call {
+    border-style: groove;
+    border-color: #6fc4a2;
+}
+
+.contact-heading {
+    color: #6fc4a2!important;
+}
+
