@@ -367,3 +367,5 @@ div.card-info {
     max-height: max-content;
 }
 
+/*--------------------------------Google Map---------------------------------*/
+#map {min-height: 360px;}
