@@ -348,25 +348,57 @@ div.card-info {
     color: #6fc4a2!important;
 }
 
-.card-about {
+div.card-qual {
     position: relative;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    background-color: #181a3d;
+    background-color: transparent;
     background-clip: border-box;
-    color: white;
     border: 1px solid rgba(0,0,0,.125);
     box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 30px!important;
+    border-radius: 30px !important;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
     max-width: 400px;
-    max-height: max-content;
+    height: max-content;
 }
+
+#about-text {
+    color: white;
+}
+
+#cert {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    max-width: 400px;
+    height: max-content;
+}
+
+.cert2 {
+    margin-top: 15px;
+}
+
+.cert3 {
+    margin-top: 15px;
+}
+
+.qual {
+    text-align: center;
+    color: #6fc4a2;
+    margin-bottom: 20px;
+}
+
+#about-title {
+    color: #6fc4a2;
+}
+
+
 
 /*--------------------------------Google Map---------------------------------*/
 #map {
