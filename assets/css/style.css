@@ -63,6 +63,7 @@ p.nav-link-color {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 35px;
     background-color: #1e203f;
+    height: fit-content;
 }
 
 #box-2 {
@@ -138,7 +139,7 @@ p.nav-link-color {
 .blockquote-footer {
     background-color: #1e203f;
     border: solid transparent!important;
-    /* border-width: 1px; */
+    
 }
 
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
@@ -217,10 +218,7 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-img.bf-brand:hover {
-    transform: scale(1.5)!important;
-    transition: 5s;
-}
+
 
 /*--------------------Home page boxes------------------------*/
 
@@ -337,6 +335,18 @@ img.bf-brand:hover {
     background-color: #1e203f;
 }
 
+img#bruna-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+}
+
+.deg-1 {
+    padding-bottom: 15px;
+}
+
+
+
 /*--------------------------------Google Map---------------------------------*/
 #map {
     border-style: groove;
@@ -345,17 +355,44 @@ img.bf-brand:hover {
     box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     min-height: 530px;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
+    margin-top: 110px;
 }
 
 
 /*------------------------------------------Form Text-------------------------------*/
 
+address {
+    margin-bottom: 2.5rem;
+    font-style: normal;
+    line-height: inherit;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
 
+#address {
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    color: white;
+    background-color: #1e203f;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 9rem!important;
+    margin-top: 5rem!important;
+    text-align: center;
+}
+
+div.contact-card {
+    text-align: center;
+    margin-top: 12%!important;
+    vertical-align: middle!important;
+}
 
 .form-text {
     display: block;
-    margin-top: 2.25rem!important;
+    margin-top: 5rem!important;
     margin-bottom: 2.25rem!important;
     color: white;
     border-color: #6fc4a2;
@@ -372,19 +409,10 @@ img.bf-brand:hover {
     padding: 10px;
 }
 
-#address {
-    color: white;
-    text-align: center;
-}
 
 div.contact-card {
     text-align: center;
     margin-top: 40%;
-}
-
-div.contact-card:hover {
-   transform: scale(1.5)!important;
-    transition: 5s;
 }
 
 #checkbox {
