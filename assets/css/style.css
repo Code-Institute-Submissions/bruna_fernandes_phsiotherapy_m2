@@ -392,11 +392,10 @@ div.contact-card {
 
 .form-text {
     display: block;
-    margin-top: 5rem!important;
     margin-bottom: 2.25rem!important;
-    color: white;
+    color: #6fc4a2;
     border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    
     border-radius: 25px;
     padding: 10px;
     width: 100%;
