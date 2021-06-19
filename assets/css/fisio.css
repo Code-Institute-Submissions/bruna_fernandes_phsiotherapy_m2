@@ -56,9 +56,10 @@ p.nav-link-color {
 }
 
 /*------------------Three columns of text below--------------------*/
-h2 {
+.h2-fisio {
     color: #6fc4a2;
-    
+    margin-top: 22px;
+        
 }
 
 p {
@@ -68,9 +69,24 @@ p {
 
 .featurette-divider {
     background-color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 30px 0px 30px 0px;
+    height: 1.5px;
+    transition: .8s;
 }
 
+.featurette-divider:hover {
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+}
+
+.featurette-heading {
+    color: #6fc4a2;
+    margin-top: 15px;
+}
+
+.featurette-image:hover {
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+    transition: .8s;
+}
 /*------------------------Footer----------------------------*/
 footer {
     background-color: #1e203f;
@@ -103,4 +119,8 @@ footer {
     color: #6fc4a2;
     transform: scale(1.5);
     
+}
+
+.rounded-circle {
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
 }
