@@ -1,0 +1,448 @@
+html body {
+    font-family: 'Bree Serif', serif;
+    background-color: #181a3d;
+}
+
+/*---------------------Navbar Section---------------------------------------*/
+#navbar-color {
+    background-color: #1e203f!important;
+    border: solid #6fc4a2;
+}
+
+.nav-link {
+    display: block;
+    padding: .25rem 1.5rem!important;
+    white-space: nowrap;
+}
+
+.nav-link-color {
+    color: white!important;
+}
+
+.nav-link-color:hover {
+    color: #6fc4a2!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    border-color: rgb(111 196 162);
+    background-color: rgb(111 196 162);
+}
+
+.nav-img {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.sign-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sign-btn:hover {
+    color: #6fc4a2;
+}
+
+p.nav-link-color {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}
+
+/*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
+
+#box-1 {
+    margin-top: 40px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    height: fit-content;
+}
+
+#box-2 {
+    margin-top: 40px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+}
+
+.fa, .fas:hover{
+    transform: scale(1.2);
+    transition: 3s;
+}
+
+.h2, h2 {
+    font-size: 1.5rem!important;
+}
+
+.h2-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.p-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.h2-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.p-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.hr-mem {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hr-p {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*----------------------Carousel Styling---------------------------------------------*/
+.carousel {
+    margin: 30px 30px;
+    padding-top: 100px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    color: white;
+  
+}
+
+#client-testimonial-carousel {
+    min-height: 385px!important;
+    margin: 5px 0 10px!important;
+    padding-top: 45px!important;
+    border: solid transparent!important;
+}
+
+.blockquote-footer {
+    background-color: #1e203f;
+    border: solid transparent!important;
+    
+}
+
+/*---------------------Navbar Dropdown Menu-----------------------------------*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #1e203f!important;
+    background-clip: padding-box;
+    border: 1px groove #6fc4a2!important;
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6fc4a2!important;
+    text-decoration: none;
+    background-color: #1e203f!important;
+}
+
+/*---------------------Footer Section---------------------------------------*/
+footer {
+    background-color: #1e203f;
+    border: solid #6fc4a2;
+    margin-top: 80px;    
+    width: 100%;
+}
+
+
+.social-networks{
+  text-align: center;
+  
+}
+
+.social-networks li{
+  display:inline;
+  padding-right: 30px;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+    
+}
+
+.social-networks i:hover {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: #6fc4a2;
+    transform: scale(1.5);
+    
+}
+
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
+.bf-brand {
+    border: groove #6fc4a2;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+
+/*--------------------Home page boxes------------------------*/
+
+#box-1 {    
+    margin-top: 40px;
+    border: solid black;
+}
+
+
+#box-2 {
+    margin-top: 40px;
+    border: solid black;
+}
+
+.home-testimonial {
+    border: solid black;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.carousel {
+    margin: 30px 30px;
+    padding-top: 100px;
+    border: solid   black;
+}
+
+#client-testimonial-carousel {
+    min-height: 400px;
+    margin: 30px 0 10px;
+}
+
+
+/*-----------------------------------Modal Header------------------------------*/
+.modal-header {
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+}
+
+.modal-title {
+    text-align: center!important;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white!important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 10!important;
+}
+
+.close:hover {
+    color: #6fc4a2!important;
+    text-shadow: 0 1px 0 #6fc4a2!important;
+    opacity: 10!important;
+}
+
+/*-----------------------------------Modal body------------------------------*/
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
+}
+
+.form-text {
+    color: whitesmoke;
+}
+
+.btn-success {
+    color: #fff;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*-------------------------------------------Bruna Page-----------------------------------*/
+
+.card-title {
+    color: white;
+}
+
+.card-para {
+    color: white;
+}
+
+.about-para {
+    color: white;
+}
+
+.about-title {
+    color: #6fc4a2;
+}
+
+#about-box-1 {
+    margin-top: 40px;
+    
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+}
+
+img#bruna-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+}
+
+.deg-1 {
+    padding-bottom: 15px;
+}
+
+
+
+/*--------------------------------Google Map---------------------------------*/
+#map {
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    min-height: 530px;
+    padding: 15px;
+    margin-bottom: 75px;
+    margin-top: 110px;
+}
+
+
+/*------------------------------------------Form Text-------------------------------*/
+
+address {
+    margin-bottom: 2.5rem;
+    font-style: normal;
+    line-height: inherit;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#address {
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    color: white;
+    background-color: #1e203f;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 9rem!important;
+    margin-top: 5rem!important;
+    text-align: center;
+}
+
+div.contact-card {
+    text-align: center;
+    margin-top: 12%!important;
+    vertical-align: middle!important;
+}
+
+.form-text {
+    display: block;
+    margin-bottom: 2.25rem!important;
+    color: #6fc4a2;
+    border-color: #6fc4a2;
+    
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+}
+
+#message {
+    border-color: #6fc4a2;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+div.contact-card {
+    text-align: center;
+    margin-top: 40%;
+}
+
+#checkbox {
+    cursor: pointer;
+}
+
+#problem {
+    cursor: pointer;
+}
+
+.call {
+    border-style: groove;
+    border-color: #6fc4a2;
+}
+
+.contact-heading {
+    color: #6fc4a2!important;
+}
+
+.form-send {
+    color: #fff;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+}
+
+.form-send:hover {
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}

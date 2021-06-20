@@ -87,6 +87,10 @@ p {
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
     transition: .8s;
 }
+
+
+
+
 /*------------------------Footer----------------------------*/
 footer {
     background-color: #1e203f;
@@ -123,4 +127,73 @@ footer {
 
 .rounded-circle {
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+    margin-top: 35px;
+}
+
+button {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #6fc4a2;
+}
+
+button:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: #6fc4a2;
+    transition: 2s;
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+}
+
+.fa-home:hover {
+    color: #6fc4a2;
+    transition: 1s;
+}
+
+.fa-dumbbell:hover {
+    color: #6fc4a2;
+    transition: 1s;
+}
+
+.fa-diagnoses:hover {
+    color: #6fc4a2;
+    transition: 1s;
+}
+
+.fa-home {
+    color: white;
+}
+
+.fa-dumbbell {
+    color: white;
+}
+
+.fa-diagnoses {
+    color: white;
+}
+
+/*---------------------Navbar Dropdown Menu-----------------------------------*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #1e203f!important;
+    background-clip: padding-box;
+    border: 1px groove #6fc4a2!important;
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6fc4a2!important;
+    text-decoration: none;
+    background-color: #1e203f!important;
 }
