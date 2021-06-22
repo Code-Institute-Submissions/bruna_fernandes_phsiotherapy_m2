@@ -1,35 +1,43 @@
-
-.calendar {
+h1 {
+    margin: 30px 0;
     color: white;
-    
-    background-color: black;
-    width: 45rem;
-    height: 52rem;
-}
-
-.month {
-    width: 100%;
-    height: 12rem;
-    background-color: #6fc4a2;
-    
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
     text-align: center;
 }
 
-.month i {
-    font-size: 2.5rem;
+.date-picker {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: 60px;
+    background-color: #fff;
+    margin: 30px auto;
     cursor: pointer;
+    /*---Prevents you from selecting it---*/
+    user-select: none;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.month h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    margin-bottom: 1rem;
+.date-picker .selected-date {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 28px;
 }
 
-.month p {
-    font-size: 1.6rem;
+
+.date-picker .dates {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.date-picker .dates.active {
+    display: block;
+
 }
