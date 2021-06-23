@@ -15,6 +15,7 @@ h1 {
     /*---Prevents you from selecting it---*/
     user-select: none;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 50px;
 }
 
 .date-picker .selected-date {
@@ -41,3 +42,30 @@ h1 {
     display: block;
 
 }
+
+.date-picker .dates .month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.date-picker .dates .month .arrows {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+    font-size: 20px;
+}
+
+.date-picker .dates .month .arrows:hover {
+    background-color: #f3f3f3;
+}
+
+.date-picker .dates .month .arrows:active {
+    background-color: #00ca85;
+}
+
+
