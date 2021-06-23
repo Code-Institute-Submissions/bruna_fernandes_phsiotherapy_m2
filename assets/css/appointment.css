@@ -68,4 +68,22 @@ h1 {
     background-color: #00ca85;
 }
 
+.date-picker .dates .days {
+    /*---- This is giving the height of the calendar days window----*/
+    height: 200px;
+    display: grid;
+    /*---- I use repeat 7 for 7 days in a week and 1fr 1 fraction for each day of the 7 in the row---*/
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.date-picker .dates .days .day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313131;
+}
+
+.date-picker .dates .days .day .selected {
+    background-color: #00ca85;
+}
 
