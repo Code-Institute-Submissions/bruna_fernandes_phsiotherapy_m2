@@ -27,6 +27,9 @@ let selectedYear = year;
 // Here I'm getting the month and it will return which month it is which will be June and then add the Year to the string.
 mth_element.textContent = months[month] + ' ' + year;
 
+selected_date_element.textContent = formatDate(date);
+
+
 
 // Event Listener codes
 
@@ -34,6 +37,7 @@ mth_element.textContent = months[month] + ' ' + year;
 date_picker_element.addEventListener('click', toggleDatePicker);
 // Now I will get the next month element
 next_mth_element.addEventListener('click', goToNextMonth);
+prev_mth_element.addEventListener('click', goToPrevMonth);
 
 
 
@@ -55,6 +59,16 @@ function goToNextMonth (e) {
     mth_element.textContent = months[month] + ' ' + year;
 }
 
+function goToPrevMonth (e) {
+    month--;
+    if (month < 0) {
+        month = 11;
+        year--;
+    }
+    mth_element.textContent = months[month] + ' ' + year;
+}
+
+
 // Helper Functions
 
 //This function will check the EVENT path so where I click, it will give me the path
@@ -69,4 +83,20 @@ function checkEventPathForClass (path, selector) {
         }
     }
     return false;
+}
+
+function formatDate(d) {
+    let day = d.getDate();
+    if (day < 10) {
+        day = '0' + day;
+    }
+
+    let month = d.getMonth() + 1;
+    if (month < 10) {
+        month = '0' + month;
+    }
+
+    let year = d.getFullYear();
+
+    return day + ' / ' + month + ' / ' + year;
 }
