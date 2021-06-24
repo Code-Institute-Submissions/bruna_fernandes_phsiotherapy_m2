@@ -132,31 +132,18 @@ footer {
 
 button {
     background-color: transparent;
-    border-style: solid;
-    border-color: #6fc4a2;
-}
-
-button:hover {
-    background-color: transparent;
-    border-style: solid;
-    border-color: #6fc4a2;
-    transition: 2s;
-    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
-}
+   }
 
 .fa-home:hover {
     color: #6fc4a2;
-    transition: 1s;
 }
 
 .fa-dumbbell:hover {
     color: #6fc4a2;
-    transition: 1s;
 }
 
 .fa-diagnoses:hover {
     color: #6fc4a2;
-    transition: 1s;
 }
 
 .fa-home {

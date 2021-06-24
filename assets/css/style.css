@@ -63,7 +63,6 @@ p.nav-link-color {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 35px;
     background-color: #1e203f;
-    height: fit-content;
 }
 
 #box-2 {
@@ -72,6 +71,7 @@ p.nav-link-color {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 35px;
     background-color: #1e203f;
+    height: fit-content;
 }
 
 .fa, .fas:hover{
@@ -335,11 +335,7 @@ footer {
     background-color: #1e203f;
 }
 
-img#bruna-img {
-    max-width: 100%;
-    width: 100%;
-    height: auto !important;
-}
+
 
 .deg-1 {
     padding-bottom: 15px;

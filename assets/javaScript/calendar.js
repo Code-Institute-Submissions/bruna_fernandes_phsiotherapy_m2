@@ -20,9 +20,9 @@ let month = date.getMonth();
 let year = date.getFullYear();
 
 let selectedDate = date;
-let selectedDay = date;
-let selectedMonth = date;
-let selectedYear = date;
+let selectedDay = day;
+let selectedMonth = month;
+let selectedYear = year;
 
 // Here I'm getting the month and it will return which month it is which will be June and then add the Year to the string.
 mth_element.textContent = months[month] + ' ' + year;
@@ -33,7 +33,7 @@ mth_element.textContent = months[month] + ' ' + year;
 // Setting up a toggle by using Event Listeners upon click!
 date_picker_element.addEventListener('click', toggleDatePicker);
 // Now I will get the next month element
-next_mth_element.addEventListener('click', goToNextMonth)
+next_mth_element.addEventListener('click', goToNextMonth);
 
 
 
@@ -44,6 +44,15 @@ function toggleDatePicker (e) {
         dates_element.classList.toggle('active');
     }
     
+}
+
+function goToNextMonth (e) {
+    month++;
+    if (month > 11) {
+        month = 0;
+        year++;
+    }
+    mth_element.textContent = months[month] + ' ' + year;
 }
 
 // Helper Functions
