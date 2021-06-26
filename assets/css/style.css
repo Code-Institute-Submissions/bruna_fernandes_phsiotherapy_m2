@@ -240,16 +240,17 @@ footer {
 }
 
 .carousel {
-    margin: 30px 30px;
+    margin: auto;
     padding-top: 100px;
     border: solid   black;
-}
+    }
 
 #client-testimonial-carousel {
-    min-height: 400px;
-    margin: 30px 0 10px;
+    min-height: 385px!important;
+    margin: auto!important;
+    padding-top: 45px!important;
+    border: solid transparent!important;
 }
-
 
 /*-----------------------------------Modal Header------------------------------*/
 .modal-header {
@@ -336,9 +337,11 @@ footer {
 }
 
 
-
 .deg-1 {
-    padding-bottom: 15px;
+    padding: 60px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 
