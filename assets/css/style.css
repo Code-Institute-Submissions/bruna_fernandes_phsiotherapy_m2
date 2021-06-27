@@ -55,6 +55,15 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
+.login-btn {
+    color: white;
+}
+
+.login-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
 /*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
 
 #box-1 {
