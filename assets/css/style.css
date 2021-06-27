@@ -63,6 +63,7 @@ p.nav-link-color {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 35px;
     background-color: #1e203f;
+    width: fit-content;
 }
 
 #box-2 {
