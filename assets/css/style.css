@@ -169,6 +169,16 @@ p.nav-link-color {
     background-color: #1e203f!important;
 }
 
+#row-image {
+    margin-top: 50px;
+}
+
+.qual-heading {
+    margin-top: 40px;
+    text-align: center;
+    color: #6fc4a2;
+}
+
 /*---------------------Footer Section---------------------------------------*/
 footer {
     background-color: #1e203f;
@@ -239,18 +249,6 @@ footer {
     margin-bottom: 200px;
 }
 
-.carousel {
-    margin: auto;
-    padding-top: 100px;
-    border: solid   black;
-    }
-
-#client-testimonial-carousel {
-    min-height: 385px!important;
-    margin: auto!important;
-    padding-top: 45px!important;
-    border: solid transparent!important;
-}
 
 /*-----------------------------------Modal Header------------------------------*/
 .modal-header {
@@ -334,14 +332,6 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     border-radius: 35px;
     background-color: #1e203f;
-}
-
-
-.deg-1 {
-    padding: 60px;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
 }
 
 
