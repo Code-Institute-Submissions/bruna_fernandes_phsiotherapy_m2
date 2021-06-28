@@ -102,9 +102,9 @@
             <div class="container-fluid">
         <section>
             <div class="row justify-content-around">
+                
                 <div class="col-sm-12 col-md-4">
-                    
-                    <h1 class="appointment-heading">Appointment</h1>
+                  <h1 class="appointment-heading">Appointment</h1>
                     <p class="appointment-para">Click below <i class="fas fa-arrow-down"></i> for booking calendar!</p>
                 <!-----Wrapper for the date object picker, will allow to put any place on the page, styling for however I want------------->
                     <div class="date-picker">
@@ -125,13 +125,17 @@
                             <div class="days"></div>
                         </div>
                     </div>
-
                 </div>
 
 
                 <div class="col-sm-12 col-md-4">
                     <div class="clock">
-                        <p><iframe width='260' height='325' style='padding:0!important;margin:0!important;border:none!important;background:none!important;background:transparent!important' marginheight='0' marginwidth='0' frameborder='0' scrolling='no' comment='/*defined*/' src='https://dayspedia.com/if/analog/?v=1&iframe=eyJ3LTExIjp0cnVlLCJ3LTEzIjp0cnVlLCJ3LTE1Ijp0cnVlLCJ3LTExMCI6dHJ1ZSwidy13aWR0aC0wIjpmYWxzZSwidy13aWR0aC0xIjp0cnVlLCJ3LXdpZHRoLTIiOmZhbHNlLCJ3LTE2IjoiMjRweCIsInctMTciOiIxNiIsInctMjEiOnRydWUsImJnaW1hZ2UiOi0yLCJiZ2ltYWdlU2V0IjpmYWxzZSwidy0yMWMwIjoiIzE4MWEzZCIsInctMCI6dHJ1ZSwidy0zIjp0cnVlLCJ3LTNjMCI6IiM3MGM3YTUiLCJ3LTNiMCI6IjEiLCJ3LTIwIjp0cnVlLCJ3LTQiOiIjNzBjN2E1Iiwidy0xOCI6dHJ1ZSwidy13aWR0aC0yYy0wIjoiMzAwIiwidy0yMyI6dHJ1ZSwidy0yM2MwIjoiIzE4MWEzZCIsInctMjYiOmZhbHNlLCJ3LTI2YjAiOiIxIiwidy0yNyI6dHJ1ZSwidy0yN2MwIjoiIzcwYzdhNSIsInctMjQiOiIjNzBjN2E1Iiwidy0xM2MwIjoiI2ZmZmZmZiIsInctMjIiOiIjNzBjN2E1Iiwidy0yNSI6IjE2MCJ9&lang=en&cityid=5510'></iframe></p>
+                        <p>
+                            <iframe width='260' height='325' style='padding:0!important;margin:0!important;border:none!important;background:none!important;background:transparent!important'
+                            marginheight='0' marginwidth='0' frameborder='0' scrolling='no' comment='/*defined*/' 
+                            src='https://dayspedia.com/if/analog/?v=1&iframe=eyJ3LTExIjp0cnVlLCJ3LTEzIjp0cnVlLCJ3LTE1Ijp0cnVlLCJ3LTExMCI6dHJ1ZSwidy13aWR0aC0wIjpmYWxzZSwidy13aWR0aC0xIjp0cnVlLCJ3LXdpZHRoLTIiOmZhbHNlLCJ3LTE2IjoiMjRweCIsInctMTciOiIxNiIsInctMjEiOnRydWUsImJnaW1hZ2UiOi0yLCJiZ2ltYWdlU2V0IjpmYWxzZSwidy0yMWMwIjoiIzE4MWEzZCIsInctMCI6dHJ1ZSwidy0zIjp0cnVlLCJ3LTNjMCI6IiM3MGM3YTUiLCJ3LTNiMCI6IjEiLCJ3LTIwIjp0cnVlLCJ3LTQiOiIjNzBjN2E1Iiwidy0xOCI6dHJ1ZSwidy13aWR0aC0yYy0wIjoiMzAwIiwidy0yMyI6dHJ1ZSwidy0yM2MwIjoiIzE4MWEzZCIsInctMjYiOmZhbHNlLCJ3LTI2YjAiOiIxIiwidy0yNyI6dHJ1ZSwidy0yN2MwIjoiIzcwYzdhNSIsInctMjQiOiIjNzBjN2E1Iiwidy0xM2MwIjoiI2ZmZmZmZiIsInctMjIiOiIjNzBjN2E1Iiwidy0yNSI6IjE2MCJ9&lang=en&cityid=5510'>
+                            </iframe>
+                        </p>
                     </div>
                     
                         <div class="card service mr-auto">
@@ -185,6 +189,32 @@
                     </div>
         </section>
     </div>
+
+    <div class="modal" tabindex="-1" id="appModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center">Member Login for <img src="assets/images/bf-logo (1).png" height="35" width="35" alt=""> Fisioteropia!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
+                            </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-success"><a class="login-btn" href="members.html">Login</a></button>
+                        </form>
+                </div>
+            </div>
+        </div>
+</div>
 
 </main>
 
