@@ -107,4 +107,13 @@ div.bg-light {
     background-color: transparent!important;
 }
 
-/*------------------------------------Like Button------------------------*/
+.member-divider {
+    background-color: #6fc4a2;
+    margin: 30px 0px 30px 0px;
+    height: 1.5px;
+    transition: .8s;
+}
+
+.h1-mem {
+    color: #6fc4a2;
+}
