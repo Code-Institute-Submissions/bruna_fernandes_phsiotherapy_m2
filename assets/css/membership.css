@@ -85,7 +85,7 @@ p.nav-link-color {
 
 .jumbotron {
     padding: 2rem 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem!important;
     background-color: transparent!important;
     border-radius: .3rem;
 }
@@ -117,3 +117,73 @@ div.bg-light {
 .h1-mem {
     color: #6fc4a2;
 }
+
+
+p {
+  text-align: left;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background-color: #1e203f;
+    color: white;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #6fc4a2!important;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+/*------------------------------Button up---------------------*/
+#myBtn {
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+    margin-left: 50%;
+}
+
+.fa-arrow-up:before {
+    content: "\f062";
+    margin: auto;
+    font-size: 33px;
+    line-height: -1px;
+}
+
+
+#myBtn:hover {
+  background-color: #6fc4a2; /* Add a dark-grey background on hover */
+}
+
+
+h3 {
+    animation: color-change 5s infinite;
+  }
+  
+  @keyframes color-change {
+    35% { color: #6fc4a2; }
+    55% { color: #1e203f; }
+    95% { color: white; }
+  }
