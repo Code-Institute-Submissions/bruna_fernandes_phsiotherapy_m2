@@ -183,7 +183,7 @@ h3 {
   }
   
   @keyframes color-change {
-    35% { color: #6fc4a2; }
-    55% { color: #1e203f; }
-    95% { color: white; }
+    25% { color: #1e203f;}
+    55% { color: #6fc4a2;}
+    85% { color: white;}
   }

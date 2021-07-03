@@ -55,16 +55,15 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
+
 /*------------------Three columns of text below--------------------*/
 .h2-fisio {
     color: #6fc4a2;
-    margin-top: 22px;
-        
+    margin-top: 55px;
 }
 
 p {
     color: white;
-    
 }
 
 .featurette-divider {
@@ -127,35 +126,17 @@ footer {
 
 .rounded-circle {
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
-button {
-    background-color: transparent;
-   }
-
-.fa-home:hover {
-    color: #6fc4a2;
-}
-
-.fa-dumbbell:hover {
-    color: #6fc4a2;
-}
-
-.fa-diagnoses:hover {
-    color: #6fc4a2;
-}
-
-.fa-home {
+.fisio-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
     color: white;
-}
-
-.fa-dumbbell {
-    color: white;
-}
-
-.fa-diagnoses {
-    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
@@ -183,4 +164,20 @@ button {
     color: #6fc4a2!important;
     text-decoration: none;
     background-color: #1e203f!important;
+}
+
+.h-benefits {
+    margin-top: 1rem;
+    color: #6fc4a2;   
+}
+
+.ben-list {
+    color: white;
+    height: max-content;
+    width: max-content;
+}
+
+.benefits {
+    margin-bottom: 5rem;
+    margin-top: -2rem;
 }

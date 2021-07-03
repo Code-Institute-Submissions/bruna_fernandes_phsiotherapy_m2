@@ -74,11 +74,6 @@ p.nav-link-color {
     background-color: #1e203f;
 }
 
-.fa, .fas:hover{
-    transform: scale(1.2);
-    transition: 3s;
-}
-
 .h2, h2 {
     font-size: 1.5rem!important;
 }
@@ -394,13 +389,18 @@ div.contact-card {
 
 .form-text {
     display: block;
+    margin-top: 5rem!important;
     margin-bottom: 2.25rem!important;
-    color: #6fc4a2;
+    color: white;
     border-color: #6fc4a2;
-    
     border-radius: 25px;
     padding: 10px;
     width: 100%;
+    border-color: #6fc4a2;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+
 }
 
 #message {
@@ -445,4 +445,20 @@ div.contact-card {
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;
+}
+
+.contact-heading {
+    margin-bottom: 2rem;
 }
