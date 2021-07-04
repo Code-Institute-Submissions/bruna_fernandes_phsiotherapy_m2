@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-
-<body>
+</head>
+    <body>
     
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
         <a href="/" class="navbar-brand"><img src="assets/images/bf-logo (1).png" height="60" width="60" class="nav-img" alt=""></a>
@@ -102,12 +102,110 @@
             <div class="container-fluid">
         <section>
             <div class="row justify-content-around">
-                
                 <div class="col-sm-12 col-md-4">
-                  <h1 class="appointment-heading">Appointment</h1>
-                    <p class="appointment-para">Click below <i class="fas fa-arrow-down"></i> for booking calendar!</p>
-                <!-----Wrapper for the date object picker, will allow to put any place on the page, styling for however I want------------->
-                    <div class="date-picker">
+
+                    <form class="form-text" action="">
+                            
+                        <legend class="appointment-heading">
+                            Appointment Request
+                        </legend>
+                        <label for="">
+                            Name:
+                            <input type="text" name="first" size="25" maxlength="50" placeholder="Enter your full name" required>
+                        </label>
+                        <br />
+                        <label for="">
+                            Email:
+                            <input type="email" name="email" size="25" maxlength="50" placeholder="Enter your email address" required>
+                        </label>
+                        <br />
+                   
+                    <br>
+                    
+                        <legend class="contact-heading">
+                            What seems to be the problem?
+                        </legend>
+                       <p>
+                            <select name="service" id="problem">
+                                <option class="prob-option" value="#">Select this dropdown</option>
+                                <option class="prob-option" value="">Consultation</option>
+                                <option class="prob-option" value="">Query</option>
+                                <option class="prob-option" value="">Emergency request</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="">
+                                <h2 class="contact-heading">What areas are you experiencing pain in?</h2>
+                            </label>
+                                <ul style="list-style: none;">
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="neck" multiple>
+                                            Neck Pain
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="back" multiple>
+                                            Back Pain
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="arm" multiple>
+                                            Arm Pain
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="shoulder" multiple>
+                                            Shoulder Pain
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="leg" multiple>
+                                            Leg Pain
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <label for="">
+                                            <input id="checkbox" type="checkbox" name="pain-area" value="foot" multiple>
+                                            Foot Pain
+                                        </label>
+                                    </li>    
+                            </ul>
+                        </p>
+
+                        <p>
+                            <label for="">
+                            <h2 class="time-heading">What time would you prefer your appointment for..</h2>
+                            </label>
+                                <select name="service" id="problem">
+                                    <option class="prob-option" value="#">Select this dropdown</option>
+                                    <option class="prob-option" value="">09:00</option>
+                                    <option class="prob-option" value="">10:00</option>
+                                    <option class="prob-option" value="">11:00</option>
+                                    <option class="prob-option" value="">12:00</option>
+                                    <option class="prob-option" value="">13:00</option>
+                                    <option class="prob-option" value="">14:00 - Unavailable</option>
+                                    <option class="prob-option" value="">15:00</option>
+                                    <option class="prob-option" value="">16:00</option>
+                                    <option class="prob-option" value="">17:00</option>
+                                    <option class="prob-option" value="">Close of Business</option>
+                                </select>
+                            </p>
+
+                            <h2 class="app-question">What date would you like to schedule your appointment for?</h2>
+                            <p class="tip-text">*Click the date button below, select your preferred date, to save click the date button again</p>
+
+                        <!-----Wrapper for the date object picker, will allow to put any place on the page, styling for however I want------------->
+                        <div class="date-picker">
                 <!------Displays the selected formatted date-->
                         <div class="selected-date"></div>
                 <!----Dates element will hold all the information of where we select our dates like a dropdown-------->
@@ -121,12 +219,16 @@
                                 <div class="arrows next-mth">&gt;</div>
                             </div>
                             <!-----This is for the selection days---------->
-                            
                             <div class="days"></div>
                         </div>
                     </div>
-                </div>
-
+                        <br>
+                    <div class="vertical-center">
+                        <button type="submit" id="send-btn" class="form-send" value="Send">Send</button>
+                    </div>
+                    </form>
+            </div>
+                
 
                 <div class="col-sm-12 col-md-4">
                     <div class="clock">
@@ -164,7 +266,7 @@
                                     <td class="day">Thursday</td>
                                     <td class="opens">09:00</td>
                                     <td class="time-sep">-</td>
-                                    <td class="closes">20:00</td>
+                                    <td class="closes">18:00</td>
                                 </tr>
                                 <tr id="weekday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
                                     <td class="day">Friday</td>
@@ -174,19 +276,20 @@
                                 </tr>
                                 <tr id="weekday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
                                     <td class="day">Saturday</td>
-                                    <td class="opens">10:00</td>
+                                    <td class="opens">09:00</td>
                                     <td class="time-sep">-</td>
                                     <td class="closes">18:00</td>
                                 </tr>
                                 <tr id="weekday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
                                     <td class="day">Sunday</td>
-                                    <td class="opens">11:00</td>
+                                    <td class="opens">09:00</td>
                                     <td class="time-sep">-</td>
-                                    <td class="closes">16:00</td>
+                                    <td class="closes">18:00</td>
                                 </tr>
                             </table>
                         </div>
                     </div>
+                </div>
         </section>
     </div>
 

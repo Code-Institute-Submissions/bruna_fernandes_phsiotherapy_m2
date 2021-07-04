@@ -392,8 +392,6 @@ div.contact-card {
     margin-top: 5rem!important;
     margin-bottom: 2.25rem!important;
     color: white;
-    border-color: #6fc4a2;
-    border-radius: 25px;
     padding: 10px;
     width: 100%;
     border-color: #6fc4a2;
@@ -431,6 +429,7 @@ div.contact-card {
 
 .contact-heading {
     color: #6fc4a2!important;
+    margin: 15px;
 }
 
 .form-send {
