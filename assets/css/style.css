@@ -145,7 +145,10 @@ p.nav-link-color {
 .blockquote-footer {
     background-color: #1e203f;
     border: solid transparent!important;
-    
+}
+
+blockquote {
+    margin: -30px 0 1rem;
 }
 
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
@@ -184,6 +187,21 @@ p.nav-link-color {
     text-align: center;
     color: #6fc4a2;
 }
+
+
+/* fold S5 */
+@media only screen
+    and (min-width: 280px)
+    and (max-height: 653px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        #client-testimonial-carousel {
+            min-height: 495px!important;
+            margin: 5px 0 10px!important;
+            padding-top: 45px!important;
+            border: solid transparent!important;
+        }
+}
+
 
 /*---------------------Footer Section---------------------------------------*/
 footer {
@@ -394,7 +412,6 @@ div.contact-card {
     margin-bottom: 2.25rem!important;
     color: #6fc4a2;
     border-color: #6fc4a2;
-    
     border-radius: 25px;
     padding: 10px;
     width: 100%;
