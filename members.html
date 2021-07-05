@@ -195,7 +195,11 @@
               <div class="card mb-4 box-shadow">
                 <img src="assets/images/member-images/cupping.jpg" alt="">
                 <div class="card-body">
-                  <p class="card-text text-center">Cupping Therapy</p>
+                  <p class="card-text text-center"><button id="LearnMoreBtn">Cupping Therapy</button></p>
+                  <div id="overlay"></div>
+                    <div id="popup">
+                      Popup contents here
+                    </div>
                   <div class="d-flex justify-content-center align-items-center">
                     
                    
@@ -377,6 +381,26 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             }
+    </script>
+
+    <script>
+          //Use the onload event so that we can make sure the DOM is at 
+          //least mostly loaded before trying to get elements
+          window.onload = function() {
+          //Get the DOM element that represents the <button> element.
+          //And set the onclick event
+          document.getElementById("LearnMoreBtn").onclick = function(){
+          //Set a variable to contain the DOM element of the overly
+          var overlay = document.getElementById("overlay");
+          //Set a variable to contain the DOM element of the popup
+          var popup = document.getElementById("popup");
+             
+          //Changing the display css style from none to block will make it visible
+          overlay.style.display = "block";
+           //Same goes for the popup
+           popup.style.display = "block";
+            };
+          };
     </script>
 
 

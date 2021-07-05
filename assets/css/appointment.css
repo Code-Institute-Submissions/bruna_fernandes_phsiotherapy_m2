@@ -216,6 +216,19 @@ p.nav-link-color {
     color: #ffffffc9;
 }
 
+.form-text {
+    display: block;
+    margin-top: 5rem!important;
+    margin-bottom: 2.25rem!important;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-color: #6fc4a2;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
 .form-send {
     color: #fff;
     border-radius: 25px!important;
@@ -231,8 +244,8 @@ p.nav-link-color {
 }
 
 .clock {
-    margin-top: 100px;
-    margin-bottom: 40px;
+    margin-top: 5rem    ;
+    margin-bottom: 12rem;
     text-align: center;
 }
 
