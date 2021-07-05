@@ -183,6 +183,7 @@ blockquote {
 }
 
 .qual-heading {
+    font-size: xx-large;
     margin-top: 40px;
     text-align: center;
     color: #6fc4a2;
@@ -360,6 +361,7 @@ footer {
 
 #bruna-img {
     padding: 5px;
+    width: 100%;
 }
 
 

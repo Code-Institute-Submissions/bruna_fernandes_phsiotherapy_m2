@@ -1,4 +1,7 @@
-
+html body {
+    font-family: 'Bree Serif', serif;
+    background-color: #181a3d;
+}
 /*---------------------Navbar Section---------------------------------------*/
 #navbar-color {
     background-color: #1e203f!important;
@@ -94,7 +97,7 @@ p.nav-link-color {
     color: #6fc4a2;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: -15px;
+    margin-bottom: -50px;
 }
 
 .service-heading-hr {
@@ -210,19 +213,36 @@ p.nav-link-color {
     margin-bottom: 3rem;
 }
 
+.problem-heading {
+    color: #6fc4a2!important;
+}
+
+.area-heading {
+    color: #6fc4a2!important;
+}
+
 .tip-text {
     margin-top: 1rem;
-    font-size: x-small;
+    font-size: small;
     color: #ffffffc9;
 }
 
-.form-text {
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
+.form-text  {
+    background: #1e203f;
     display: block;
     margin-top: 5rem!important;
     margin-bottom: 2.25rem!important;
     color: white;
     padding: 10px;
-    width: 100%;
     border-color: #6fc4a2;
     border-style: groove;
     border-radius: 25px;
@@ -237,6 +257,10 @@ p.nav-link-color {
     margin-top: 5rem;
 }
 
+.app-input {
+    width: 100%;
+}
+
 .vertical-center {
     text-align: center;
     font-size: 20px;
@@ -244,7 +268,7 @@ p.nav-link-color {
 }
 
 .clock {
-    margin-top: 5rem    ;
+    margin-top: 5rem;
     margin-bottom: 12rem;
     text-align: center;
 }
@@ -268,8 +292,8 @@ div.card {
     height: 345px;
     /* width: 300px; */
     padding-right: 10px;
-    margin-bottom: 30px;
-    margin-top: 60px;
+    margin-bottom: 0rem;
+    margin-top: 7.9rem;
     background-color: #1e203f;
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
     border-style: solid;
@@ -293,6 +317,42 @@ div.card {
 table {
     border-collapse: collapse;
     margin-bottom: 40px;
+}
+
+.service-details {
+    padding-bottom: 2rem;
+    margin-top: 5rem!important;
+    height: fit-content!important;
+    width: fit-content!important;
+}
+
+.c19-h4 {
+    margin-top: 85px;
+    color: #6fc4a2;
+    font-size: larger;
+    text-align: center;
+}
+
+.covid-points {
+    color: white;
+}
+
+p.c19-form {
+    color: #6fc4a2;
+    padding-left: 20px;
+}
+
+.c19-download {
+    color: white;
+}
+
+.c19-pdf {
+    color: whitesmoke;
+}
+
+.c19-pdf:hover {
+    color:white;
+    text-decoration: none;
 }
 
 /*------------------------Footer----------------------------*/
@@ -407,7 +467,7 @@ footer {
     footer {    
         background-color: #1e203f;
         border: solid #6fc4a2;
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 }
 
@@ -422,3 +482,4 @@ footer {
         margin-top: 2rem;
     }
 }
+
