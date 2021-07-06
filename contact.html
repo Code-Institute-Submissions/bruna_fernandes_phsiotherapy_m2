@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
     <script type="text/javascript">
     (function(){
         emailjs.init("user_GXGSp6FSJeA0qWq32yxe8");
-        emailjs.send(gmail, bruna, templateParams, userID);
-    })();
+        })();
     </script>
 </head>
 <body>
@@ -75,7 +74,7 @@
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            <input type="email" name="emailaddress" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                             <small id="emailHelp">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
@@ -100,91 +99,28 @@
                 <div class="row" justify-content-around>
                     
                     <div class="col-sm-12 col-lg-4">
-                        <form class="form-text" action="">
+                        <form onsubmit="return sendMail(this);" class="form-text">
                             
                                 <legend class="contact-heading">
                                     Contact Us
                                 </legend>
                                 <label for="">
                                     Name:
-                                    <input type="text" name="first" size="25" maxlength="50" placeholder="Enter your full name" required>
+                                    <input type="text" name="name" size="25" maxlength="50" placeholder="Enter your full name" required>
                                 </label>
                                 <br />
                                 <label for="">
                                     Email:
-                                    <input type="email" name="email" size="25" maxlength="50" placeholder="Enter your email address" required>
+                                    <input type="email" name="emailaddress" size="25" maxlength="50" placeholder="Enter your email address" required>
                                 </label>
                                 <br />
                            
                             <br>
                             
-                                <legend class="contact-heading">
-                                    What seems to be the problem?
-                                </legend>
-                               <p>
-                                <label for="">
-                                Tell us what you would like..
-                                </label>
-                                    <select name="service" id="problem">
-                                        <option class="prob-option" value="#">Select this dropdown</option>
-                                        <option class="prob-option" value="">Consultation</option>
-                                        <option class="prob-option" value="">Query</option>
-                                        <option class="prob-option" value="">Emergency request</option>
-                                    </select>
-                                </p>
-                                <p>
-                                    <label for="">
-                                        <h2 class="contact-heading">What areas are you experiencing pain in?</h2>
-                                    </label>
-                                        <ul>
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="neck" multiple>
-                                                    Neck Pain
-                                                </label>
-                                            </li>
-
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="back" multiple>
-                                                    Back Pain
-                                                </label>
-                                            </li>
-
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="arm" multiple>
-                                                    Arm Pain
-                                                </label>
-                                            </li>
-
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="shoulder" multiple>
-                                                    Shoulder Pain
-                                                </label>
-                                            </li>
-
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="leg" multiple>
-                                                    Leg Pain
-                                                </label>
-                                            </li>
-
-                                            <li>
-                                                <label for="">
-                                                    <input id="checkbox" type="checkbox" name="pain-area" value="foot" multiple>
-                                                    Foot Pain
-                                                </label>
-                                            </li>    
-                                    </ul>
-                                </p>
-
                                 <label for="message">
                                     <h2 class="contact-heading">Message box</h2>
                                     
-                                        <textarea name="message" id="message" cols="27" rows="10" placeholder="Type your message here (optional)"></textarea>
+                                        <textarea name="contactsummary" id="message" cols="50" rows="10" placeholder="Type your message here (optional)"></textarea>
                                 </label>
                                 <br>
                                 <input type="submit" class="form-send" value="Send">
@@ -251,5 +187,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8cFsJCCdpHsW7dQApKd1S_CYsL04M40w&callback=initMap" type="text/javascript"> </script>
     <script src="assets/javaScript/maps.js"></script>
+    <script src="assets/javaScript/sendEmail.js"></script>
     </body>
 </html>
