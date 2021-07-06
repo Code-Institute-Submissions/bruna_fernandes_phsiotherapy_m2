@@ -123,7 +123,7 @@
                             What seems to be the problem?
                         </legend>
                         <p>
-                            <select name="service" id="problem">
+                            <select name="service" id="problem" required>
                                 <option class="prob-option" value="#">Select this dropdown</option>
                                 <option class="prob-option" value="">Consultation</option>
                                 <option class="prob-option" value="">Query</option>
@@ -183,7 +183,7 @@
                             <label for="">
                             <h2 class="time-heading">What time would you prefer your appointment for..</h2>
                             </label>
-                                <select name="service" id="problem">
+                                <select name="service" id="problem" required>
                                     <option class="prob-option" value="#">Select this dropdown</option>
                                     <option class="prob-option" value="">09:00</option>
                                     <option class="prob-option" value="">10:00</option>
@@ -221,7 +221,7 @@
                     </div>
                         <br>
                     <div class="vertical-center">
-                        <button type="submit" id="send-btn" class="form-send" value="Send">Send</button>
+                        <button type="button" data-toggle="modal" data-target="#appConfirm"" class="form-send" value="Send">Send</button>
                     </div>
                     </form>
             </div>
@@ -308,11 +308,11 @@
         </section>
     </div>
 
-    <div class="modal" tabindex="-1" id="">
+    <div class="modal" tabindex="-1" id="appConfirm">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-center">Member Login for <img src="assets/images/bf-logo (1).png" height="35" width="35" alt=""> Fisioteropia!</h5>
+                    <h5 class="modal-title text-center">Appointment confirmation <img src="assets/images/bf-logo (1).png" height="35" width="35" alt=""> Fisioteropia!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -320,14 +320,17 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
+                            <h1>Appointment Confirmed!</h1>
                             </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
+                            <p>You're are now booked in for the date and time selected.</p>
+                            <p>In a few moments you will receive a confirmation email of your appointment booking for your reference.</p>
+                            <img src="assets/images/appointment/confirmed-tick.gif" class="app-gif" alt="">
+                            <p class="rem-p">*<span class="text-muted">Reminder -</span> Please ensure that you have completed the C19 Declaration
+                            and sent to us before arriving at your appointment. If we don't receive this from your we cannot proceed with your appointment</p>
+                                
                         </div>
-                        <button type="submit" class="btn btn-success"><a class="login-btn" href="members.html">Login</a></button>
+                        <button type="send" class="btn btn-success"><a href="index.html">Thank you!</a></button>
                         </form>
                 </div>
             </div>
