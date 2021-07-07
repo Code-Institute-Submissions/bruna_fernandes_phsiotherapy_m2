@@ -143,8 +143,14 @@ p {
     border: 2px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 0px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
 }
 
+.hide {
+    display: none;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
 
 /*------------------------------Button up---------------------*/
 #upBtn {
