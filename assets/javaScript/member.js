@@ -1,17 +1,26 @@
-//Use the onload event so that we can make sure the DOM is at 
-//least mostly loaded before trying to get elements
-window.onload = function() {
-  //Get the DOM element that represents the <button> element.
-  //And set the onclick event
-  document.getElementById("LearnMoreBtn").onclick = function(){
-     //Set a variable to contain the DOM element of the overly
-     var overlay = document.getElementById("overlay");
-     //Set a variable to contain the DOM element of the popup
-     var popup = document.getElementById("popup");
-     
-     //Changing the display css style from none to block will make it visible
-     overlay.style.display = "block";
-     //Same goes for the popup
-     popup.style.display = "block";
-  };
-};
+$(function() {
+    //This function will execute as soon as page loads
+        // It will grab the HTML element with the ID tag of "visible" and when
+        // it is clicked it will execute another function and inside that function
+        // it will grab the HTML element with ID tag of "invisible"
+	$("#visible").click(function() {
+         //This will be our toggle a class on and off which will be "show"
+	    $('#invisible').toggleClass("show");
+	  });  
+	});
+
+
+    $(function() {
+        //This function will execute as soon as page loads
+            // It will grab the HTML element with the ID tag of "visible" and when
+            // it is clicked it will execute another function and inside that function
+            // it will grab the HTML element with ID tag of "invisible"
+        $("#visible2").click(function() {
+             //This will be our toggle a class on and off which will be "show"
+            $('#invisible2').toggleClass("show");
+          });  
+        });
+
+        
+
+        
