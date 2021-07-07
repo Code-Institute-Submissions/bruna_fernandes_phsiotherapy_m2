@@ -88,6 +88,7 @@
                         </div>
                         
                         <button type="submit" class="btn btn-success">Submit</button>
+
                         </form>
                 </div>
             </div>
@@ -100,19 +101,20 @@
                     
                     <div class="col-sm-12 col-lg-4">
                         <form onsubmit="return sendMail(this);" class="form-text">
-                            
+                                <div>
                                 <legend class="contact-heading">
                                     Contact Us
                                 </legend>
                                 <label for="">
                                     Name:
-                                    <input type="text" name="name" size="25" maxlength="50" placeholder="Enter your full name" required>
+                                    <input class="name-field" type="text" name="name" size="25" maxlength="50" placeholder="Enter your full name" required>
                                 </label>
                                 <br />
                                 <label for="">
                                     Email:
-                                    <input type="email" name="emailaddress" size="25" maxlength="50" placeholder="Enter your email address" required>
+                                    <input class="name-field" type="email" name="emailaddress" size="25" maxlength="50" placeholder="Enter your email address" required>
                                 </label>
+                            </div>
                                 <br />
                            
                             <br>
@@ -123,8 +125,19 @@
                                         <textarea name="contactsummary" id="message" cols="50" rows="10" placeholder="Type your message here (optional)"></textarea>
                                 </label>
                                 <br>
+                                <div class="vertical-center">
                                 <input type="submit" class="form-send" value="Send">
-                            
+                                </div>
+                                <br>
+                                <div class="app-div">
+                                <h2 class="form-appointment">Appointments</h2>
+                                <br>
+                                <h5 class="app-question">Are you looking to book an appointment?</h5>
+                                <p class="app-para" >If you are looking to book an appoinment with us
+                                    please <a class="app-redirect" href="appointments.html">click here</a> and fill out the form and ensure
+                                    that you download and complete the C19 Declaration from too as part of your appointment.
+                                </p>
+                                </div>
                         </form>
                     </div>
                 
@@ -138,7 +151,7 @@
                         <div class="card" id="address">
                             <address>
                             <p>
-                                <h2 class="contact-heading">Address</h2>
+                                <h2 class="address-heading">Address</h2>
                                 44, Travessa Pombo,
                                 <br>
                                 Campo Grande,
@@ -149,8 +162,8 @@
                                 <br>
                                 Brazil
                             </p>
-                            <h2 class="contact-heading">Call</h2>
-                            <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2";> <a href="tel:00 55 67 99150 7546">00 55 67 99150-7546</a></i>
+                            <h2 class="call-heading">Call</h2>
+                            <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2";> <a class="number" href="tel:00 55 67 99150 7546">00 55 67 99150-7546</a></i>
                              
                             </address>
                         </div>

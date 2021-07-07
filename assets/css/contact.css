@@ -358,6 +358,10 @@ img#bruna-img {
 
 
 /*------------------------------------------Form Text-------------------------------*/
+.address-heading {
+    color: #6fc4a2;
+    margin-bottom: 1rem;
+}
 
 address {
     margin-bottom: 2.5rem;
@@ -381,6 +385,20 @@ address {
     text-align: center;
 }
 
+.call-heading {
+    color: #6fc4a2;
+    margin-bottom: 1rem;
+}
+
+.number {
+    color: white;
+}
+
+.number:hover {
+    color: #1feb99;
+    text-decoration: none;
+}
+
 div.contact-card {
     text-align: center;
     margin-top: 12%!important;
@@ -402,6 +420,7 @@ div.contact-card {
 }
 
 #message {
+    width: 100%;
     border-color: #6fc4a2;
     border-style: solid;
     border-radius: 25px;
@@ -446,6 +465,10 @@ div.contact-card {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+.name-field {
+    width: 100%;
+}
+
 legend {
     display: block;
     width: 100%;
@@ -461,3 +484,34 @@ legend {
 .contact-heading {
     margin-bottom: 2rem;
 }
+
+.form-appointment {
+    margin-top: 1rem;
+    text-align: center;
+    color: #6fc4a2;
+}
+
+.app-div {
+    width: 100%;
+} 
+
+.app-question {
+    color: #6fc4a2;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+.app-para {
+    padding-left: 15px;
+    margin-bottom: 3rem;
+}
+
+.app-redirect {
+    color: #6fc4a2;
+}
+
+.app-redirect:hover {
+    color: #1feb99;
+    text-decoration: none;
+}
+
