@@ -84,12 +84,23 @@ p.nav-link-color {
     border-radius: .3rem;
 }
 
-.jumbotron-heading {
-    color: #f6e27a;
-}
-
 h3 {
-    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+     #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,
+     #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
 }
 
 .btn-space {
@@ -110,16 +121,38 @@ div.bg-light {
 }
 
 .h1-mem {
-    color: #f6e27a;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+     #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,
+     #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
 }
 
 
 p {
-  text-align: left;
-}
-
+    text-align: center;
+    background-image: linear-gradient(
+     to right,
+     #462523 0,
+     #cb9b51 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #cb9b51 78%,
+     #462523 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+ };
 
 .card-body {
     -ms-flex: 1 1 auto;
@@ -138,7 +171,7 @@ p {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #f6e27a!important;
+    background-color: #1e203f!important;
     background-clip:border-box;
     border: 2px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -147,9 +180,47 @@ p {
 }
 
 .hide {
+    padding: 10px;
+    text-align: left;
     display: none;
     margin-top: 2rem;
     margin-bottom: 0rem;
+    border-style: groove;
+    border-color: #f6e27a;
+    box-shadow: 0 0px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-image: linear-gradient(
+     to right,
+     #f6e27a 0,
+     #e9b15d 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #f1b863 78%,
+     #92524f 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+}
+
+.mem-btn {
+    background-image: linear-gradient(
+     to right,
+     #f6e27a 0,
+     #e9b15d 22%, 
+     #f6e27a 45%,
+     #f6f2c0 50%,
+     #f6e27a 55%,
+     #f1b863 78%,
+     #92524f 100%
+     );
+    color:transparent;
+    -webkit-background-clip:text;
+    background-color: #1e203f!important;
+    border-style: groove;
+    border-color: gold;
+    border-radius: 10px;
+    box-shadow: 0 0px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    text-transform: uppercase;
 }
 
 /*------------------------------Button up---------------------*/
@@ -180,20 +251,6 @@ p {
   box-shadow: 0 4px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.fas {
-    box-shadow: 0 4px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    
-}
-
-h3 {
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 5px;
-    font-weight: bold;    
-    animation: color-change 10s infinite;
-    color: #f6e27a;
-}
-
-
 span {
     top: 50%;
     left: 50%;
@@ -202,13 +259,13 @@ span {
     font-weight: bold;
     background-image: linear-gradient(
      to right,
-     #462523 0,
-     #cb9b51 22%, 
+     #9c4c48 0,
+     #e9b15d 22%, 
      #f6e27a 45%,
      #f6f2c0 50%,
      #f6e27a 55%,
-     #cb9b51 78%,
-     #462523 100%
+     #f1b863 78%,
+     #92524f 100%
      );
     color:transparent;
     -webkit-background-clip:text;
