@@ -55,88 +55,6 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
-/*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
-
-#box-1 {
-    margin-top: 40px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-    height: fit-content;
-}
-
-#box-2 {
-    margin-top: 40px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-}
-
-.h2, h2 {
-    font-size: 1.5rem!important;
-}
-
-.h2-mem {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.p-mem {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.h2-app {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.p-app {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.hr-mem {
-    background-color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.hr-p {
-    background-color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-/*----------------------Carousel Styling---------------------------------------------*/
-.carousel {
-    margin: 30px 30px;
-    padding-top: 100px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-    color: white;
-  
-}
-
-#client-testimonial-carousel {
-    min-height: 385px!important;
-    margin: 5px 0 10px!important;
-    padding-top: 45px!important;
-    border: solid transparent!important;
-}
-
-.blockquote-footer {
-    background-color: #1e203f;
-    border: solid transparent!important;
-    
-}
-
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
 .dropdown-menu {
     position: absolute;
@@ -164,41 +82,7 @@ p.nav-link-color {
     background-color: #1e203f!important;
 }
 
-/*---------------------Footer Section---------------------------------------*/
-footer {
-    background-color: #1e203f;
-    border: solid #6fc4a2;
-    margin-top: 80px;    
-    width: 100%;
-}
 
-
-.social-networks{
-  text-align: center;
-  
-}
-
-.social-networks li{
-  display:inline;
-  padding-right: 30px;
-}
-
-.social-networks i {
-    margin: 1%;
-    padding-top: 20px;
-    font-size: 28px;
-    color: white;
-    
-}
-
-.social-networks i:hover {
-    margin: 1%;
-    padding-top: 20px;
-    font-size: 28px;
-    color: #6fc4a2;
-    transform: scale(1.5);
-    
-}
 
 #bf-logo {
     background-color: #181a3d;
@@ -215,40 +99,7 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-
-
-/*--------------------Home page boxes------------------------*/
-
-#box-1 {    
-    margin-top: 40px;
-    border: solid black;
-}
-
-
-#box-2 {
-    margin-top: 40px;
-    border: solid black;
-}
-
-.home-testimonial {
-    border: solid black;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.carousel {
-    margin: 30px 30px;
-    padding-top: 100px;
-    border: solid   black;
-}
-
-#client-testimonial-carousel {
-    min-height: 400px;
-    margin: 30px 0 10px;
-}
-
-
-/*-----------------------------------Modal Header------------------------------*/
+/*-----------------------------------Modal Section------------------------------*/
 .modal-header {
     background-color: #181a3d;
     color: #6fc4a2;
@@ -305,61 +156,44 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-/*-------------------------------------------Bruna Page-----------------------------------*/
-
-.card-title {
-    color: white;
-}
-
-.card-para {
-    color: white;
-}
-
-.about-para {
-    color: white;
-}
-
-.about-title {
-    color: #6fc4a2;
-}
-
-#about-box-1 {
-    margin-top: 40px;
-    
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-}
-
-img#bruna-img {
-    max-width: 100%;
-    width: 100%;
-    height: auto !important;
-}
-
-.deg-1 {
-    padding-bottom: 15px;
-}
-
-
-
 /*--------------------------------Google Map---------------------------------*/
 #map {
-    border-style: groove;
-    border-radius: 25px;
-    border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    min-height: 530px;
-    padding: 15px;
-    margin-bottom: 75px;
-    margin-top: 110px;
+    height: 615px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2.25rem!important;
+    margin-top: 10px;
 }
 
-
 /*------------------------------------------Form Text-------------------------------*/
+
+.form-text {
+    display: block;
+    margin-top: 5rem!important;
+    margin-bottom: 2.25rem!important;
+    color: white;
+    padding: 10px;
+    padding-bottom: 64px;
+    width: 100%;
+    border-color: #6fc4a2;
+    border-style: groove;
+    border-radius: 25px;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#message {
+    width: 100%;
+    border-color: #6fc4a2;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/*------------------Address Card---------------------------*/
+
 .address-heading {
     color: #6fc4a2;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -379,14 +213,15 @@ address {
     color: white;
     background-color: #1e203f;
     text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 9rem!important;
+    padding-bottom: 0px;
+    margin-bottom: 0rem!important;
     margin-top: 5rem!important;
     text-align: center;
 }
 
 .call-heading {
     color: #6fc4a2;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -405,52 +240,20 @@ div.contact-card {
     vertical-align: middle!important;
 }
 
-.form-text {
-    display: block;
-    margin-top: 5rem!important;
-    margin-bottom: 2.25rem!important;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    border-color: #6fc4a2;
-    border-style: groove;
-    border-radius: 25px;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-
-}
-
-#message {
-    width: 100%;
-    border-color: #6fc4a2;
-    border-style: solid;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-
-div.contact-card {
-    text-align: center;
-    margin-top: 40%;
-}
-
-#checkbox {
-    cursor: pointer;
-}
-
-#problem {
-    cursor: pointer;
-}
-
 .call {
     border-style: groove;
     border-color: #6fc4a2;
 }
 
+/*------------------------Contact form heading-----------------------*/
 .contact-heading {
     color: #6fc4a2!important;
+    font-size: 2rem;
     margin: 15px;
+    margin-bottom: 2rem;
 }
 
+/*-----------------------Form send button------------------------------*/
 .form-send {
     color: #fff;
     border-radius: 25px!important;
@@ -465,6 +268,7 @@ div.contact-card {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+/*--------------------Both input fields -> name and email ---------------------*/
 .name-field {
     width: 100%;
 }
@@ -481,37 +285,70 @@ legend {
     white-space: normal;
 }
 
-.contact-heading {
-    margin-bottom: 2rem;
-}
-
+/*--------Form Appointment Heading-------------------------*/
 .form-appointment {
+    padding: 15px;
     margin-top: 1rem;
-    text-align: center;
     color: #6fc4a2;
 }
 
+/*------------Div containing appointment content-----------*/
 .app-div {
     width: 100%;
 } 
 
+/*----------------H5 appointment question-----------------*/
 .app-question {
     color: #6fc4a2;
     padding-left: 15px;
-    margin-top: -10px;
+    margin-top: -25px;
 }
 
+/*----------------appointment paragraph---------------------*/
 .app-para {
     padding-left: 15px;
     margin-bottom: 3rem;
 }
 
+/*--------------------Click here a --------------------*/
 .app-redirect {
     color: #6fc4a2;
 }
 
+/*---------------------Click here when hovered over-------------------*/
 .app-redirect:hover {
     color: #1feb99;
     text-decoration: none;
 }
 
+/*---------------------Footer Section---------------------------------------*/
+footer {
+    background-color: #1e203f;
+    border: solid #6fc4a2;
+    margin-top: 80px;    
+    width: 100%;
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li{
+  display:inline;
+  padding-right: 30px;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.social-networks i:hover {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: #6fc4a2;
+    transform: scale(1.5);
+}

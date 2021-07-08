@@ -1,0 +1,45 @@
+/*-------------------------------------------Bruna Page-----------------------------------*/
+
+.card-title {
+    color: #6fc4a2;
+}
+
+.card-para {
+    color: white;
+}
+
+.about-para {
+    color: white;
+}
+
+.about-title {
+    color: #6fc4a2;
+}
+
+#about-box-1 {
+    margin-top: 40px;
+    
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+}
+
+#bruna-img {
+    padding: 5px;
+    width: 100%;
+}
+
+
+/*-------------------Qualification Images Styling---------------*/
+#row-image {
+    margin-top: 50px;
+}
+
+/*------------Qualification Heading--------------*/
+.qual-heading {
+    font-size: xx-large;
+    margin-top: 40px;
+    text-align: center;
+    color: #6fc4a2;
+}

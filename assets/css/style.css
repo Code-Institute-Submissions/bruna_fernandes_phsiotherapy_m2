@@ -4,6 +4,16 @@ html body {
 }
 
 /*---------------------Navbar Section---------------------------------------*/
+
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
 #navbar-color {
     background-color: #1e203f!important;
     border: solid #6fc4a2;
@@ -64,94 +74,8 @@ p.nav-link-color {
     text-decoration: none;
 }
 
-/*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
-
-#box-1 {
-    margin-top: 40px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-    max-width: fit-content;
-    max-height: fit-content;
-}
-
-#box-2 {
-    margin-top: 40px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-    height: fit-content;
-}
-
-.h2, h2 {
-    font-size: 1.5rem!important;
-}
-
-.h2-mem {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.p-mem {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.h2-app {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.p-app {
-    text-align: center;
-    padding-top: 10px;
-    color: white;
-}
-
-.hr-mem {
-    background-color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.hr-p {
-    background-color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-/*----------------------Carousel Styling---------------------------------------------*/
-.carousel {
-    margin: 30px 30px;
-    padding-top: 100px;
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-    color: white;
-  
-}
-
-#client-testimonial-carousel {
-    min-height: 385px!important;
-    margin: 5px 0 10px!important;
-    padding-top: 45px!important;
-    border: solid transparent!important;
-}
-
-.blockquote-footer {
-    background-color: #1e203f;
-    border: solid transparent!important;
-}
-
-blockquote {
-    margin: -30px 0 1rem;
-}
-
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -178,16 +102,78 @@ blockquote {
     background-color: #1e203f!important;
 }
 
-#row-image {
-    margin-top: 50px;
+/*------------------------Banner section------------------------*/
+.bf-brand {
+    border: groove #6fc4a2;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.qual-heading {
-    font-size: xx-large;
+/*------------------CSS styling for the main page Box 1 and Box 2---------------------------*/
+
+#box-1 {
     margin-top: 40px;
-    text-align: center;
-    color: #6fc4a2;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    max-width: fit-content;
+    max-height: fit-content;
 }
+
+#box-2 {
+    margin-top: 40px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    height: fit-content;
+}
+
+.h2, h2 {
+    font-size: 1.5rem!important;
+}
+
+/*----------Box 1 membership heading---------------*/
+.h2-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+/*--------------------Box 1 membership paragraph--------------*/
+.p-mem {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+/*--------------------Box 2 appointments heading--------------*/
+.h2-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+/*--------------------Box 2 membership paragraph--------------*/
+.p-app {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+/*--------------------Horizontal Rule for Membership & Appointment boxes--------------*/
+.hr-mem {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.hr-p {
+    background-color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*----------------------------Font Awesome Icons--------------------------*/
 
 .fas {
     text-decoration: none;
@@ -197,21 +183,52 @@ blockquote {
     text-decoration: none;
 }
 
-/* fold S5 */
-@media only screen
-    and (min-width: 280px)
-    and (max-height: 653px)
-    and (-webkit-min-device-pixel-ratio: 1.5) {
-        #client-testimonial-carousel {
-            min-height: 495px!important;
-            margin: 5px 0 10px!important;
-            padding-top: 45px!important;
-            border: solid transparent!important;
-        }
+/*----------------------Carousel Styling---------------------------------------------*/
+.carousel {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 30px;
+    padding-top: 100px;
+    border: solid transparent!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border-radius: 35px;
+    background-color: #1e203f;
+    color: white;
+    border: solid black;
+}
+
+#client-testimonial-carousel {
+    min-height: 385px!important;
+    margin: 5px 0 10px!important;
+    padding-top: 45px!important;
+    border: solid transparent!important;
 }
 
 
+.blockquote-footer {
+    background-color: #1e203f;
+    border: solid transparent!important;
+}
+
+blockquote {
+    margin: -30px 0 1rem;
+}
+
+/*-----Safe to delete-----*/
+#row-image {
+    margin-top: 50px;
+}
+
+/*-----Safe to delete-----*/
+.qual-heading {
+    font-size: xx-large;
+    margin-top: 40px;
+    text-align: center;
+    color: #6fc4a2;
+}
+
 /*---------------------Footer Section---------------------------------------*/
+
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
@@ -220,7 +237,6 @@ footer {
 
 .social-networks{
   text-align: center;
-  
 }
 
 .social-networks li{
@@ -233,7 +249,6 @@ footer {
     padding-top: 20px;
     font-size: 28px;
     color: white;
-    
 }
 
 .social-networks i:hover {
@@ -242,47 +257,9 @@ footer {
     font-size: 28px;
     color: #6fc4a2;
     transform: scale(1.5);
-    
 }
 
-#bf-logo {
-    background-color: #181a3d;
-    text-align: center!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    height: 250px;
-    width: 250px;
-    padding: 40px;
-}
-
-.bf-brand {
-    border: groove #6fc4a2;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-
-
-/*--------------------Home page boxes------------------------*/
-
-#box-1 {    
-    margin-top: 40px;
-    border: solid black;
-}
-
-
-#box-2 {
-    margin-top: 40px;
-    border: solid black;
-}
-
-.home-testimonial {
-    border: solid black;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-
-/*-----------------------------------Modal Header------------------------------*/
+/*-----------------------------------Modals------------------------------*/
 .modal-header {
     background-color: #181a3d;
     color: #6fc4a2;
@@ -309,7 +286,7 @@ footer {
     opacity: 10!important;
 }
 
-/*-----------------------------------Modal body------------------------------*/
+/*-----------------------------------Modal Body------------------------------*/
 
 .modal-body {
     position: relative;
@@ -338,6 +315,22 @@ footer {
     border-color: #6fc4a2!important;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+
+
+/*-------------------------------Media Query-----------------------*/
+
+/* fold S5 - Used to manage the margin-height on this screen size*/
+@media only screen
+    and (min-width: 280px)
+    and (max-height: 653px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        #client-testimonial-carousel {
+            min-height: 495px!important;
+            margin: 5px 0 10px!important;
+            padding-top: 45px!important;
+            border: solid transparent!important;
+        }
+    }   
 
 /*-------------------------------------------Bruna Page-----------------------------------*/
 
