@@ -189,6 +189,13 @@ blockquote {
     color: #6fc4a2;
 }
 
+.fas {
+    text-decoration: none;
+}
+
+.fas:hover {
+    text-decoration: none;
+}
 
 /* fold S5 */
 @media only screen
@@ -335,7 +342,7 @@ footer {
 /*-------------------------------------------Bruna Page-----------------------------------*/
 
 .card-title {
-    color: white;
+    color: #6fc4a2;
 }
 
 .card-para {

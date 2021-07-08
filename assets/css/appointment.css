@@ -358,8 +358,13 @@ p.c19-form {
 .rem-p {
     font-style: italic;
     margin-top: 80px;
-    color: #1e203f;
+    color: red;
     font-size: smaller;
+}
+
+.modal-title {
+    margin: auto;
+    letter-spacing: 1px;
 }
 
 .modal-content {
@@ -370,7 +375,8 @@ p.c19-form {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #1e203f;
+    color: #49cc85!important;
+    background-color: white;
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
     border-style: solid;
     border-radius: 1.3rem!important;
@@ -378,48 +384,28 @@ p.c19-form {
     outline: 0;
 }
 
-a {
-    color: white!important;
-    text-decoration: none!important;
-}
-
-
-
-.btn-success {
-    color: #fff;
-    background-color: #28a745;
-    border-color: #28a745;
-}
-
-.btn-success:hover {
-    color: #39fd9bc9!important;
-    background-color: #6fc4a2!important;
-    border-color: #6fc4a2!important;
-}
-
-.btn {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    
-}
-
 .app-gif {
     margin-top: 2rem;
     margin-bottom: -3rem;
     text-align: center;
+}
+
+a {
+    color: white!important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: white!important;
+    text-decoration: none!important;
+    background-color: transparent;
+}
+
+.btn-success {
+    color: #fff!important;
+    background-color: #49cc85!important;
+    border-color: #49cc85;
 }
 
 /*------------------------Footer----------------------------*/
