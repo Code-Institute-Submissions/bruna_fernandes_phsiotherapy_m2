@@ -255,6 +255,10 @@ div.contact-card {
 
 /*-----------------------Form send button------------------------------*/
 
+.contact-btn {
+    text-align: center;
+}
+
 .form-send {
     width: 70%;
     color: #fff;
