@@ -256,6 +256,7 @@ div.contact-card {
 /*-----------------------Form send button------------------------------*/
 
 .contact-btn {
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -330,11 +331,8 @@ legend {
 
 /*---------------------------Contact Us Modal------------------------------*/
 
-.rem-p {
-    font-style: italic;
-    margin-top: 80px;
-    color: red;
-    font-size: smaller;
+.form-group {
+    padding: 1rem;
 }
 
 .modal-title-contact {
@@ -377,7 +375,14 @@ a:hover {
     background-color: transparent;
 }
 
-.btn-success {
+.modal-btn-center {
+   text-align: center;
+}
+
+button.btn.btn-success {
+    width: 70%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     color: #fff!important;
     background-color: #49cc85!important;
     border-color: #49cc85;
