@@ -14,3 +14,7 @@ function sendMail(contactForm) {
     );
     return false; //Blocks page from loading a new page
 }
+
+(function(){
+    emailjs.init("user_GXGSp6FSJeA0qWq32yxe8");
+    })();

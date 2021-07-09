@@ -10,12 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("user_GXGSp6FSJeA0qWq32yxe8");
-        })();
-    </script>
 </head>
+
 <body>
     
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
@@ -28,31 +24,28 @@
         <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="index.html">Home</a></li>
-                         
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-link-color" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link-color" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item nav-link-color" href="fisio.html">Fisioteropia & Pilates</a>  
                             <a class="dropdown-item nav-link-color" href="appointments.html"> Appointments</a>  
                         </div>
-                </li>
+                    </li>
             
-            <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="members.html">Members</a></li>
-
-               <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-link-color" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="members.html">Members</a></li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link-color" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="nav-link nav-link-color" href="bruna.html">Bruna Fernandes</a> 
                     </div>
                 </li>            
 
             
-            <!---Will only display on a mob device with "d-block + d-sm-none--->
-            <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal" class="sign-btn"><p class="nav-link-color" class="sign-btn">Sign In / Sign Up</p></button></li>
-        </ul>
+                <!---Will only display on a mob device with "d-block + d-sm-none--->
+                <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal" class="sign-btn"><p class="nav-link-color" class="sign-btn">Sign In / Sign Up</p></button></li>
+            </ul>
         </div>
         <div class="d-none d-md-block">
             <button data-toggle="modal" data-target="#signUpModal" class="sign-btn">Sign In / Sign Up</button>
@@ -61,15 +54,15 @@
 
          <!-----Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body---->
  <!-----A modal is described as being an island of content that sits in the middle of the page. The modal is hidden by default----->   
- <div class="modal" tabindex="-1" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Up to BF Fisioteropia!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
+                <div class="modal" tabindex="-1" id="signUpModal">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Sign Up to BF Fisioteropia!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
@@ -86,10 +79,8 @@
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
                         </div>
-                        
                         <button type="submit" class="btn btn-success">Submit</button>
-
-                        </form>
+                    </form>
                 </div>
             </div>
         </div>
@@ -108,7 +99,7 @@
                                     Name:
                                     <input class="name-field" type="text" name="name" size="25" maxlength="50" placeholder="Enter your full name" required>
                                 </label>
-                                <br />
+                                <br/>
                                 <label for="">
                                     Email:
                                     <input class="name-field" type="email" name="emailaddress" size="25" maxlength="50" placeholder="Enter your email address" required>
@@ -116,14 +107,13 @@
                             </div>
                                 <br/>
                                     <br>
-                            
                                 <label for="message">
                                     <h2 class="contact-heading">Message box</h2>
                                     <textarea name="contactsummary" id="message" cols="50" rows="10" placeholder="Type your message here (optional)"></textarea>
                                 </label>
                                 <br>
                                 <div class="vertical-center">
-                                <input type="submit" class="form-send" value="Send">
+                                    <button type="button" data-toggle="modal" data-target="#appConfirm"" class="form-send" value="Send">Send</button>
                                 </div>
                                 <br>
                                 <div class="app-div">
@@ -143,7 +133,6 @@
                             <address>
                                 <h2 class="call-heading">Call</h2>
                             <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2";> <a class="number" href="tel:00 55 67 99150 7546">00 55 67 99150-7546</a></i>
-                            
                             <p>
                                 <h2 class="address-heading">Address</h2>
                                 44, Travessa Pombo,
@@ -156,18 +145,49 @@
                                 <br>
                                 Brazil
                             </p>
-                            
-                             
                             </address>
 
                             <div id="map">
+                            
                             </div>
-
                         </div>
                     </div>
                 </div>
                         
-</section>
+    </section>
+
+    <div class="modal" tabindex="-1" id="appConfirm">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content-contact">
+                <div class="modal-header-contact">
+                    <h5 class="modal-title-contact">Appointment confirmation <img src="assets/images/bf-logo (1).png" height="35" width="35" alt=""> Fisioteropia!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body-contact">
+                    <form>
+                        <div class="form-group">
+                            <h1>Appointment Confirmed!</h1>
+                            </div>
+                        <div class="form-group">
+                            <p>You're are now booked in for the date and time selected.</p>
+                            <p>In a few moments you will receive a confirmation email of your appointment booking for your reference.</p>
+                            <div class="app-gif"> 
+                            <img src="assets/images/appointment/confirmed-tick.gif">
+                            </div>
+                            <p class="rem-p">*<span class="text-muted">Reminder -</span> Please ensure that you have completed the C19 Declaration
+                            and sent to us before arriving at your appointment. If we don't receive this from your we cannot proceed with your appointment</p>
+                                
+                        </div>
+                        <div class="vertical-center">
+                        <button type="send" class="btn btn-success"><a class="button-redir" href="contact.html">Thank you!</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</div>
 
 
 <footer class="footer fixed container-fluid">
