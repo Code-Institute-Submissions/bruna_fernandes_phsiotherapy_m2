@@ -256,6 +256,7 @@ div.contact-card {
 /*-----------------------Form send button------------------------------*/
 
 .form-send {
+    width: 70%;
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2!important;
