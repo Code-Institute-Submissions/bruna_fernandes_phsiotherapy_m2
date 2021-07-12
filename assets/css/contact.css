@@ -329,12 +329,12 @@ legend {
 
 /*--------------------Click here a --------------------*/
 .app-redirect {
-    color: #6fc4a2;
+    color: #6fc4a2!important;
 }
 
 /*---------------------Click here when hovered over-------------------*/
 .app-redirect:hover {
-    color: #1feb99;
+    color: #1feb99!important;
     text-decoration: none;
 }
 
@@ -343,6 +343,12 @@ legend {
 
 .h1, h1 {
     text-align: center;
+}
+
+.form-group-para {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 1rem;
 }
 
 .modal-title-contact {
