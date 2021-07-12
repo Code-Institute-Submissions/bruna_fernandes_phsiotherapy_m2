@@ -186,14 +186,14 @@ p.nav-link-color {
     color: whitesmoke;
 }
 
-.btn-success {
+.btn-success-contact {
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2;
     border-color: #6fc4a2!important;
 }
 
-.btn-success:hover {
+.btn-success-contact:hover {
     color: #fff;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
@@ -341,8 +341,8 @@ legend {
 
 /*---------------------------Contact Us Modal------------------------------*/
 
-.form-group {
-    padding: 1rem;
+.h1, h1 {
+    text-align: center;
 }
 
 .modal-title-contact {
