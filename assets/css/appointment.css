@@ -106,18 +106,7 @@ p.nav-link-color {
     padding-top: 3px;
 }
 
-.signup-text {
-    display: block;
-    margin-top: 100px!important;
-    margin-bottom: 2.25rem!important;
-    color: white!important;
-    padding: 10px;
-    width: fit-content!important;
-    border-color: #6fc4a2;
-    border-style: groove;
-    border-radius: 25px;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
+
 
 .date-picker {
     position: relative;
@@ -362,10 +351,80 @@ p.c19-form {
     font-size: smaller;
 }
 
-.modal-title {
-    margin: auto;
-    letter-spacing: 1px;
+/*----------------------------signup Modal-------------------------------*/
+.modal-header {
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
 }
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
+}
+
+.modal-content-sign {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    color: #6fc4a2!important;
+    background-color: #1e203f;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+    border-radius: 1.3rem!important;
+    border-color: #6fc4a2;
+    outline: 0;
+}
+
+.signup-text {
+    display: block;
+    margin-bottom: 2.25rem!important;
+    color: #6fc4a2;
+    padding: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white!important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 10!important;
+}
+
+.close:hover {
+    color: #6fc4a2!important;
+    text-shadow: 0 1px 0 #6fc4a2!important;
+    opacity: 10!important;
+}
+
+.form-text {
+    color: whitesmoke;
+}
+
+.btn-success {
+    color: #fff;
+    border-radius: 25px!important;
+    background-color: #6fc4a2;
+    border-color: #6fc4a2!important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
 
 .modal-content {
     position: relative;
@@ -377,7 +436,7 @@ p.c19-form {
     pointer-events: auto;
     color: #49cc85!important;
     background-color: white;
-    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
     border-style: solid;
     border-radius: 1.3rem!important;
     border-color: #6fc4a2;
@@ -404,8 +463,8 @@ a:hover {
 
 .btn-success {
     color: #fff!important;
-    background-color: #49cc85!important;
-    border-color: #49cc85;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2;
 }
 
 /*------------------------Footer----------------------------*/

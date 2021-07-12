@@ -126,7 +126,12 @@ p.nav-link-color {
     opacity: 10!important;
 }
 
-/*-----------------------------------Modal body------------------------------*/
+/*----------------------------signup Modal-------------------------------*/
+.modal-header {
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+}
 
 .modal-body {
     position: relative;
@@ -138,6 +143,45 @@ p.nav-link-color {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
 }
 
+.modal-content-sign {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    color: #6fc4a2!important;
+    background-color: #1e203f;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+    border-radius: 1.3rem!important;
+    border-color: #6fc4a2;
+    outline: 0;
+}
+
+.signup-text {
+    display: block;
+    margin-bottom: 2.25rem!important;
+    color: #6fc4a2;
+    padding: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white!important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 10!important;
+}
+
+.close:hover {
+    color: #6fc4a2!important;
+    text-shadow: 0 1px 0 #6fc4a2!important;
+    opacity: 10!important;
+}
+
 .form-text {
     color: whitesmoke;
 }
@@ -145,7 +189,7 @@ p.nav-link-color {
 .btn-success {
     color: #fff;
     border-radius: 25px!important;
-    background-color: #6fc4a2!important;
+    background-color: #6fc4a2;
     border-color: #6fc4a2!important;
 }
 
@@ -155,40 +199,6 @@ p.nav-link-color {
     border-color: #6fc4a2!important;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-
-/*--------------------------------Google Map---------------------------------*/
-#map {
-    height: 566px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2.25rem!important;
-    margin-top: 10px;
-}
-
-/*------------------------------------------Form Text-------------------------------*/
-
-.form-text {
-    display: block;
-    margin-top: 5rem!important;
-    margin-bottom: 2.25rem!important;
-    color: white;
-    padding: 10px;
-    padding-bottom: 64px;
-    width: 100%;
-    border-color: #6fc4a2;
-    border-style: groove;
-    border-radius: 25px;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-#message {
-    width: 100%;
-    border-color: #6fc4a2;
-    border-style: solid;
-    border-radius: 25px;
-    padding: 10px;
-}
-
 /*------------------Address Card---------------------------*/
 
 .address-heading {
