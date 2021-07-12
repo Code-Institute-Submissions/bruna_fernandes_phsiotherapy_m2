@@ -183,7 +183,13 @@ p.nav-link-color {
 }
 
 .form-text {
+    padding: 15px;
+    margin-top: 5rem!important;
     color: whitesmoke;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #6fc4a2;
+    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .btn-success-contact {
@@ -191,6 +197,7 @@ p.nav-link-color {
     border-radius: 25px!important;
     background-color: #6fc4a2;
     border-color: #6fc4a2!important;
+    border-radius: ;
 }
 
 .btn-success-contact:hover {
@@ -302,6 +309,12 @@ legend {
     white-space: normal;
 }
 
+textarea {
+    width: 100%!important;
+    overflow: auto;
+    resize: vertical;
+}
+
 /*--------Form Appointment Heading-------------------------*/
 .form-appointment {
     padding: 15px;
@@ -404,6 +417,15 @@ button.btn.btn-success {
     border-color: #49cc85;
 }
 
+
+/*----------------------MAP-------------------------*/
+
+#map {
+    justify-content: center;
+    margin-bottom: 2rem;
+    height: 500px;
+    width: 100%;
+}
 
 /*---------------------Footer Section---------------------------------------*/
 footer {
