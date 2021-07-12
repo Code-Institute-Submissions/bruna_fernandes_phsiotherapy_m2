@@ -1,4 +1,116 @@
-/*-------------------------------------------Bruna Page-----------------------------------*/
+html body {
+    font-family: 'Bree Serif', serif;
+    background-color: #181a3d;
+}
+
+/*---------------------Navbar Section---------------------------------------*/
+
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
+#navbar-color {
+    background-color: #1e203f!important;
+    border: solid #6fc4a2;
+}
+
+.nav-link {
+    display: block;
+    padding: .25rem 1.5rem!important;
+    white-space: nowrap;
+}
+
+.nav-link-color {
+    color: white!important;
+}
+
+.nav-link-color:hover {
+    color: #6fc4a2!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    border-color: rgb(111 196 162);
+    background-color: rgb(111 196 162);
+}
+
+.nav-img {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.sign-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sign-btn:hover {
+    color: #6fc4a2;
+}
+
+p.nav-link-color {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}
+
+.login-btn {
+    color: white;
+}
+
+.login-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*---------------------Navbar Dropdown Menu-----------------------------------*/
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #1e203f!important;
+    background-clip: padding-box;
+    border: 1px groove #6fc4a2!important;
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6fc4a2!important;
+    text-decoration: none;
+    background-color: #1e203f!important;
+}
+
+/*------------------------Banner section------------------------*/
+
+.bf-brand {
+    border: groove #6fc4a2;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*-------------------------------------------Bruna card stylings-----------------------------------*/
 
 .card-title {
     color: #6fc4a2;
@@ -41,4 +153,92 @@
     margin-top: 40px;
     text-align: center;
     color: #6fc4a2;
+}
+
+/*-----------------------------------Modals------------------------------*/
+.modal-header {
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+}
+
+.modal-title {
+    text-align: center!important;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white!important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 10!important;
+}
+
+.close:hover {
+    color: #6fc4a2!important;
+    text-shadow: 0 1px 0 #6fc4a2!important;
+    opacity: 10!important;
+}
+
+/*-----------------------------------Modal Body------------------------------*/
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #181a3d;
+    color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
+}
+
+.form-text {
+    color: whitesmoke;
+}
+
+.btn-success {
+    color: #fff;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/*---------------------Footer Section---------------------------------------*/
+
+footer {
+    background-color: #1e203f;
+    border: solid #6fc4a2;
+}
+
+.social-networks{
+  text-align: center;
+}
+
+.social-networks li{
+  display:inline;
+  padding-right: 30px;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.social-networks i:hover {
+    margin: 1%;
+    padding-top: 20px;
+    font-size: 28px;
+    color: #6fc4a2;
+    transform: scale(1.5);
 }

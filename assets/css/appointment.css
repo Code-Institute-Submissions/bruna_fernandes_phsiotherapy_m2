@@ -3,6 +3,15 @@ html body {
     background-color: #181a3d;
 }
 /*---------------------Navbar Section---------------------------------------*/
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
+
 #navbar-color {
     background-color: #1e203f!important;
     border: solid #6fc4a2;
@@ -84,15 +93,42 @@ p.nav-link-color {
     color: white;
 }
 
+/*-------------------------------Form input bars-----------------*/
+.app-input {
+    width: 100%;
+}
+
+/*--------------Appointment Card Heading-------------------*/
+
+.appointment-heading {
+    color: #6fc4a2!important;
+    padding: 2px;
+    margin-bottom: 3rem;
+}
+
+/*--------------Problem heading--------------------------*/
+.problem-heading {
+    color: #6fc4a2!important;
+}
+
+/*------------------Area question heading---------------------*/
+.area-heading {
+    color: #6fc4a2!important;
+    margin-bottom: 2rem;
+}
+
+/*---------------Time question heading-------------------*/
 .time-heading {
     color:#6fc4a2
 }
 
+/*-------------------Appointment question heading--------------*/
 .app-question {
     margin-top: 4rem;
     color: #6fc4a2;
 }
 
+/*----------------------C19 service heading----------------------*/
 .service-heading {
     color: #6fc4a2;
     text-align: center;
@@ -100,13 +136,14 @@ p.nav-link-color {
     margin-bottom: -50px;
 }
 
+/*-----------------------Service house horizontal line-----------------------*/
 .service-heading-hr {
     background-color: #6fc4a2;
     box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
     padding-top: 3px;
 }
 
-
+/*-------------------Calendar CSS-----------------------------------*/
 
 .date-picker {
     position: relative;
@@ -120,7 +157,6 @@ p.nav-link-color {
     border-style: solid;
     border-color: #6fc4a2;
 }
-
 
 .date-picker .selected-date {
 	width: 100%;
@@ -196,36 +232,14 @@ p.nav-link-color {
     height: 55px;
 }
 
-.appointment-heading {
-    color: #6fc4a2!important;
-    padding: 2px;
-    margin-bottom: 3rem;
-}
-
-.problem-heading {
-    color: #6fc4a2!important;
-}
-
-.area-heading {
-    color: #6fc4a2!important;
-    margin-bottom: 2rem;
-}
-
+/*-------------------------Reminder paragraph------------------------*/
 .tip-text {
     margin-top: 1rem;
     font-size: small;
     color: #ffffffc9;
 }
 
-#bf-logo {
-    background-color: #181a3d;
-    text-align: center!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    height: 250px;
-    width: 250px;
-    padding: 40px;
-}
-
+/*-----------------------Appointment form---------------------------*/
 .form-text  {
     background: #1e203f;
     display: block;
@@ -239,6 +253,7 @@ p.nav-link-color {
     box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+/*------------------------Appointment form send button----------------------*/
 .form-send {
     width: 70%;
     color: #fff;
@@ -248,40 +263,17 @@ p.nav-link-color {
     margin-top: 5rem;
 }
 
-.app-input {
-    width: 100%;
-}
-
+/*------------------------Alignment of the form send button------------------*/
 .vertical-center {
     text-align: center;
     font-size: 20px;
     margin-bottom: 1rem;
 }
 
-.clock {
-    margin-top: 5rem;
-    margin-bottom: 12rem;
-    text-align: center;
-}
-
-
-#hov {
-    position: absolute;
-    top: 0;
-    left: 0;
-    }
-
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
+/*---------------------------Service hours card--------------------------------*/
 div.card {
     position: relative;
-    height: 345px;
-    /* width: 300px; */
+    height: 345px;    
     padding-right: 10px;
     margin-bottom: 0rem;
     margin-top: 3.9rem;
@@ -301,6 +293,7 @@ div.card {
     color: white;
 }
 
+/*----------------------Time seperator-------------------------------------*/
 .time-sep {
     color: white;
 }
@@ -316,6 +309,8 @@ table {
     height: fit-content!important;
     width: fit-content!important;
 }
+
+/*--------------------------Covid 19 details---------------------------*/
 
 .c19-h4 {
     margin-top: 85px;
@@ -344,13 +339,6 @@ p.c19-form {
 .c19-pdf:hover {
     color:white;
     text-decoration: none;
-}
-
-.rem-p {
-    font-style: italic;
-    margin-top: 80px;
-    color: red;
-    font-size: smaller;
 }
 
 /*----------------------------signup Modal-------------------------------*/
@@ -427,6 +415,8 @@ p.c19-form {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+/*----------------------------Appointment modal-------------------------------*/
+
 .modal-header-app {
     text-align: center;
         padding: 15px;
@@ -449,6 +439,13 @@ p.c19-form {
     margin-top: 2rem;
     margin-bottom: -3rem;
     text-align: center;
+}
+
+.rem-p {
+    font-style: italic;
+    margin-top: 80px;
+    color: red;
+    font-size: smaller;
 }
 
 a {

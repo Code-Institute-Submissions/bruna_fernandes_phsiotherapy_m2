@@ -55,6 +55,32 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
+/*---------------------Navbar Dropdown Menu-----------------------------------*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #1e203f!important;
+    background-clip: padding-box;
+    border: 1px groove #6fc4a2!important;
+    border-radius: .25rem;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #6fc4a2!important;
+    text-decoration: none;
+    background-color: #1e203f!important;
+}
 
 /*------------------Three columns of text below--------------------*/
 .h2-fisio {
@@ -87,10 +113,47 @@ p {
     transition: .8s;
 }
 
+/*----------------------------------Round Circle Images----------------------------------*/
 
+.rounded-circle {
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+    margin-top: 50px;
+}
 
+/*-----------------------Jump to buttons-----------------------------------------*/
+
+.fisio-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*----------------------------------Benefits-----------------------*/
+
+/*--------------------Benefits Heading----------------------*/
+.h-benefits {
+    margin-top: 3rem;
+    color: #6fc4a2;   
+}
+
+/*--------------------Benefits List---------------------------*/
+.ben-list {
+    color: white;
+    height: max-content;
+    width: max-content;
+}
+
+.benefits {
+    margin-bottom: 5rem;
+    margin-top: -2rem;
+}
 
 /*------------------------Footer----------------------------*/
+
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
@@ -122,64 +185,6 @@ footer {
     color: #6fc4a2;
     transform: scale(1.5);
     
-}
-
-.rounded-circle {
-    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
-    margin-top: 50px;
-}
-
-.fisio-btn {
-    border: groove #6fc4a2;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    background-color: #1e203f;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-/*---------------------Navbar Dropdown Menu-----------------------------------*/
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #1e203f!important;
-    background-clip: padding-box;
-    border: 1px groove #6fc4a2!important;
-    border-radius: .25rem;
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #6fc4a2!important;
-    text-decoration: none;
-    background-color: #1e203f!important;
-}
-
-.h-benefits {
-    margin-top: 1rem;
-    color: #6fc4a2;   
-}
-
-.ben-list {
-    color: white;
-    height: max-content;
-    width: max-content;
-}
-
-.benefits {
-    margin-bottom: 5rem;
-    margin-top: -2rem;
 }
 
 /*-------------------Media Queries----------------*/

@@ -214,26 +214,12 @@ blockquote {
     margin: -30px 0 1rem;
 }
 
-/*-----Safe to delete-----*/
-#row-image {
-    margin-top: 50px;
-}
-
-/*-----Safe to delete-----*/
-.qual-heading {
-    font-size: xx-large;
-    margin-top: 40px;
-    text-align: center;
-    color: #6fc4a2;
-}
-
 /*---------------------Footer Section---------------------------------------*/
 
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
 }
-
 
 .social-networks{
   text-align: center;
@@ -411,119 +397,3 @@ footer {
         }
     }
 
-/*-------------------------------------------Bruna Page-----------------------------------*/
-
-.card-title {
-    color: #6fc4a2;
-}
-
-.card-para {
-    color: white;
-}
-
-.about-para {
-    color: white;
-}
-
-.about-title {
-    color: #6fc4a2;
-}
-
-#about-box-1 {
-    margin-top: 40px;
-    
-    border: solid transparent!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    border-radius: 35px;
-    background-color: #1e203f;
-}
-
-#bruna-img {
-    padding: 5px;
-    width: 100%;
-}
-
-
-
-/*--------------------------------Google Map---------------------------------*/
-#map {
-    border-style: groove;
-    border-radius: 25px;
-    border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    min-height: 530px;
-    padding: 15px;
-    margin-bottom: 75px;
-    margin-top: 110px;
-}
-
-
-/*------------------------------------------Form Text-------------------------------*/
-
-address {
-    margin-bottom: 2.5rem;
-    font-style: normal;
-    line-height: inherit;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-}
-
-#address {
-    border-style: groove;
-    border-radius: 25px;
-    border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    color: white;
-    background-color: #1e203f;
-    text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 9rem!important;
-    margin-top: 5rem!important;
-    text-align: center;
-}
-
-div.contact-card {
-    text-align: center;
-    margin-top: 12%!important;
-    vertical-align: middle!important;
-}
-
-.form-text {
-    display: block;
-    margin-bottom: 2.25rem!important;
-    color: #6fc4a2;
-    border-color: #6fc4a2;
-    border-radius: 25px;
-    padding: 10px;
-    width: 100%;
-}
-
-#message {
-    border-color: #6fc4a2;
-    border-style: solid;
-    border-radius: 25px;
-    padding: 10px;
-}
-
-
-div.contact-card {
-    text-align: center;
-    margin-top: 40%;
-}
-
-#checkbox {
-    cursor: pointer;
-}
-
-#problem {
-    cursor: pointer;
-}
-
-.call {
-    border-style: groove;
-    border-color: #6fc4a2;
-}
-
-.contact-heading {
-    color: #6fc4a2!important;
-}

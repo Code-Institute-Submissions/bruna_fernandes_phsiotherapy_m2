@@ -42,7 +42,14 @@ html body {
     box-shadow: 0 4px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-
+#bf-logo {
+    background-color: #181a3d;
+    text-align: center!important;
+    box-shadow: 0 4px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 250px;
+    width: 250px;
+    padding: 40px;
+}
 
 p.nav-link-color {
     margin-top: 0px;
@@ -77,7 +84,6 @@ p.nav-link-color {
     background-color: #1e203f!important;
 }
 
-
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 5rem!important;
@@ -86,7 +92,7 @@ p.nav-link-color {
 }
 
 h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', serif;
     letter-spacing: 5px;
     font-weight: bold;
     text-transform: uppercase;
@@ -122,7 +128,7 @@ div.bg-light {
 }
 
 .h1-mem {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', serif;
     text-transform: uppercase;
     background-image: linear-gradient(
      to right,
@@ -155,15 +161,16 @@ p {
     -webkit-background-clip:text;
  };
 
+/*-----------------------------Card body --------------------------*/ 
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
     background-color: #1e203f;
-    color: white;
 }
 
+/*--------------------Cards-----------------------------------*/
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -180,6 +187,7 @@ p {
     cursor: pointer;
 }
 
+/*--------------Dropdown paragraph after click----------------------*/
 .hide {
     padding: 10px;
     text-align: left;
@@ -203,6 +211,7 @@ p {
     -webkit-background-clip:text;
 }
 
+/*----------Buttons-----------------*/
 .mem-btn {
     background-image: linear-gradient(
      to right,
@@ -237,7 +246,7 @@ p {
     font-size: 18px;
     margin-top: -40px;
     margin-bottom: 25px;
-    margin-left: 50%;
+    margin-left: 49%;
 }
 
 .fa-arrow-up:before {
@@ -273,6 +282,7 @@ span {
  };
   
 /*---------------------Footer Section---------------------------------------*/
+
 footer {
     background-color: #1e203f;
     border: solid #f6e27a;
@@ -292,7 +302,6 @@ footer {
     padding-top: 20px;
     font-size: 28px;
     color: white;
-    
 }
 
 .social-networks i:hover {
@@ -301,16 +310,6 @@ footer {
     font-size: 28px;
     color: #f6e27a;
     transform: scale(1.5);
-    
-}
-
-#bf-logo {
-    background-color: #181a3d;
-    text-align: center!important;
-    box-shadow: 0 4px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    height: 250px;
-    width: 250px;
-    padding: 40px;
 }
 
 .bf-brand {
@@ -320,7 +319,7 @@ footer {
 }
 
 
-/*--------------Modal-------------*/
+/*---------------------------------------------Modal-----------------------------------------------------*/
 
 /*-----------------------------------Modal Header------------------------------*/
 .modal-header {
@@ -379,6 +378,7 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+/*---------------Show & Hide Displays of JS functions---------*/
 
 .hide {display:none;}
 
