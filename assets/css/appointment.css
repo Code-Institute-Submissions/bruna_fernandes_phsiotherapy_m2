@@ -198,7 +198,7 @@ p.nav-link-color {
 
 .appointment-heading {
     color: #6fc4a2!important;
-    margin: 15px;
+    padding: 2px;
     margin-bottom: 3rem;
 }
 
@@ -208,6 +208,7 @@ p.nav-link-color {
 
 .area-heading {
     color: #6fc4a2!important;
+    margin-bottom: 2rem;
 }
 
 .tip-text {
@@ -239,6 +240,7 @@ p.nav-link-color {
 }
 
 .form-send {
+    width: 70%;
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2!important;
@@ -482,7 +484,7 @@ a:hover {
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
-    margin-top: 12rem;
+    margin-top: 5rem;
 }
 
 
