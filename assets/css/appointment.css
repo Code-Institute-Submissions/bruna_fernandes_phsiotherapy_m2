@@ -46,7 +46,6 @@ html body {
 .sign-btn {
     border: groove #6fc4a2;
     border-radius: 15px;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     background-color: #1e203f;
     color: white;
     margin-bottom: 10px;
@@ -55,6 +54,7 @@ html body {
 
 .sign-btn:hover {
     color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 p.nav-link-color {
@@ -250,7 +250,6 @@ p.nav-link-color {
     border-color: #6fc4a2;
     border-style: groove;
     border-radius: 25px;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 /*------------------------Appointment form send button----------------------*/
@@ -278,7 +277,6 @@ div.card {
     margin-bottom: 0rem;
     margin-top: 3.9rem;
     background-color: #1e203f;
-    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
     border-style: solid;
     border-radius: 25px;
     border-color: #6fc4a2;
@@ -345,7 +343,7 @@ p.c19-form {
 .modal-header {
     background-color: #181a3d;
     color: #6fc4a2;
-    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
+    
 }
 
 .modal-body {
@@ -355,7 +353,6 @@ p.c19-form {
     padding: 1rem;
     background-color: #181a3d;
     color: #6fc4a2;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
 }
 
 .modal-content-sign {
