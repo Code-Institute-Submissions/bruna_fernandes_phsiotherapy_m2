@@ -189,7 +189,6 @@ p.nav-link-color {
     border-style: groove;
     border-radius: 25px;
     border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .btn-success-contact {
@@ -226,7 +225,6 @@ address {
     border-style: groove;
     border-radius: 25px;
     border-color: #6fc4a2;
-    box-shadow: 0 4px 50px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
     color: white;
     background-color: #1e203f;
     text-align: center;
@@ -421,10 +419,10 @@ button.btn.btn-success {
 /*----------------------MAP-------------------------*/
 
 #map {
-    justify-content: center;
+    margin: auto;
     margin-bottom: 2rem;
     height: 500px;
-    width: 100%;
+    width: 90%;
 }
 
 /*---------------------Footer Section---------------------------------------*/

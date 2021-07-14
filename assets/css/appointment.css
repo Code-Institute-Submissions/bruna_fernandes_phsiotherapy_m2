@@ -272,12 +272,14 @@ p.nav-link-color {
 /*---------------------------Service hours card--------------------------------*/
 div.card {
     position: relative;
-    height: 345px;    
+    height: 345px;
+    width: 100%;    
     padding-right: 10px;
-    margin-bottom: 0rem;
+    margin: auto;
     margin-top: 3.9rem;
     background-color: #1e203f;
     border-style: solid;
+    border-style: groove;
     border-radius: 25px;
     border-color: #6fc4a2;
 }
@@ -343,7 +345,7 @@ p.c19-form {
 .modal-header {
     background-color: #181a3d;
     color: #6fc4a2;
-    
+    box-shadow: 0 6px 20px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;
 }
 
 .modal-body {
@@ -353,6 +355,7 @@ p.c19-form {
     padding: 1rem;
     background-color: #181a3d;
     color: #6fc4a2;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%)!important;    
 }
 
 .modal-content-sign {
@@ -522,6 +525,9 @@ footer {
         border: solid #6fc4a2;
         margin-top: 5rem;
     }
+    div.card {
+        width: 65%;
+    }
 }
 
 /* Portrait */
@@ -551,6 +557,9 @@ footer {
         border: solid #6fc4a2;
         margin-top: 5rem;
         }
+div.card {
+    width: 70%;
+}
     }
 
 
