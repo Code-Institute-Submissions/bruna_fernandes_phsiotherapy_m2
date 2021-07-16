@@ -198,7 +198,7 @@ p.nav-link-color {
 }
 
 #client-testimonial-carousel {
-    min-height: 280px!important;
+    min-height: 410px!important;
     margin: 5px 0 10px!important;
     padding-top: 45px!important;
     border: solid transparent!important;
@@ -212,6 +212,10 @@ p.nav-link-color {
 
 blockquote {
     margin: -30px 0 1rem;
+}
+
+.mb-0 {
+    padding-bottom: 1rem;
 }
 
 /*---------------------Footer Section---------------------------------------*/
