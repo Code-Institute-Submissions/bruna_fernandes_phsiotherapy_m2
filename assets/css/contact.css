@@ -192,14 +192,15 @@ p.nav-link-color {
 }
 
 .btn-success-contact {
+    padding: .375rem .75rem;
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2;
     border-color: #6fc4a2!important;
-    border-radius: ;
 }
 
 .btn-success-contact:hover {
+    padding: .375rem .75rem;
     color: #fff;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
@@ -287,7 +288,7 @@ div.contact-card {
     color: #fff;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
 }
 
 /*--------------------Both input fields -> name and email ---------------------*/

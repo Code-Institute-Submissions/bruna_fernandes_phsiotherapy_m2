@@ -262,6 +262,16 @@ p.nav-link-color {
     margin-top: 5rem;
 }
 
+.form-send:hover {
+    width: 70%;
+    color: #fff;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: -2px 2px 30px 6px #39fd9bc9, 0 6px 20px 0px rgb(0 0 0 / 19%);
+    margin-top: 5rem;
+}
+
 /*------------------------Alignment of the form send button------------------*/
 .vertical-center {
     text-align: center;
