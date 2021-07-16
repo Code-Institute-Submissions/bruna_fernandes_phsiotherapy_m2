@@ -441,6 +441,7 @@ p.c19-form {
 }
 
 .btn-success-sign {
+    padding: .375rem .75rem;
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2;
@@ -448,6 +449,7 @@ p.c19-form {
 }
 
 .btn-success-sign:hover {
+    padding: .375rem .75rem;
     color: #fff;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
