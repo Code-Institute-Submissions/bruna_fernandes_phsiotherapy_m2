@@ -36,7 +36,12 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 -   ### Design
 
     -   #### Structure
-        - The stucture of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and easy to find what you are looking for. 
+        The stucture of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and           easy to find what you are looking for.
+        
+    -   #### Pages: All pages contained the following elements.
+        -   Header/Footer: Defining clean and simple navigation to what the user is looking for.
+        -   Website Brand Logo: On all pages the Brand logo sits on the Navbar and is a clickable link to redirect to the homepage.
+        -   Website Colors and Font: Website colors and font remain consistent throughout.
     
     -   #### Colour Scheme  
         -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout                 and where it was clean and simple and appealing to look at. I used a semi-dark green tone trim color with a dark blue background across all                     pages for consistency.
