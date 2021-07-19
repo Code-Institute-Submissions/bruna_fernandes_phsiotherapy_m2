@@ -62,13 +62,13 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
 -   Home Page Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/index.html-wireframe.png)
 
--   Main Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/main.html-balsamiq.png)
+-   Physio Page Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/fisio.html-wireframe.png)
 
--   Gallery Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/gallery.html-balsamiq.png) 
+-   Appointment Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/appointments.html-wireframe.png) 
 
--   About Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/about.html-balsamiq.png)
+-   Members Page Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/member.html-wireframe.png)
 
--   Contact Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/contact.html-balsamiq.png)
+-   Contact Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/bruna.html-wireframe.png)
 
 ## Features
 
