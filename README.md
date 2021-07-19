@@ -58,17 +58,17 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
    
         -   Imagery in this website is clear and intuitive for learning purposes
 
-## Wireframes
+### Wireframes
 
-           Home Page Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/index.html-balsamiq.png)
+-   Home Page Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/index.html-balsamiq.png)
 
-           Main Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/main.html-balsamiq.png)
+-   Main Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/main.html-balsamiq.png)
 
-           Gallery Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/gallery.html-balsamiq.png) 
+-   Gallery Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/gallery.html-balsamiq.png) 
 
-           About Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/about.html-balsamiq.png)
+-   About Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/about.html-balsamiq.png)
 
-           Contact Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/contact.html-balsamiq.png)
+-   Contact Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/contact.html-balsamiq.png)
 
 ## Features
 
