@@ -56,7 +56,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         
     -   #### Imagery
    
-        -   Imagery in this website is clear and intuitive for learning purposes.
+        -   Imagery in this website is clear and intuitive for learning purposes
 
 ## Wireframes
 
