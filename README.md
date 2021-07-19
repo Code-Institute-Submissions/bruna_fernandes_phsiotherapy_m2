@@ -12,12 +12,12 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
     -   #### First Time Visitor Goals
 
-        1. As a first time user, I wanted first impressions to be appealing, the idea being that it won't intimidate the user with an overload of content.
-        2. As a first time user, I want the user to be able to easily navigate throughout the site to find content and services the user is looking for.
-        3. As a first time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page outside of the                  website.
-        4. As a first time user, I want the user to be able to understand the experience of Bruna Fernandes, her professional background and qualifications
-        5. As a first time user, I want the user to be able to book an appointment with a few clicks and a form submission.
-        6. As a first time user, I want the user to be able to submit a contact form for any issues outside of making an appointment.
+        -   As a first time user, I wanted first impressions to be appealing, the idea being that it won't intimidate the user with an overload of content.
+        -   As a first time user, I want the user to be able to easily navigate throughout the site to find content and services the user is looking for.
+        -   As a first time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page outside of the                   website.
+        -   As a first time user, I want the user to be able to understand the experience of Bruna Fernandes, her professional background and qualifications
+        -   As a first time user, I want the user to be able to book an appointment with a few clicks and a form submission.
+        -   As a first time user, I want the user to be able to submit a contact form for any issues outside of making an appointment.
 
     -   #### Returning Visitor Goals
 
@@ -46,6 +46,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         -   Website Colors and Font: Website colors and font remain consistent throughout.
     
     -   #### Colour Scheme
+    
         -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The members page was                   colored in gold representing the status of members, VIP etc.
         
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
@@ -82,6 +83,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS](https://en.wikipedia.org/wiki/CSS)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -91,6 +93,8 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
      - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1.  [Google Fonts:](https://fonts.google.com/)
      - Google fonts were used to import the Concert One' font into the style.css file which is used on all pages throughout the project.
+1.  [Google Maps API:](https://developers.google.com/maps)
+     - Google Maps API was used to import the Google Maps and functionality with map markers on the contact.html page.
 1.  [Font Awesome:](https://fontawesome.com/)
      - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1.  [jQuery:](https://jquery.com/)
@@ -100,7 +104,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 1.  [GitHub:](https://github.com/)
      - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/wireframes) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during         the design process.
 
 ## Testing
 
