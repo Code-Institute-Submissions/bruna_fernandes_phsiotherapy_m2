@@ -14,7 +14,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
         1. As a first time user, I wanted first impressions to be appealing, the idea being that it won't intimidate the user with an overload of content.
         2. As a first time user, I want the user to be able to easily navigate throughout the site to find content and services the user is looking for.
-        3. As a first time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page              outside of the website.
+        3. As a first time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page outside of the                  website.
         4. As a first time user, I want the user to be able to understand the experience of Bruna Fernandes, her professional background and qualifications
         5. As a first time user, I want the user to be able to book an appointment with a few clicks and a form submission.
         6. As a first time user, I want the user to be able to submit a contact form for any issues outside of making an appointment.
@@ -24,9 +24,10 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         1. As a Returning Visitor, I want to find information physiotherapy and services offered by Bruna Fernandesd.
         2. As a Returning Visitor, I want to find the best way to get in contact with the website for any questions the user may have.
         3. As a Returning Visitor, I want to be able to book appointments for current and future appointments.
-        4. As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-                depth information on types of services and methods that they can receive at discount prices.
+        4. As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
 
     -   #### Frequent User Goals
+    -   
         1. As a Frequent User, I want to check to see if there are any updated videos on the members page for fitness and strength purposes.
         2. As a Frequent User, I want to check to see if there are updated physiotherapy methods and information in the members page.
         3. As a Frequent User, I want to be able to contact the owner on queries through a contact page.
@@ -36,7 +37,8 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 -   ### Design
 
     -   #### Structure
-        The stucture of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and easy to find what you are looking for.
+    
+        -   The stucture of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and easy to find                 what you are looking for.
         
     -   #### Pages: All pages contained the following elements.
         -   Header/Footer: Defining clean and simple navigation to what the user is looking for.
@@ -46,10 +48,14 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
     -   #### Colour Scheme  
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
-        -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was clean and simple and appealing to look at. I used a semi-dark green tone trim color with a dark blue background across all pages for consistency.
+        -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a semi-dark green tone trim color with a dark blue background across all pages for consistency.
+        
     -   #### Typography
-        -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any reason the font isn't being recognized. Bree Serif           is a professional looking font, it has characteristics that speak "professional", I like the shape and the style of the font.
+    
+        -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any reason the font isn't being recognized. Bree Serif              is a professional looking font, it has characteristics that speak "professional", I like the shape and the style of the font.
+        
     -   #### Imagery
+   
         -   Imagery in this website across all content was to be fun and friendly.
 
 *   ### Wireframes
