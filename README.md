@@ -46,19 +46,19 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         -   Website Colors and Font: Website colors and font remain consistent throughout.
     
     -   #### Colour Scheme
-        -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a semi-dark green tone trim color with a dark blue background across all pages for consistency.
+        -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The members page was                   colored in gold representing the status of members, VIP etc.
         
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
     -   #### Typography
     
-        -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any reason the font isn't being recognized. Bree Serif              is a professional looking font, it has characteristics that speak "professional", I like the shape and the style of the font.
+        -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any reason the font isn't being recognized on                      different operating systems. Bree Serif is a professional looking font, it has characteristics that speak "professional", I like the shape and the style of the                  font and I feel it represents the professionalism I am looking to create.
         
     -   #### Imagery
    
-        -   Imagery in this website across all content was to be fun and friendly.
+        -   Imagery in this website is clear and intuitive for learning purposes.
 
-*   ### Wireframes
+## Wireframes
 
     -   Home Page Wireframe - [view](https://browser-chocolate-gull-sn5rhfsf.ws-eu03.gitpod.io/workspace/glutonia_m1/assets/wireframes/index.html-balsamiq.png)
 
