@@ -21,18 +21,18 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information physiotherapy and services offered by Bruna Fernandesd.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the website for any questions the user may have.
-        3. As a Returning Visitor, I want to be able to book appointments for current and future appointments.
-        4. As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
+        -   As a Returning Visitor, I want to find information physiotherapy and services offered by Bruna Fernandesd.
+        -   As a Returning Visitor, I want to find the best way to get in contact with the website for any questions the user may have.
+        -   As a Returning Visitor, I want to be able to book appointments for current and future appointments.
+        -   As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
 
     -   #### Frequent User Goals
-    -   
-        1. As a Frequent User, I want to check to see if there are any updated videos on the members page for fitness and strength purposes.
-        2. As a Frequent User, I want to check to see if there are updated physiotherapy methods and information in the members page.
-        3. As a Frequent User, I want to be able to contact the owner on queries through a contact page.
-        4. As a Frequent User, I want to be able to book appointments when I feel the need.
-        5. As a Frequent User, I want to to be able to check further membership discounts on services in the clinic or at-home.
+    
+        -   As a Frequent User, I want to check to see if there are any updated videos on the members page for fitness and strength purposes.
+        -   As a Frequent User, I want to check to see if there are updated physiotherapy methods and information in the members page.
+        -   As a Frequent User, I want to be able to contact the owner on queries through a contact page.
+        -   As a Frequent User, I want to be able to book appointments when I feel the need.
+        -   As a Frequent User, I want to to be able to check further membership discounts on services in the clinic or at-home.
 
 -   ### Design
 
@@ -45,7 +45,8 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         -   Website Brand Logo: On all pages the Brand logo sits on the Navbar and is a clickable link to redirect to the homepage.
         -   Website Colors and Font: Website colors and font remain consistent throughout.
     
-    -   #### Colour Scheme  
+    -   #### Colour Scheme
+      
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
         -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a semi-dark green tone trim color with a dark blue background across all pages for consistency.
