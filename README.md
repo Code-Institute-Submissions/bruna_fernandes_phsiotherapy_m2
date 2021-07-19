@@ -68,7 +68,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
 -   Members Page Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/member.html-wireframe.png)
 
--   Contact Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/bruna.html-wireframe.png)
+-   Bruna Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/bruna.html-wireframe.png)
 
 ## Features
 
