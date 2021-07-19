@@ -44,8 +44,8 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
         -   Website Colors and Font: Website colors and font remain consistent throughout.
     
     -   #### Colour Scheme  
-
-            <h2 align="center"><img src="https://github.com/Elippsis007/workspace/bruna_fernandes_phsiotherapy_m2/assets/colors/palette_colors.png></h2>
+            <h2 align="center"><img                                                                                                           src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?                 raw=true"></h2>
+            
         -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep             it consistent throughout and where it was clean and simple and appealing to look at. I used a semi-dark green tone                 trim color with a dark blue background across all pages for consistency.
     -   #### Typography
         -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any                  reason the font isn't being recognized. Bree Serif is a professional looking font, it has characteristics that speak              "professional", I like the shape and the style of the font.
