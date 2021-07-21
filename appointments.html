@@ -94,62 +94,60 @@
         </div>
     </div>
       <div class="container-fluid">
-        <section>
-          <div class="row justify-content-around">
+        <div class="row justify-content-around">
             <div class="col-sm-12 col-md-6 col-lg-6">
               <form class="form-text" action="post">
                 <h2 class="appointment-heading">Appointment Request</h2>
                 <label for="post"> Name: <input id="post" class="app-input" type="text" name="first" size="25" maxlength="50" placeholder="Enter your full name" required>
                 </label>
                 <br />
-                <label for="post"> Email: <input id="post" class="app-input" type="email" name="email" size="25" maxlength="50" placeholder="Enter your email address" required>
+                <label> Email: <input class="app-input" type="email" name="email" size="25" maxlength="50" placeholder="Enter your email address" required>
                 </label>
                 <br />
                 <br>
                 <h4 class="problem-heading">What seems to be the problem?</h4>
                 <p>
-                  <select name="service" id="problem" required>
+                  <select name="service" id="question" required>
                     <option class="prob-option" value="">Select this dropdown</option>
                     <option class="prob-option" value="">Consultation</option>
                     <option class="prob-option" value="">Query</option>
                     <option class="prob-option" value="">Emergency request</option>
                   </select>
                 </p>
-                <p>
+                
                 <h4 class="area-heading">What areas are you experiencing pain in?</h4>
                 <ul style="list-style: none;">
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="neck"> Neck Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="neck"> Neck Pain </label>
                   </li>
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="back"> Back Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="back"> Back Pain </label>
                   </li>
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="arm"> Arm Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="arm"> Arm Pain </label>
                   </li>
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="shoulder"> Shoulder Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="shoulder"> Shoulder Pain </label>
                   </li>
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="leg"> Leg Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="leg"> Leg Pain </label>
                   </li>
                   <li>
-                    <label for="">
-                      <input id="" type="checkbox" name="pain-area" value="foot"> Foot Pain </label>
+                    <label>
+                      <input type="checkbox" name="pain-area" value="foot"> Foot Pain </label>
                   </li>
                 </ul>
-                </p>
-                <p>
-                  <label for="">
+                
+                
                     <h4 class="time-heading">What time would you prefer your appointment for..</h4>
-                  </label>
+                  
                   <select name="service" id="problem" required>
-                    <option class="prob-option" value="#">Select this dropdown</option>
+                    <option class="prob-option" value="">Select this dropdown</option>
                     <option class="prob-option" value="">09:00</option>
                     <option class="prob-option" value="">10:00</option>
                     <option class="prob-option" value="">11:00</option>
@@ -161,7 +159,7 @@
                     <option class="prob-option" value="">17:00</option>
                     <option class="prob-option" value="">Close of Business</option>
                   </select>
-                </p>
+                
                 <h4 class="app-question">What date would you like to schedule your appointment for?</h4>
                 <p class="tip-text">*Click the date button below, select your preferred date, to save click the date button again</p>
                 <!-- Wrapper for the date object picker, will allow to put any place on the page, styling for however I want -->
@@ -184,7 +182,7 @@
                 </div>
                 <br>
                 <div class="vertical-center">
-                  <button type="button" data-toggle="modal" data-target="#appConfirm"" class=" form-send" value="Send">Send</button>
+                  <button type="button" data-toggle="modal" data-target="#appConfirm" class=" form-send" value="Send">Send</button>
                 </div>
               </form>
             </div>
@@ -206,7 +204,7 @@
                   <li>We are asking patients to swipe/tap their own private health cards rather than passing their cards to administrative staff.</li>
                   <li>No pens will be shared. If you are required to fill out a form, you can keep your pen as a momento.</li>
                 </ul>
-                <p class="c19-form">*It is mandatory for all appoinments that this C19 Declaration is completed and returned to us via email. <a href="assets/download/C19 Self Declaration Form.pdf" target="_blank" class="c19-pdf"> Click here for the C19 form <i class="fa fa-download" aria-hidden="true"></i>
+                <p class="c19-form">*It is mandatory for all appoinments that this C19 Declaration is completed and returned to us via email. <a href="assets/download/C19SelfDeclarationForm.pdf" target="_blank" class="c19-pdf"> Click here for the C19 form <i class="fa fa-download" aria-hidden="true"></i>
                     <span class="sr-only"></span>
                   </a>
                 </p>
@@ -214,43 +212,43 @@
               <div class="card service mr-auto">
                 <h2 class="service-hours">Service Hours</h2>
                 <table class="opening-hours-table">
-                  <tr id="weekday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                  <tr id="weekday" title="Open Monday at 9am to 6pm">
                     <td class="day">Monday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                  <tr id="weekday" title="Open Tuesday at 9am to 6pm">
                     <td class="day">Tuesday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                  <tr id="weekday" title="Open Wednesday at 9am to 6pm">
                     <td class="day">Wednesday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                  <tr id="weekday" title="Open Thursday at 9am to 8pm">
                     <td class="day">Thursday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                  <tr id="weekday" title="Open Friday at 9am to 6pm">
                     <td class="day">Friday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                  <tr id="weekday" title="Open Saturday at 10am to 6pm">
                     <td class="day">Saturday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
                     <td class="closes">18:00</td>
                   </tr>
-                  <tr id="weekday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                  <tr id="weekday" title="Open Sunday at 11am to 4pm">
                     <td class="day">Sunday</td>
                     <td class="opens">09:00</td>
                     <td class="time-sep">-</td>
@@ -258,16 +256,15 @@
                   </tr>
                 </table>
                 <h2 class="phone-heading">
-                  <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2" ;>
-                    <a class="number" href="tel:00 55 67 99150 7546">00 55 67 99150-7546</a>
+                  <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2">
+                    <a class="number" href="tel:005567991507546">00 55 67 99150-7546</a>
                   </i>
                 </h2>
               </div>
             </div>
           </div>
       </div>
-      </section>
-      </div>
+      
       <div class="modal" tabindex="-1" id="appConfirm">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -280,7 +277,7 @@
                   <p>You're are now booked in for the date and time selected.</p>
                   <p>In a few moments you will receive a confirmation email of your appointment booking for your reference.</p>
                   <div class="app-gif">
-                    <img src="assets/images/appointment/confirmed-tick.gif">
+                    <img src="assets/images/appointment/confirmed-tick.gif" alt="a gif image of a green tick" >
                   </div>
                   <p class="rem-p">* <span class="text-muted">Reminder -</span> Please ensure that you have completed the C19 Declaration and sent to us before arriving at your appointment. If we don't receive this from your we cannot proceed with your appointment </p>
                 </div>
