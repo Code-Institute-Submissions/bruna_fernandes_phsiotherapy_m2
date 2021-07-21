@@ -53,7 +53,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
             
     -   #### Typography
     
-        -    Bree Serif is the main font used throughout the whole website with San-serif as the fallback font in case for any reason the font isn't being recognized on                      different operating systems. Bree Serif is a professional looking font, it has characteristics that speak "professional", I like the shape and the style of the                  font and I feel it represents the professionalism I am looking to create.
+        -   [Bree Serif](https://fonts.google.com/specimen/Bree+Serif?query=bree) is the main font used throughout the whole website with San-serif as the fallback font in                   case for any reason the font isn't being recognized on different operating systems. Bree Serif is a professional looking font, it has characteristics that speak                 "professional", I like the shape and the style of the font and I feel it represents the professionalism I am looking to create.
         
     -   #### Imagery
    
@@ -98,8 +98,11 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 1.  [Font Awesome:](https://fontawesome.com/)
      - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1.  [JavaScript:](https://en.wikipedia.org/wiki/JavaScript)
-     - JavaScript was used on this website heavily for a functioning calendar on the appointment.html page.
-     - It was also used to greet members on the members.html page depending on the time of the day (Good morning, Good afternoon etc..)
+     - JavaScript was used on this website for a functioning calendar with the option to select a date.
+     - JavaScript was used with Email.js for the fully functional Contact Us form.
+     - JavaScript was used to greet members on the members.html page. Depending on the time of the day the message would greet with morning, afternoon and evening.
+     - JavaScript was used on the members.html page when a user clicks a button on each image a paragraph will collapse under the image with information on each service.
+     - JavaScript was used with Google Maps to display on the contact.html page.
 1.  [jQuery:](https://jquery.com/)
      - For the components of Bootstrap to work it requires jQuery and Popper.js through JS.
 1.  [Git](https://git-scm.com/)
@@ -107,7 +110,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 1.  [GitHub:](https://github.com/)
      - GitHub is used to store the projects code after being pushed from Git.
 1.  [Balsamiq:](https://balsamiq.com/)
-     - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during         the design process.
+     - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during the design process.
 
 ## Testing
 
