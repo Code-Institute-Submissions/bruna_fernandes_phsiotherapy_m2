@@ -1,215 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
-maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruna Fernandes Fisioteropia | Welcome</title>
     <link rel="stylesheet" href="assets/css/fisio.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-
-<body>
-    
+  <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
-        <a href="index.html" class="navbar-brand"><img src="assets/images/bf-logo (1).png" height="60" width="60" class="nav-img" alt=""></a>
-        <!----ml-auto will push this button to the right------data toggle tells Bootstrap that it will be used as a trigger for a collapsable element on the page------------->
-        <!----data-target is the ID of the collapsible element-----aria = accessible rich internet applications provides accessibility options to screen readers----->
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target ="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <!-----inside the span we create a class that gives us the icon, our burger button----->
-        <span class="navbar-toggler-icon"></span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/bf-logo(1).png" height="60" width="60" class="nav-img" alt="">
+      </a>
+      <!-- ml-auto will push this button to the right / data toggle tells Bootstrap that it will be used as a trigger for a collapsable element on the page -->
+      <!-- data-target is the ID of the collapsible element / aria = accessible rich internet applications provides accessibility options to screen readers -->
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- inside the span we create a class that gives us the icon, our burger button -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="index.html">Home</a></li>
-                         
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-link-color" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                           <a class="dropdown-item nav-link-color" href="appointments.html"> Appointments</a>
-                        </div>
-                </li>
-            
-            <li class="nav-item mr-2"><a class="nav-link nav-link-color" href="members.html">Members</a></li>
-
-               <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle nav-link-color" href="about.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="nav-link nav-link-color" href="bruna.html">Bruna Fernandes</a> 
-                        <a class="nav-link nav-link-color" href="contact.html">Contact</a> 
-                    </div>
-                </li>            
-
-            
-            <!---Will only display on a mob device with "d-block + d-sm-none--->
-            <li class="nav-item mr-auto d-block d-sm-none"> <button data-toggle="modal" data-target="#signUpModal" class="sign-btn"><p class="nav-link-color" class="sign-btn">Sign In / Sign Up</p></button></li>
+          <li class="nav-item mr-2">
+            <a class="nav-link nav-link-color" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link-color" href="services.html" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item nav-link-color" href="appointments.html"> Appointments</a>
+            </div>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link nav-link-color" href="members.html">Members</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-link-color" href="about.html" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <a class="nav-link nav-link-color" href="bruna.html">Bruna Fernandes</a>
+              <a class="nav-link nav-link-color" href="contact.html">Contact</a>
+            </div>
+          </li>
+          <!-- Will only display on a mob device with "d-block + d-sm-none -->
+          <li class="nav-item mr-auto d-block d-sm-none">
+            <button data-toggle="modal" data-target="#signUpModal" class="sign-btn nav-link-color"> Sign In / Sign Up </button>
+          </li>
         </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <button data-toggle="modal" data-target="#signUpModal" class="sign-btn">Sign In / Sign Up</button>
-        </div>    
+      </div>
+      <div class="d-none d-md-block">
+        <button data-toggle="modal" data-target="#signUpModal" class="sign-btn">Sign In / Sign Up</button>
+      </div>
     </nav>
-
     <main class="container-fluid">
-
-    <div class="container marketing mt-5">
-
+      <div class="container marketing mt-5">
         <!-- Three columns of text below -->
         <div class="row">
           <div class="col-lg-4 text-center">
             <img class="rounded-circle" src="assets/images/fisio-images/physio_new.jpg" alt="Generic placeholder image">
             <h2 class="h2-fisio">Pysiotherapy</h2>
             <p>At Bruna Fernandes Fisioteropia her goal is to provide you with a clear diagnosis and a comprehensive treatment plan so that you can recover from your injury successfully.</p>
-            <a href="#fisio" role="button"><button class="fisio-btn">Jump to...</button></a>
-          </div><!-- /.col-lg-4 -->
+              <button class="fisio-btn"><a href="#fisio" role="button">Jump to...</a></button>
+            </div>
+          <!-- /.col-lg-4 -->
           <div class="col-lg-4 text-center">
             <img class="rounded-circle" src="assets/images/fisio-images/pilates-new.jpg" alt="Generic placeholder image">
             <h2 class="h2-fisio">Pilates</h2>
             <p>Pilates is a method of exercise that consists of low-impact flexibility and muscular strength and endurance movements. Pilates emphasizes proper postural alignment, core strength and muscle balance.</p>
-            <a href="#pilates" role="button"><button class="fisio-btn">Jumpt to...</button></a>
-          </div><!-- /.col-lg-4 -->
+            <button class="fisio-btn"><a href="#pilates" role="button">Jump to...</a></button>
+            </div>
+          <!-- /.col-lg-4 -->
           <div class="col-lg-4 text-center">
             <img class="rounded-circle" src="assets/images/fisio-images/virtual-tours-icon-live.png" alt="Generic placeholder image">
             <h2 class="h2-fisio">Home Service</h2>
             <p>Home-based physiotherapy services reduce health care costs by keeping people independent in their homes, preventing falls and providing a safe environment within the home</p>
-            <a href="#home-service" role="button"><button class="fisio-btn">Jump to...</button></a>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
+            <button class="fisio-btn"><a href="#home-service" role="button">Jump to...</a></button>
+            </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
         <!-- START THE FEATURETTES -->
-
         <hr class="featurette-divider">
-
         <section id="fisio">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Physiotherapy</h2>
-            <p class="lead">Physiotherapy Treatment includes many techniques such as massage, manipulation and neuromuscular release therapy. 
-              Every patient Bruna treats and every injury/condition that is seen is treated on an individual case-by-case basis. 
-              Therefore Bruna may also utilise the likes of acupuncture/dry needling, exercise therapy, laser therapy and ultrasound therapy if it is clinically indicated. 
-              All of this will be discussed with you and explained to you as part of your treatment plan. 
-              Bruna Fernandes Fisioteropia also offera a Physio at Home service across Mato Gorsso Du Sol where she will come to your home to treat you are a loved one there.</p>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Physiotherapy</h2>
+              <p class="lead">Physiotherapy Treatment includes many techniques such as massage, manipulation and neuromuscular release therapy. Every patient Bruna treats and every injury/condition that is seen is treated on an individual case-by-case basis. Therefore Bruna may also utilise the likes of acupuncture/dry needling, exercise therapy, laser therapy and ultrasound therapy if it is clinically indicated. All of this will be discussed with you and explained to you as part of your treatment plan. Bruna Fernandes Fisioteropia also offera a Physio at Home service across Mato Gorsso Du Sol where she will come to your home to treat you are a loved one there.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto mt-3" id="img-circle" src="assets/images/fisio-images/physio2-image.jpg" alt="Generic placeholder image">
+            </div>
           </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto mt-3" id="img-circle" src="assets/images/fisio-images/physio2-image.jpg" alt="Generic placeholder image">
-          </div>
-        </div>
         </section>
-
         <hr class="featurette-divider">
-
         <section id="pilates">
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Pilates</h2>
-            <p class="lead">Pilates classes will strengthen your whole body – from head to toe. With Pilates training, 
-            every muscle in your body is evenly balanced and conditioned. Your muscles are never over-trained or under-trained.
-            Pilates helps you enjoy daily activities, and sport, with greater ease and reduced chance of injury.  And most importantly, improved performance. 
-            This is why so many professional sports teams and elite athletes now use Pilates classes as an essential part of their fitness training.</p>
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Pilates</h2>
+              <p class="lead">Pilates classes will strengthen your whole body – from head to toe. With Pilates training, every muscle in your body is evenly balanced and conditioned. Your muscles are never over-trained or under-trained. Pilates helps you enjoy daily activities, and sport, with greater ease and reduced chance of injury. And most importantly, improved performance. This is why so many professional sports teams and elite athletes now use Pilates classes as an essential part of their fitness training.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto mt-3" src="assets/images/fisio-images/all-reformer-pilates.jpg" alt="Generic placeholder image">
+            </div>
           </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto mt-3" src="assets/images/fisio-images/all-reformer-pilates.jpg" alt="Generic placeholder image">
-          </div>
-        </div>
         </section>
-
-
         <hr class="featurette-divider">
-
         <section id="home-service">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Home Service</h2>
-            <p class="lead">Bruna provides a physiotherapy home visit service that is ideally suited to patients who are unable, 
-              for whatever reason, to make it into her own physiotherapy clinic. Bruna will handle Home Visits on a case by case basis by appointment only 
-              with each visit lasting for 60 minutes. This is a specialist physiotherapy home visit service dedicated to providing high quality domiciliary based care 
-              in the Mato Gorsso du Sol region</p>
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Home Service</h2>
+              <p class="lead">Bruna provides a physiotherapy home visit service that is ideally suited to patients who are unable, for whatever reason, to make it into her own physiotherapy clinic. Bruna will handle Home Visits on a case by case basis by appointment only with each visit lasting for 60 minutes. This is a specialist physiotherapy home visit service dedicated to providing high quality domiciliary based care in the Mato Gorsso du Sol region</p>
             </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto mt-3 mb-5" src="assets/images/fisio-images/home-service.jpg" alt="Generic placeholder image">
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid mx-auto mt-3 mb-5" src="assets/images/fisio-images/home-service.jpg" alt="Generic placeholder image">
+            </div>
+            <div class="col-md-5 benefits">
+              <h2 class="h-benefits">Benefits of Home Visits</h2>
+              <ul class="ben-list">
+                <li>Seen in the comfort of your own home</li>
+                <li>Target specific issues with daily living</li>
+                <li>Tailored Treatment and exercise plan</li>
+                <li>Individual assessments</li>
+                <li>Assement of your home surroundings</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-5 benefits">
-            <h2 class="h-benefits">Benefits of Home Visits</h2>
-            <ul class="ben-list">
-              <li>Seen in the comfort of your own home</li>
-              <li>Target specific issues with daily living</li>
-              <li>Tailored Treatment and exercise plan</li>
-              <li>Individual assessments</li>
-              <li>Assement of your home surroundings</li>
-            </ul>
-          </div>
-        </div>
         </section>
-
-
-
-        </main>
-
-
-
-         <!-----Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body---->
- <!-----A modal is described as being an island of content that sits in the middle of the page. The modal is hidden by default----->   
- <div class="modal" tabindex="-1" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Up to BF Fisioteropia!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
-                            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-success">Submit</button>
-                        </form>
-                </div>
-            </div>
+      </div>
+    </main>
+    <!-- Modal dialogue goes here because it captures the entire screen so it needs to be a top-level element in the body -->
+    <!-- A modal is described as being an island of content that sits in the middle of the page. The modal is hidden by default -->
+    <div class="modal" tabindex="-1" id="signUpModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign Up to BF Fisioteropia!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
+                <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+              </div>
+              <div class="form-group">
+                <label for="repeatPassword">Repeat Password</label>
+                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
         </div>
-</div>
-
-
-
-
-<footer class="footer fixed container-fluid">
+      </div>
+    </div>
+    <footer class="footer fixed container-fluid">
       <ul class="social-networks">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> </a>
-                </li>
-            </ul> 
-</footer>
-    
+        <li>
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-</body>
+  </body>
 </html>
