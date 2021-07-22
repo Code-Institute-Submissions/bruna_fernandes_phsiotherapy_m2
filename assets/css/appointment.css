@@ -522,7 +522,7 @@ a:hover {
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
-    margin-top: 17rem;
+    margin-top: 11rem;
 }
 
 
@@ -673,6 +673,11 @@ div.card {
     div.card {
         width: 50%;
     }
+    footer {
+        background-color: #1e203f;
+        border: solid #6fc4a2;
+        margin-top: 11rem;
+    }
 }
 
 @media only screen 
@@ -683,3 +688,4 @@ div.card {
         width: 80%;
     }
 }
+

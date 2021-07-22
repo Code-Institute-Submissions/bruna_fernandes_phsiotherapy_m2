@@ -160,7 +160,7 @@ p {
     color:transparent;
     -webkit-background-clip:text;
  };
-
+ 
 /*-----------------------------Card body --------------------------*/ 
 .card-body {
     -ms-flex: 1 1 auto;
@@ -185,6 +185,10 @@ p {
     border-radius: .25rem;
     box-shadow: 0 0px 8px 0 #f6e27a, 0 6px 20px 0 rgb(0 0 0 / 19%);
     cursor: pointer;
+}
+
+s {
+    color: red;
 }
 
 /*--------------Dropdown paragraph after click----------------------*/
@@ -383,3 +387,8 @@ footer {
 .hide {display:none;}
 
 .show {display:block;}
+
+/*---------------------------------iframe border for YouTube videos-----------------------------*/
+iframe {
+    border-width: 0px;
+}
