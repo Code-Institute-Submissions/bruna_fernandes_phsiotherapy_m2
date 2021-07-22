@@ -294,7 +294,7 @@ div.card {
     border-color: #6fc4a2;
 }
 
-#weekday {
+.weekday {
     color: #6fc4a2;
     text-align: center;
 }
@@ -522,7 +522,7 @@ a:hover {
 footer {
     background-color: #1e203f;
     border: solid #6fc4a2;
-    margin-top: 5rem;
+    margin-top: 17rem;
 }
 
 
@@ -564,7 +564,7 @@ footer {
     footer {
         background-color: #1e203f;
         border: solid #6fc4a2;
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
     div.card {
         width: 65%;
