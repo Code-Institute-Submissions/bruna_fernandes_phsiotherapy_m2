@@ -55,6 +55,10 @@ p.nav-link-color {
     padding-bottom: 2px;
 }
 
+.asterisk {
+    color: red;
+}
+
 /*---------------------Navbar Dropdown Menu-----------------------------------*/
 .dropdown-menu {
     position: absolute;

@@ -57,6 +57,21 @@ html body {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+.asterisk {
+    color: red;
+}
+
+.signup-btn-center {
+    text-align: center!important;
+}
+
+.modal-text {
+    background: #181a3d;
+    display: block;
+    color: whitesmoke;
+    padding: 10px;
+}
+
 p.nav-link-color {
     margin-top: 0px;
     margin-bottom: 3px;
@@ -441,6 +456,7 @@ p.c19-form {
 }
 
 .btn-success-sign {
+    width: 50%;
     padding: .375rem .75rem;
     color: #fff;
     border-radius: 25px!important;

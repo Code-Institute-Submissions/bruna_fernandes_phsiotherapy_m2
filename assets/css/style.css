@@ -276,6 +276,10 @@ footer {
     opacity: 10!important;
 }
 
+.asterisk {
+    color: red;
+}
+
 /*-----------------------------------Modal Body------------------------------*/
 
 .modal-body {
@@ -292,7 +296,12 @@ footer {
     color: whitesmoke;
 }
 
+.signup-btn-center {
+    text-align: center!important;
+}
+
 .btn-success {
+    width: 50%;
     color: #fff;
     border-radius: 25px!important;
     background-color: #6fc4a2!important;
@@ -305,7 +314,6 @@ footer {
     border-color: #6fc4a2!important;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-
 
 /*-------------------------------Media Query-----------------------*/
 

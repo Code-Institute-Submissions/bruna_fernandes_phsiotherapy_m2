@@ -352,6 +352,10 @@ footer {
     opacity: 10!important;
 }
 
+.asterisk {
+    color: red;
+}
+
 /*-----------------------------------Modal body------------------------------*/
 
 .modal-body {

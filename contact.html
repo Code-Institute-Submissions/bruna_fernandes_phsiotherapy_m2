@@ -72,7 +72,7 @@
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" name="emailaddress" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
-                <small id="emailHelp">We'll never share your email with anyone else.</small>
+                <small id="emailHelp" class="modal-text"><span class="asterisk">*</span>We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
                 <label for="password">Password</label>
@@ -82,7 +82,9 @@
                 <label for="repeatPassword">Repeat Password</label>
                 <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
               </div>
+              <div class="signup-btn-center">
               <button type="submit" class="btn-contact btn-success-contact">Submit</button>
+            </div>
             </form>
           </div>
         </div>
@@ -101,13 +103,10 @@
             <br />
             <br>
             <h2 class="contact-heading">Message box</h2>
-            <span>
-              <textarea name="contactsummary" class="message-box" id="message" cols="50" rows="10" placeholder="Type your message here (optional)"></textarea>
-              <span class="contact-btn">
-                <button type="submit" data-toggle="modal" data-target="#appConfirm" class="form-send" value="Send">Send</button>
-              </span>
-            </span>
-            <br>
+            <textarea name="contactsummary" class="message-box" id="message" cols="50" rows="10" placeholder="Type your message here (optional)"></textarea>
+            <div class="btn-center">
+              <button type="submit" data-toggle="modal" data-target="#appConfirm" class="form-send" value="Send">Send</button>
+            </div>
             <br>
             <div class="app-div">
               <h2 class="form-appointment">Appointments</h2>
@@ -121,11 +120,12 @@
           <div class="card" id="address">
             <h2 class="call-heading">Address & Contact Number</h2>
             <address>
-              <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2">
-                <a class="number" href="tel:005567991507546">00 55 67 99150-7546</a>
-              </i>
               <p> 44, Travessa Pombo, <br> Campo Grande, <br> Mato Grosso du Sol, <br> Minas Gerales, <br> Brazil </p>
             </address>
+            <i class="fas fa-phone fa icon-align-center" style="color: #6fc4a2">
+              <a class="number" href="tel:005567991507546">00 55 67 99150-7546</a>
+            </i>
+            <br>
             <div id="map"></div>
           </div>
         </div>
