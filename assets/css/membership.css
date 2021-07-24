@@ -159,7 +159,7 @@ p {
      );
     color:transparent;
     -webkit-background-clip:text;
- };
+ }
  
 /*-----------------------------Card body --------------------------*/ 
 .card-body {
@@ -256,7 +256,6 @@ s {
 .fa-arrow-up:before {
     content: "\f062";
     font-size: 33px;
-    line-height: -1px;
 }
 
 
@@ -283,7 +282,7 @@ span {
      );
     color:transparent;
     -webkit-background-clip:text;
- };
+ }
   
 /*---------------------Footer Section---------------------------------------*/
 
@@ -343,13 +342,11 @@ footer {
     line-height: 1;
     color: white!important;
     text-shadow: 0 1px 0 #fff;
-    opacity: 10!important;
 }
 
 .close:hover {
     color: #6fc4a2!important;
     text-shadow: 0 1px 0 #6fc4a2!important;
-    opacity: 10!important;
 }
 
 .asterisk {

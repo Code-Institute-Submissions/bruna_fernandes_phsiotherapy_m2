@@ -198,7 +198,7 @@ p.nav-link-color {
 }
 
 #client-testimonial-carousel {
-    min-height: 400px!important;
+    min-height: 370px!important;
     margin: 5px 0 10px!important;
     padding-top: 45px!important;
     border: solid transparent!important;
@@ -267,13 +267,11 @@ footer {
     line-height: 1;
     color: white!important;
     text-shadow: 0 1px 0 #fff;
-    opacity: 10!important;
 }
 
 .close:hover {
     color: #6fc4a2!important;
     text-shadow: 0 1px 0 #6fc4a2!important;
-    opacity: 10!important;
 }
 
 .asterisk {
@@ -329,6 +327,16 @@ footer {
         }
     }
 
+    @media only screen 
+    and (min-width: 280px) 
+    and (max-height: 653px) 
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+    #client-testimonial-carousel {
+        min-height: 425px!important;
+        margin: 5px 0 10px!important;
+        padding-top: 45px!important;
+    }    
+
 /* Pixel 2 - Used to manage the margin-height on this screen size*/
 @media only screen
     and (min-width: 411px)
@@ -352,6 +360,18 @@ footer {
             padding-top: 45px!important;
         }
     }
+
+/* iPhone 6/7/8 Plus - Used to manage the margin-height on this screen size*/
+    @media only screen
+    and (min-width: 414px)
+    and (max-height: 736px)
+    and (-webkit-min-device-pixel-ratio: 1.5) {
+        #client-testimonial-carousel {
+            min-height: 370px!important;
+            margin: 5px 0 10px!important;
+            padding-top: 45px!important;
+        }
+    }    
 
 /* fold S5 - Used to manage the margin-height on this screen size*/
 @media only screen
@@ -389,7 +409,7 @@ footer {
             border: solid transparent!important;
         }
         footer {
-            margin: top 5rem;
+            margin-top: 5rem;
         }
     }
 
@@ -405,7 +425,7 @@ footer {
             border: solid transparent!important;
         }
         footer {
-            margin: top 5rem;
+            margin-top: 5rem;
         }
     }
 
@@ -420,5 +440,7 @@ footer {
             padding-top: 45px!important;
             border: solid transparent!important;
         }
-        
+        footer {
+            margin-top: 5rem;
+        }
     }
