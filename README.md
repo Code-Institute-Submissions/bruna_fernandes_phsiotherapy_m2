@@ -113,81 +113,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
      - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during the design process.
 
 ## Testing
-
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/w3_validator/w3c_html)
-    
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/w3_validator/w3c_css)
-
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a first time user, I wanted to easily portray the main purpose of the site and to show a little about the idea of the website.
-    
-        1. When visiting the site, users are greeted with a clean and easily readable transparent navigation bar. Centered in the home page is a simple login form with easily understandable text and instruction for a user to log in. The main focus of the page here is the simplistic approach and clear instruction as to how to proceed further if desired. The user has multiple options (including the navbar), click the call to action buttons on the form after inputting name and address which are REQUIRED.
-        2. The main point on this page is made with the simple, clean and easy on the eye colors with no overload of content.
-        3. The user here has a choice of logging into the website or clicking on the social media icons below the form.
-        
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        
-        1. The site has been designed to be fluid and never to entrap or confuse the user. At the top of each page there is a clean and transparent navigation bar, each link describes what the page they will end up at clearly. 
-        2. On the navigation bar when the user is logged in you can select a few options being: Main, Gallery, About and Contact
-        3. Every page after the home page has an option to navigate to a page of the site for where the user wishes to go. 
-        4. The websites pages are all responsive and will work on any device.
-        5. Toward the bottom of all the pages there is the social links that will redirect you to the various social media platforms. 
-        
-    3. As a First Time Visitor, I want to learn about gluten, I want the information to be easily accessible, informative and fun. I want to join an official community of gluten. I also want to locate their social media links to see their following on social media to determine how trusted and known they are. 
-        1. Once the user has navigated to the Main page they will see the content the are seeking and humor along the way.
-        2. The user can access the official gluten website and community through the links on the main page.
-        3. The Main page is responsive and will work on any device.
-        4. The user can also access the social media links toward the bottom of each page.
-
-    4. As a First Time Visitor, I want to know what type of foods I can eat and shop for.
-        1. The user can access the Gallery page once they are in the site. Here they will see a collection of crisp images on some food types they can eat and create.
-        2. The Gallery page is responsive and will work on any device. 
-        3. There are social media links toward the bottom of the gallery.
-    
-    5. As a First Time Visitor, I want to know about the site and why it was created.
-        1. The user can access the About page where they will be met with a simple and clean description of the website.
-        2. The About page is responsive and will work on any device.  
-        3. Toward the bottom of the page are social media links.
-
-    6. As a First Time Visitor, I want to be able to access content where I can submit comments, feedback or ideas.
-        1. The user can access the Contact page where they can submit their messages, comments and feedback.
-        2. The Contact page is responsive and will work on any device.
-        3. Toward the bottom of the page are the social medial links. 
-
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the best way to get in contact with the website with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page or alternatively they can find us on social media with the links that are provided on all pages toward the bottom of each page.
-        3. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        
-    2. As a Returning Visitor, I want to find the Community link so that I can join and interact with others in the official gluten website.
-        1. The official gluten community page can be found on the Main page in the carousel at the top on one of the slides. It can also be found in the Feature section. Both links open new tabs so the user can return to the website very easily.
-
-    3. As a Returning Visitor, I want to find a gallery with good quality photos.
-        1. The Gallery page can be found by clicking on the link on the nav bar.
-        
--   #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any newly added articles, jokes and facts.
-
-        1. The user would already be comfortable with the website layout and can easily access the Main page.
-
-    2. As a Frequent User, I want to check to see if there are any new article and joke posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the article link in the Main page.
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-         
+ ***TBD
 
 ### Further Testing
 
@@ -263,25 +189,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-Images that were used on this website were used from a Google images search. 
-    
- Conspiracy Image: [view](https://cdn.vox-cdn.com/)
- 
- Conspiracy Link to article: [view](https://www.independent.co.uk/life-style/gluten-sensitivity-science-fake-fructan-allergies-intolerance-diet-a8080211.html) 
 
- Gluten Information Image: [view](https://static.thenounproject.com/png/1493-200.png)
- 
- Gluten Information Link to website: [view](https://celiac.org/gluten-free-living/what-is-gluten/)
-
- Gluten Community Image: [view](https://irishusalumni.com/wp-content/uploads/2014/04/IUSA-Service.jpg) 
- 
- Gluten Community Link to website: [view](https://coeliac.ie/) 
-
- Joke Image: [view](https://i2-prod.plymouthherald.co.uk/news/uk-world-news/article1853749.ece/ALTERNATES/s615/0_man-379800_1920.jpg) 
- 
- Drink Image: [view](https://img.resized.co/checkout/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL21lZGlhLm1hZGlzb25wdWJsaWNhdGlvbnMuZXVcXFwvdXBsb2Fkc1xcXC8yMDE3XFxcLzA2XFxcLzA4MTI0NTUyXFxcLzYuLUJVTE1FUlMtY2lkZXItMjA1ODA4NV8xOTIwLTEwMjR4NzEzLmpwZ1wiLFwid2lkdGhcIjo3MDAsXCJoZWlnaHRcIjozNzAsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5jaGVja291dC5pZVxcXC9hc3NldHNcXFwvaVxcXC9ub2ltYWdlLnBuZ1wiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiI5YjVjZGRkNWVjZmRlZTZhMmVlZjQ3MDkyYWNmOWM3MjY4ZTYzNmM1In0=/6-bulmers-cider-2058085-1920-1024x713.jpg) 
-    
- Background Image: [view](https://i.pinimg.com/originals/e4/5f/54/e45f54e2cc5516e2210c34453db5ab6e.jpg)
 
 ### Acknowledgements
 
@@ -292,8 +200,6 @@ Images that were used on this website were used from a Google images search.
 ## References
 
 Templates for the Index.html & Main.html were taken from https://getbootstrap.com/
-
-Bulmers Official Website Link: https://www.bulmers.co.uk/faqs
 
 Fontawesome: https://www.fontawesome.com
 
