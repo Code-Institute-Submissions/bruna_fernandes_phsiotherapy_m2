@@ -115,7 +115,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/w3_validator/w3c_html)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/tree/master/assets/w3validator)
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/w3_validator/w3c_css)
 
