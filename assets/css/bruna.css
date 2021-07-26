@@ -45,7 +45,7 @@ html body {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.button.sign-btn {
+.sign-btn {
     border: groove #6fc4a2;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -55,7 +55,7 @@ html body {
     margin-top: 10px;
 }
 
-.button.sign-btn:hover {
+.sign-btn:hover {
     color: #6fc4a2;
 }
 
@@ -200,14 +200,17 @@ p.nav-link-color {
     color: whitesmoke;
 }
 
-.btn-success {
-    color: #fff;
+.btn-success-contact {
+    width: 50%;
+    padding: .375rem .75rem;
+    color: #fff!important;
     border-radius: 25px!important;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;
 }
 
-.btn-success:hover {
+.btn-success-contact:hover {
+    padding: .375rem .75rem;
     color: #fff;
     background-color: #6fc4a2!important;
     border-color: #6fc4a2!important;

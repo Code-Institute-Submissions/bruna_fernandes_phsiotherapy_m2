@@ -35,6 +35,20 @@ html body {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+.signup-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.signup-btn:hover {
+    color: #6fc4a2;
+}
+
 .sign-btn {
     border: groove #6fc4a2;
     border-radius: 15px;
@@ -47,6 +61,23 @@ html body {
 
 .sign-btn:hover {
     color: #6fc4a2;
+}
+
+.btn-success-fisio {
+    width: 50%;
+    padding: .375rem .75rem;
+    color: #fff!important;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+}
+
+.btn-success-fisio:hover {
+    padding: .375rem .75rem;
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 p.nav-link-color {
@@ -124,18 +155,6 @@ p {
     margin-top: 50px;
 }
 
-/*-----------------------Jump to buttons-----------------------------------------*/
-
-.fisio-btn {
-    border: groove #6fc4a2;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
-    background-color: #1e203f;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 /*----------------------------------Benefits-----------------------*/
 
 /*--------------------Benefits Heading----------------------*/
@@ -155,6 +174,8 @@ p {
     margin-bottom: 5rem;
     margin-top: -2rem;
 }
+
+
 
 /*------------------------Footer----------------------------*/
 
