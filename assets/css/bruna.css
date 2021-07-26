@@ -45,7 +45,7 @@ html body {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
-.sign-btn {
+.button.sign-btn {
     border: groove #6fc4a2;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -55,7 +55,7 @@ html body {
     margin-top: 10px;
 }
 
-.sign-btn:hover {
+.button.sign-btn:hover {
     color: #6fc4a2;
 }
 

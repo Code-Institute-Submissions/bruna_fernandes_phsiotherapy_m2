@@ -298,19 +298,18 @@ footer {
     text-align: center!important;
 }
 
-.btn-success {
-    width: 50%;
-    color: #fff;
-    border-radius: 25px!important;
-    background-color: #6fc4a2!important;
-    border-color: #6fc4a2!important;
+.signup-btn {
+    border: groove #6fc4a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #1e203f;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.btn-success:hover {
-    color: #fff;
-    background-color: #6fc4a2!important;
-    border-color: #6fc4a2!important;
-    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+.signup-btn:hover {
+    color: #6fc4a2;
 }
 
 /*-------------------------------Media Query-----------------------*/
