@@ -82,8 +82,6 @@ p.nav-link-color {
     background-color: #1e203f!important;
 }
 
-
-
 #bf-logo {
     background-color: #181a3d;
     text-align: center!important;
@@ -408,7 +406,7 @@ a:hover {
     background-color: transparent;
 }
 
-.signup-btn-center {
+.modal-btn-center {
    text-align: center;
 }
 

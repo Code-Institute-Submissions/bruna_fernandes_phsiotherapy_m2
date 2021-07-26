@@ -315,6 +315,27 @@ footer {
     box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+.member-btn-center {
+    text-align: center;
+}
+
+.mem-login {
+    width: 50%;
+    padding: .375rem .75rem;
+    color: #fff!important;
+    border-radius: 25px!important;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+}
+
+.mem-login:hover {
+    padding: .375rem .75rem;
+    color: #fff;
+    background-color: #6fc4a2!important;
+    border-color: #6fc4a2!important;
+    box-shadow: 0 4px 8px 0 #39fd9bc9, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
 /*-------------------------------Media Query-----------------------*/
 
 /* Galaxy S5 - Used to manage the margin-height on this screen size*/
