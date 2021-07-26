@@ -58,6 +58,44 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
     -   #### Imagery
    
         -   Imagery in this website is clear and intuitive for learning purposes
+   
+## Features
+
+   ### Existing Features
+   
+   #### The Header includes:
+-   Website Logo: Brand awareness across all pages of the website.
+-   Navigation Bar: Allows users to navigate the site easily.
+    
+   #### The Footer includes: 
+-   Social Media Links: Links to Facebook, Twitter, Instagram and Youtube.
+    The Header and Footer are consisten across all of the web pages in the website, only the color changing slightly on the membership page.
+   
+   #### The Home page includes:
+-   Logo Banner: Easy on the eye colors from customer business card. It's large enough and unmissable reinforcing brand awareness to users.
+-   Three cards on display the top two cards are: Member and Appointment information. Icons on each card are clickable links to take the user to page requested.
+    The bottom card is a testominal card on a carousel that automatically tranistions from one slide to another displaying comments and feedback star ratings.
+    The indicators on the bottom are clickable allowing the user to navigate through each slide when they want.
+
+   ##### Home page Modals:
+-  Clicking on the Members icon will display a pop-up modal asking the user to enter their login details.
+-  The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
+
+
+#### The Phisiotherapy & Pilates page includes:
+-   A quick to read page of the services that Bruna Fernandes Fisiotherapy is offering to all clients.
+    It's not supposed to be in-depth information just an overview of what is on offer.
+   
+   #### The Appointment page includes:
+-   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the            dropdown choose the problem and then     can proceed to check, mutiple (if requred) problems related to their query and then choose a      time that suits an appointment and lastly a date that can be chosen by         clicking the calendar button and simply hittin send.
+-   The next card is for COVID 19 a breakdown of appointment guidelines for the user prior to attending their chosen appointment.
+    The user must click the C19 form text for a page to open in a seperate tab to download the form and fill in the details required.
+-   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to        their computer, a click on this         number will automatically make the call for you on the users mobile phone.
+
+   ##### Appointment page Modals:
+-   Clicking on the send button on the appointment form will display a pop-up modal telling the user that their appointment request has    been sent and that they will receive     an email confirming their appointment booking.
+    Clicking the "Thank you!" button on this modal will bring the user back to the Home page.
+-   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register      for the website.
 
 ## Wireframes
 
@@ -86,12 +124,6 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 -   Bruna Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/bruna.html-wireframe-mob.png)
 
 -   Contact Page Wireframe - [view](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes/contact.html-wireframe-mob.png) 
-
-## Features
-
--   Responsive on all device sizes
-
--   Interactive elements
 
 ## Technologies Used
 
@@ -135,6 +167,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/Elippsis007/glutonia_m1/tree/master/assets/w3_validator/w3c_css)
 
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
 ### Further Testing
 
 -  The Website was tested on Google Chrome.
@@ -145,9 +181,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--  On some mobile devices the I was having issues with down-scaling from full screen to mobile where content was not formatting accordingly    
--  A white space could be seen outside the background image across all variations of sizes at the navigation and footer bars.
--  These bugs have since been fixed.
+-  Apple devices the functionality to click on the appointment calendar to choose a date does not work.
+-  Apple devices the text on the buttons for the images information does not show.
 
 ## Deployment
 
