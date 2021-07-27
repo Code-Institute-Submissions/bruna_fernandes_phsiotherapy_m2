@@ -273,7 +273,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Design and research
 
-    The following is what I have used for reference and inspiration:
+#### The following is what I have used for reference and inspiration:
     
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. This website was entirely built with Bootstrap 4.
 
@@ -308,7 +308,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## References
 
-Templates for the Index.html & Main.html were taken from https://getbootstrap.com/
+Google Maps API: https://developers.google.com/maps
 
 Fontawesome: https://www.fontawesome.com
 
