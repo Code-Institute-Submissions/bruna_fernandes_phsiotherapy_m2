@@ -87,15 +87,50 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
     It's not supposed to be in-depth information just an overview of what is on offer.
    
    #### The Appointment page includes:
--   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the            dropdown choose the problem and then     can proceed to check, mutiple (if requred) problems related to their query and then choose a      time that suits an appointment and lastly a date that can be chosen by         clicking the calendar button and simply hittin send.
+-   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the dropdown choose the problem and then can proceed to check, mutiple (if requred) problems related to their query and then choose a time that suits an appointment and lastly a date that can be chosen by clicking the calendar button and simply hittin send.
 -   The next card is for COVID 19 a breakdown of appointment guidelines for the user prior to attending their chosen appointment.
     The user must click the C19 form text for a page to open in a seperate tab to download the form and fill in the details required.
--   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to        their computer, a click on this         number will automatically make the call for you on the users mobile phone.
+-   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to their computer, a click on this number will     automatically make the call for you on the users mobile phone.
 
    ##### Appointment page Modals:
--   Clicking on the send button on the appointment form will display a pop-up modal telling the user that their appointment request has    been sent and that they will receive     an email confirming their appointment booking.
+-   Clicking on the send button on the appointment form will display a pop-up modal telling the user that their appointment request has been sent and that they will receive     an email confirming their appointment booking.
     Clicking the "Thank you!" button on this modal will bring the user back to the Home page.
--   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register      for the website.
+-   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
+
+   #### The Member page includes:
+-   The Member loads with a message to greet the user depending on the time of the day (morning, afternoon and evening) this was done with the use of JavaScript.
+-   The two icons on the Member page is a video camera and an image representing photos. These are clickable icons that would jump to vide sectionr or image section.
+-   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 Youtube videos for members to gain access     to, to watch and use in the privacy at home.
+-   After the video section, the member will see a library of images, these images have a button below which once clicked, will drop down a paragraph with detailed information     on each image card.
+-   Finally at the bottom of the page just above the footer there is a gold up-right arrow icon which is clickable. When this icon is clicked it will scroll the user to the top     of the page.
+    
+   ##### Member page Modals:
+-   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
+
+#### The Bruna page includes:
+-   Brunas page is simple and kept to the point, the idea is to give users direct easy access to an overview of Bruna professional history.
+-   First card is an image of Bruna stating her name and tite of profession.
+-   The second card is a summary of her past and current professional experience.
+-   The last section underneath the two cards is sample degree pictures, the idea is to instill confindence in clients and assurance.
+    
+   ##### Bruna page Modals:
+-   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
+
+#### The Contact page includes:
+-   The Contact page is kept simple and easy to use and has two purposes. The first is to give existing and new users the ability to contact Bruna anytime with any query.
+-   The second is to provide a written work address and a functioning Google Maps for users to locate the work address and a contact number for users to reach out with.
+-   The Contact Us form is simple, it requires the user to input a full name and email. It also has an option for users to type in a message and send their query to Bruna.
+-   First card is an image of Bruna stating her name and tite of profession.
+    
+   ##### Contact page Modals:
+-   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
+-   Once the send button is clicked a modal popup will display confirming the message has been sent. Clicking the "Thank You!" button will return the user on the Contact Us         page.
+
+### Potential features to use in the future
+
+#### Live stream 1 to 1 lessons
+-   Adding the ability for users to all login for a confirmed time to do pilates on a live stream with Bruna
+    from the comfort of their own homes, therefore maintaning social distancing and saving on travel costs and time.
 
 ## Wireframes
 
