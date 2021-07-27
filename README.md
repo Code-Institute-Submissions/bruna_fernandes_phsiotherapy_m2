@@ -301,7 +301,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor Gerry for continuous helpful feedback and support.
+-   My mentor Gerry for continuous helpful feedback and support.
 
 -   Tutor support at Code Institute for their support.
 
