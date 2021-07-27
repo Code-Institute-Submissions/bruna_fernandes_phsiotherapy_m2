@@ -194,6 +194,8 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
      - GitHub is used to store the projects code after being pushed from Git.
 1.  [Balsamiq:](https://balsamiq.com/)
      - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during the design process.
+1.  [Responsive Design Checker:](http://ami.responsivedesign.is/#)
+     - Used to check website response across device types.
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -269,9 +271,26 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-### Code
+### Design and research
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+    The following is what I have used for reference and inspiration:
+    
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. This website was entirely built with Bootstrap 4.
+
+### Technical
+
+1.  [BootStrap Docs:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+     - For guidance on Bootstrap use and adaptations.
+1.  [Font Awesome:](https://fontawesome.com/)
+     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1.  [w3Schools:](https://www.w3schools.com//)
+     - For checking proper syntax of HTML and CSS elements.
+1.  [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+     - For checking markup validity of HTML.
+1.  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+     - For checking CSS styling validity.
+1.  [Stackoverflow](https://stackoverflow.com/)
+     - I used Stackoverflow to help me with issues I was having when it was styling, margins, centering a div, why the footer wasn't staying at the bottom of the page. 
 
 ### Content
 
@@ -279,6 +298,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
+-   The color used on this website came from business card 
 
 
 ### Acknowledgements
