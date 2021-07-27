@@ -1,6 +1,6 @@
 <h1 align="center">Bruna Fernandes Physiotherapy</h1>
 
-This is BFF (Bruna Fernandes Physiotherpay a project website designed to be responsive and accessible for a range of devices, making it easy to navigate for the information the user is seeking in relation to Physiotherapy and other services.
+This is BFF (Bruna Fernandes Physiotherapy a project website designed to be responsive and accessible for a range of devices, making it easy to navigate for the information the user is seeking in relation to Physiotherapy and other services.
 
 [View the live project here.](https://elippsis007.github.io/bruna_fernandes_phsiotherapy_m2/)
 
@@ -21,7 +21,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
     -   #### Returning Visitor Goals
 
-        -   As a Returning Visitor, I want to find information physiotherapy and services offered by Bruna Fernandesd.
+        -   As a Returning Visitor, I want to find information about physiotherapy and services offered by Bruna Fernandes.
         -   As a Returning Visitor, I want to find the best way to get in contact with the website for any questions the user may have.
         -   As a Returning Visitor, I want to be able to book appointments for current and future appointments.
         -   As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
@@ -38,7 +38,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
     -   #### Structure
     
-        -   The stucture of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and easy to find                 what you are looking for.
+        -   The structure of the website was purposely designed to maintain a fluid, consistent display throughout as to not look cluttered, easy to navigate and easy to find                 what you are looking for.
         
     -   #### Pages: All pages contained the following elements.
         -   Header/Footer: Defining clean and simple navigation to what the user is looking for.
@@ -47,7 +47,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
     
     -   #### Colour Scheme
     
-        -   The color scheme on my website was basded off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The members page was                   colored in gold representing the status of members, VIP etc.
+        -   The color scheme on my website was based off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The members page was                   colored in gold representing the status of members, VIP, etc.
         
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
@@ -69,28 +69,28 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
     
    #### The Footer includes: 
 -   Social Media Links: Links to Facebook, Twitter, Instagram and Youtube.
-    The Header and Footer are consisten across all of the web pages in the website, only the color changing slightly on the membership page.
+    The Header and Footer are consistent across all of the web pages in the website, only the color changing slightly on the membership page.
    
    #### The Home page includes:
--   Logo Banner: Easy on the eye colors from customer business card. It's large enough and unmissable reinforcing brand awareness to users.
--   Three cards on display the top two cards are: Member and Appointment information. Icons on each card are clickable links to take the user to page requested.
-    The bottom card is a testominal card on a carousel that automatically tranistions from one slide to another displaying comments and feedback star ratings.
-    The indicators on the bottom are clickable allowing the user to navigate through each slide when they want.
+-   Logo Banner: Easy on the eye colors from customer business card. It's large enough and unmissable, reinforcing brand awareness to users.
+-   Three cards on display the top two cards are: Member and Appointment information. Icons on each card are clickable links to take the user to the page requested.
+    The bottom card is a testimonial card on a carousel that automatically transitions from one slide to another displaying comments and feedback star ratings.
+    The indicators on the bottom are clickable, allowing the user to navigate through each slide when they want.
 
    ##### Home page Modals:
 -  Clicking on the Members icon will display a pop-up modal asking the user to enter their login details.
 -  The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
 
 
-#### The Phisiotherapy & Pilates page includes:
+#### The  Physiotherapy & Pilates page includes:
 -   A quick to read page of the services that Bruna Fernandes Fisiotherapy is offering to all clients.
-    It's not supposed to be in-depth information just an overview of what is on offer.
+    It's not supposed to be in-depth information, just an overview of what is on offer.
    
    #### The Appointment page includes:
--   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the dropdown choose the problem and then can proceed to check, mutiple (if requred) problems related to their query and then choose a time that suits an appointment and lastly a date that can be chosen by clicking the calendar button and simply hittin send.
+-   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the dropdown to choose the problem and then can proceed to check multiple (if required) problems related to their query and then choose a time that suits an appointment and lastly a date that can be chosen by clicking the calendar button and simply hitting send.
 -   The next card is for COVID 19 a breakdown of appointment guidelines for the user prior to attending their chosen appointment.
     The user must click the C19 form text for a page to open in a seperate tab to download the form and fill in the details required.
--   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to their computer, a click on this number will     automatically make the call for you on the users mobile phone.
+-   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to their computer, a click on this number will     automatically make the call for you on the user's mobile phone.
 
    ##### Appointment page Modals:
 -   Clicking on the send button on the appointment form will display a pop-up modal telling the user that their appointment request has been sent and that they will receive     an email confirming their appointment booking.
@@ -99,9 +99,9 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
    #### The Member page includes:
 -   The Member loads with a message to greet the user depending on the time of the day (morning, afternoon and evening) this was done with the use of JavaScript.
--   The two icons on the Member page is a video camera and an image representing photos. These are clickable icons that would jump to vide sectionr or image section.
--   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 Youtube videos for members to gain access     to, to watch and use in the privacy at home.
--   After the video section, the member will see a library of images, these images have a button below which once clicked, will drop down a paragraph with detailed information     on each image card.
+-   The two icons on the Member page is a video camera and an image representing photos. These are clickable icons that would jump to the video section or image section.
+-   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 Youtube videos for members to gain access     to, to watch and use of their own home.
+-   After the video section, the member will see a library of images These images have a button below which once clicked, will drop down a paragraph with detailed information     on each image card.
 -   Finally at the bottom of the page just above the footer there is a gold up-right arrow icon which is clickable. When this icon is clicked it will scroll the user to the top     of the page.
     
    ##### Member page Modals:
@@ -109,9 +109,9 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 
 #### The Bruna page includes:
 -   Brunas page is simple and kept to the point, the idea is to give users direct easy access to an overview of Bruna professional history.
--   First card is an image of Bruna stating her name and tite of profession.
+-   First card is an image of Bruna stating her name and title of profession.
 -   The second card is a summary of her past and current professional experience.
--   The last section underneath the two cards is sample degree pictures, the idea is to instill confindence in clients and assurance.
+-   The last section underneath the two cards is sample degree pictures, the idea is to instill confidence in clients and assurance.
     
    ##### Bruna page Modals:
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
@@ -120,17 +120,16 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 -   The Contact page is kept simple and easy to use and has two purposes. The first is to give existing and new users the ability to contact Bruna anytime with any query.
 -   The second is to provide a written work address and a functioning Google Maps for users to locate the work address and a contact number for users to reach out with.
 -   The Contact Us form is simple, it requires the user to input a full name and email. It also has an option for users to type in a message and send their query to Bruna.
--   First card is an image of Bruna stating her name and tite of profession.
     
    ##### Contact page Modals:
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
--   Once the send button is clicked a modal popup will display confirming the message has been sent. Clicking the "Thank You!" button will return the user on the Contact Us         page.
+-   Once the send button is clicked a modal popup will display confirming the message has been sent. Clicking the "Thank You!" button will return the user to the Contact Us         page.
 
 ### Potential features to use in the future
 
 #### Live stream 1 to 1 lessons
 -   Adding the ability for users to all login for a confirmed time to do pilates on a live stream with Bruna
-    from the comfort of their own homes, therefore maintaning social distancing and saving on travel costs and time.
+    from the comfort of their own homes, therefore maintaining social distancing and saving on travel costs and time.
 
 ## Wireframes
 
@@ -191,7 +190,7 @@ This is BFF (Bruna Fernandes Physiotherpay a project website designed to be resp
 1.  [Git](https://git-scm.com/)
      - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1.  [GitHub:](https://github.com/)
-     - GitHub is used to store the projects code after being pushed from Git.
+     - GitHub is used to store the project's  code after being pushed from Git.
 1.  [Balsamiq:](https://balsamiq.com/)
      - Balsamiq was used to create the [wireframes](https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/wireframes) during the design process.
 1.  [Responsive Design Checker:](http://ami.responsivedesign.is/#)
@@ -211,7 +210,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -  The Website was tested on Google Chrome.
--  The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX using google Dev Tools.
+-  The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX using google DevTools.
 -  The website has also been tested on <a href="https://responsivedesignchecker.com/">ResponsiveDesignChecker</a> successfully.
 -  A large amount of testing was done to ensure that all pages were linking correctly and responsive to all devices.
 -  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -275,7 +274,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 #### The following is what I have used for reference and inspiration:
     
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System. This website was entirely built with Bootstrap 4.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make the site responsive using the Bootstrap Grid System. This website was entirely built with Bootstrap 4.
 
 ### Technical
 
@@ -290,7 +289,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 1.  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
      - For checking CSS styling validity.
 1.  [Stackoverflow](https://stackoverflow.com/)
-     - I used Stackoverflow to help me with issues I was having when it was styling, margins, centering a div, why the footer wasn't staying at the bottom of the page. 
+     - I used Stackoverflow to help me with issues I was having when it was styling, margins, centering a div, and why the footer wasn't staying at the bottom of the page. 
 
 ### Content
 
