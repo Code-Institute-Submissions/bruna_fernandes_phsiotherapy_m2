@@ -1,6 +1,6 @@
 <h1 align="center">Bruna Fernandes Physiotherapy</h1>
 
-This is BFF (Bruna Fernandes Physiotherpay a project website designed to be responsive and accessible for a range of devices, making it easy to navigate for the information you are seeking in relation to Physiotherapy.
+This is BFF (Bruna Fernandes Physiotherpay a project website designed to be responsive and accessible for a range of devices, making it easy to navigate for the information the user is seeking in relation to Physiotherapy and other services.
 
 [View the live project here.](https://elippsis007.github.io/bruna_fernandes_phsiotherapy_m2/)
 
@@ -306,11 +306,21 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Tutor support at Code Institute for their support.
 
+-   I'd like to thank my girlfriend, mates and family for testing the website on their devices and for suggesting changes and bugs.
+
 ## References
 
 Google Maps API: https://developers.google.com/maps
 
 Fontawesome: https://www.fontawesome.com
 
-Video on the Main page was embedded from https://www.youtube.com
+Youtube Videos: https://www.youtube.com
+
+Facebook: https://www.facebook.com
+
+Twitter: https://www.twitter.com
+
+Instagram: https://www.instagram.com
+
+
 
