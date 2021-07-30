@@ -207,6 +207,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
+### Google Lighthouse Audit
+I used Google's lighthouse audit to test the website capability positively with Google's performance measurements.
+
+
+
 ### Further Testing
 
 -  The Website was tested on Google Chrome.
