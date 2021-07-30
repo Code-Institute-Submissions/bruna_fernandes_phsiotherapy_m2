@@ -210,7 +210,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Google Lighthouse Audit
 I used Google's lighthouse audit to test the website capability positively with Google's performance measurements.
 
-
+<h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/lighthouse/lighthouse-PWA.png?raw=true"></h2>
 
 ### Further Testing
 
