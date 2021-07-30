@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "bruna", {
+    emailjs.send("gmail", "michael", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "contact_details": contactForm.contactsummary.value
@@ -7,8 +7,10 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            $('#message-confirm').modal('show');
         },
         function(error) {
+            $('#message-error').modal('show');
             console.log("FAILED", error);
         }
     );
