@@ -12,27 +12,27 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 
     -   #### First Time Visitor Goals
 
-        -   As a first time user, I wanted first impressions to be appealing, the idea being that it won't intimidate the user with an overload of content.
-        -   As a first time user, I want the user to be able to easily navigate throughout the site to find content and services the user is looking for.
-        -   As a first time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page outside of the                   website.
-        -   As a first time user, I want the user to be able to understand the experience of Bruna Fernandes, her professional background and qualifications
-        -   As a first time user, I want the user to be able to book an appointment with a few clicks and a form submission.
-        -   As a first time user, I want the user to be able to submit a contact form for any issues outside of making an appointment.
+        -   As a first-time user, I wanted first impressions to be appealing, the idea being that it won't intimidate the user with an overload of content.
+        -   As a first-time user, I want the user to be able to easily navigate throughout the site to find content and services the user is looking for.
+        -   As a first-time user, I wanted to make the content easily accessible on the pages rather than having them leave and find content on another page outside of the                   website.
+        -   As a first-time user, I want the user to be able to understand the experience of Bruna Fernandes, her professional background and qualifications
+        -   As a first-time user, I want the user to be able to book an appointment with a few clicks and a form submission.
+        -   As a first-time user, I want the user to be able to submit a contact form for any issues outside of making an appointment.
 
     -   #### Returning Visitor Goals
 
-        -   As a Returning Visitor, I want to find information about physiotherapy and services offered by Bruna Fernandes.
-        -   As a Returning Visitor, I want to find the best way to get in contact with the website for any questions the user may have.
-        -   As a Returning Visitor, I want to be able to book appointments for current and future appointments.
-        -   As a Returning Visitor, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
+        -   As a returning user, I want to find information about physiotherapy and services offered by Bruna Fernandes.
+        -   As a returning user, I want to find the best way to get in contact with the website for any questions the user may have.
+        -   As a returning user, I want to be able to book appointments for current and future appointments.
+        -   As a returning user, I want the user to be able to sign-up for Membership where they can access Do it yourself videos at home and access in-depth                             information on types of services and methods that they can receive at discount prices.
 
     -   #### Frequent User Goals
     
-        -   As a Frequent User, I want to check to see if there are any updated videos on the members page for fitness and strength purposes.
-        -   As a Frequent User, I want to check to see if there are updated physiotherapy methods and information in the members page.
-        -   As a Frequent User, I want to be able to contact the owner on queries through a contact page.
-        -   As a Frequent User, I want to be able to book appointments when I feel the need.
-        -   As a Frequent User, I want to to be able to check further membership discounts on services in the clinic or at-home.
+        -   As a frequent user, I want to check to see if there are any updated videos on the members page for fitness and strength purposes.
+        -   As a frequent user, I want to check to see if there are updated physiotherapy methods and information in the members page.
+        -   As a frequent user, I want to be able to contact the owner on queries through a contact page.
+        -   As a frequent user, I want to be able to book appointments when I feel the need.
+        -   As a frequent user, I want to be able to check further membership discounts on services in the clinic or at-home.
 
 -   ### Design
 
@@ -47,13 +47,13 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
     
     -   #### Colour Scheme
     
-        -   The color scheme on my website was based off of the business card from Brunas private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The members page was                   colored in gold representing the status of members, VIP, etc.
+        -   The color scheme on my website was based off the business card from Bruna's private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The member's page was                   colored in gold representing the status of members, VIP, etc.
         
         <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
     -   #### Typography
     
-        -   [Bree Serif](https://fonts.google.com/specimen/Bree+Serif?query=bree) is the main font used throughout the whole website with San-serif as the fallback font in                   case for any reason the font isn't being recognized on different operating systems. Bree Serif is a professional looking font, it has characteristics that speak                 "professional", I like the shape and the style of the font and I feel it represents the professionalism I am looking to create.
+        -   [Bree Serif](https://fonts.google.com/specimen/Bree+Serif?query=bree) is the main font used throughout the whole website with San-serif as the fallback font in                   case for any reason the font isn't being recognized on different operating systems. Bree Serif is a professional looking font, it has characteristics that speak                 "professional", I like the shape and the style of the font, and I feel it represents the professionalism I am looking to create.
         
     -   #### Imagery
    
@@ -68,8 +68,8 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 -   Navigation Bar: Allows users to navigate the site easily.
     
    #### The Footer includes: 
--   Social Media Links: Links to Facebook, Twitter, Instagram and Youtube.
-    The Header and Footer are consistent across all of the web pages in the website, only the color changing slightly on the membership page.
+-   Social Media Links: Links to Facebook, Twitter, Instagram and YouTube.
+    The Header and Footer are consistent across all of the web pages on the website, only the color changing slightly on the membership page.
    
    #### The Home page includes:
 -   Logo Banner: Easy on the eye colors from customer business card. It's large enough and unmissable, reinforcing brand awareness to users.
@@ -83,13 +83,13 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 
 
 #### The  Physiotherapy & Pilates page includes:
--   A quick to read page of the services that Bruna Fernandes Fisiotherapy is offering to all clients.
+-   A quick to read page of the services that Bruna Fernandes Physiotherapy is offering to all clients.
     It's not supposed to be in-depth information, just an overview of what is on offer.
    
    #### The Appointment page includes:
 -   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the dropdown to choose the problem and then can proceed to check multiple (if required) problems related to their query and then choose a time that suits an appointment and lastly a date that can be chosen by clicking the calendar button and simply hitting send.
 -   The next card is for COVID 19 a breakdown of appointment guidelines for the user prior to attending their chosen appointment.
-    The user must click the C19 form text for a page to open in a seperate tab to download the form and fill in the details required.
+    The user must click the C19 form text for a page to open in a separate tab to download the form and fill in the details required.
 -   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to their computer, a click on this number will     automatically make the call for you on the user's mobile phone.
 
    ##### Appointment page Modals:
@@ -99,8 +99,8 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 
    #### The Member page includes:
 -   The Member loads with a message to greet the user depending on the time of the day (morning, afternoon and evening) this was done with the use of JavaScript.
--   The two icons on the Member page is a video camera and an image representing photos. These are clickable icons that would jump to the video section or image section.
--   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 Youtube videos for members to gain access     to, to watch and use of their own home.
+-   The two icons on the Member page are a video camera and an image representing photos. These are clickable icons that would jump to the video section or image section.
+-   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 YouTube videos for members to gain access     to, to watch and use of their own home.
 -   After the video section, the member will see a library of images These images have a button below which once clicked, will drop down a paragraph with detailed information     on each image card.
 -   Finally at the bottom of the page just above the footer there is a gold up-right arrow icon which is clickable. When this icon is clicked it will scroll the user to the top     of the page.
     
@@ -108,10 +108,10 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
 
 #### The Bruna page includes:
--   Brunas page is simple and kept to the point, the idea is to give users direct easy access to an overview of Bruna professional history.
+-   Bruna's page is simple and kept to the point, the idea is to give users direct easy access to an overview of Bruna professional history.
 -   First card is an image of Bruna stating her name and title of profession.
 -   The second card is a summary of her past and current professional experience.
--   The last section underneath the two cards is sample degree pictures, the idea is to instill confidence in clients and assurance.
+-   The last section underneath the two cards is sample degree pictures, the idea is to instil confidence in clients and assurance.
     
    ##### Bruna page Modals:
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
@@ -128,7 +128,7 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 ### Potential features to use in the future
 
 #### Live stream 1 to 1 lessons
--   Adding the ability for users to all login for a confirmed time to do pilates on a live stream with Bruna
+-   Adding the ability for users to all login for a confirmed time to do Pilates on a live stream with Bruna
     from the comfort of their own homes, therefore maintaining social distancing and saving on travel costs and time.
 
 ## Wireframes
@@ -218,8 +218,8 @@ I used Google's lighthouse audit to test the website capability positively with 
 
     1. As a user, I want the Home page to be attractive, simple with a little vibrance from the colors. When the user enters for the first time they are not exposed to clutter and confusion.
     
-        1. When the user is exploring the website they will see the Bruna Fernandes logo on ALL pages on the nabar and sometimes a banner toward the top of the page centered.
-        2. The website uses cool, and slightly iluminated colors to give a fresh vibrancy feel to the pages. The Members page was altered to a gold color, for that VIP status feeling, highlighting the best of the best for loyal clients.
+        1. When the user is exploring the website, they will see the Bruna Fernandes logo on ALL pages on the navbar and sometimes a banner toward the top of the page centered.
+        2. The website uses cool, and slightly illuminated colors to give a fresh vibrancy feel to the pages. The Member's page was altered to a gold color, for that VIP status feeling, highlighting the best of the best for loyal clients.
             
     2. As a user, I want to be able to easily navigate throughout the site to find information and services they are looking for.
         
@@ -228,22 +228,22 @@ I used Google's lighthouse audit to test the website capability positively with 
         
     3. As a user, I want the user to be able to explore services on offer and the ability to contact Bruna Fernandes and learn about her experience.
    
-        1. On the Home page the user can sign-up/login to the member section, where they are greeted with a popup to input email and password. Once the users has filled in the form and clicked the login button the user will be greeted with the Member page.
+        1. On the Home page the user can sign-up/login to the member section, where they are greeted with a popup to input email and password. Once the users have filled in the form and clicked the login button the user will be greeted with the Member page.
         2. On the Home page the user can go straight to Appointments.
-        3. The user can also view testimonials fromm current or past clients where short reviews and ratings are submitted.
+        3. The user can also view testimonials from current or past clients where short reviews and ratings are submitted.
         4. Toward the bottom of the page are the social medial links.
 
     4. As a user, I want to know what type of services are available to me.
     
-        1. On the services link the user can go straight to Physiotherpy and Pilates page, where they can learn a little about what is on offer to new or existing clients.
-        2. Three sections to this page are Physiotherapy, Pilates and the unique serivice of Home visits.
+        1. On the services link the user can go straight to Physiotherapy and Pilates page, where they can learn a little about what is on offer to new or existing clients.
+        2. Three sections to this page are Physiotherapy, Pilates and the unique service of Home visits.
         3. Toward the bottom of the page are the social medial links.
         
     5. As a user, I want to know what type of services are available to me.
 
         1. On the services link the user can go straight to Appointments, where they can fill out a simple form and submit for booking.
         2. They must download a C19 form too and return to Bruna Fernandes. 
-        3. There is also the Service Hours information so the user knows the operating hours.
+        3. There is also the Service Hours information, so the user knows the operating hours.
         4. Toward the bottom of the page are the social medial links.
     
     6. As a user, I want to know about Bruna Fernandes, who is she?
@@ -259,7 +259,7 @@ I used Google's lighthouse audit to test the website capability positively with 
         1. The user can access the Contact page where they can submit their messages, comments and feedback.
         2. There is a fully functional form with inputs for your Name, Email and a message box for your comments.
         3. The user receives a popup when the message has successfully been sent and a message to tell the user when a message has NOT been sent.
-        4. There is also a section for a user who may have missed the appointment section a link to go to appoinments for the user convienience.
+        4. There is also a section for a user who may have missed the appointment section a link to go to appointments for the user convenience.
         5. The final section is an address and contact number followed by Google maps with a pin to locate Bruna Fernandes office.
         6. Toward the bottom of the page are the social medial links. 
 
@@ -274,7 +274,7 @@ I used Google's lighthouse audit to test the website capability positively with 
     2. As a returning user, I want to book appointments for the future should there be any injury concerns.
     
         1. The appointment section grants the user the function to book appointments very easily by filling out a simple form of personal details and then a calendar to select a date for the appointment and with a click of send button the appointment will be sent.
-        2. If however there is a technical issue when sending the message the user will be greeted with a popup explaining to them to try again later and if the problem persists to contact Bruna Fernandes on the number inside the popup window.
+        2. If, however there is a technical issue when sending the message the user will be greeted with a popup explaining to them to try again later and if the problem persists to contact Bruna Fernandes on the number inside the popup window.
 
     3. As a returning user, I want to have the function of contacting Bruna Fernandes with any issues, comments or feedback I wish to express.
     
@@ -299,11 +299,11 @@ I used Google's lighthouse audit to test the website capability positively with 
 -   ### Known Bugs and how I have overcome them
 
 -  Apple devices the functionality to click on the appointment calendar to choose a date does not work. I rectified this by including a rel link with apple touch icon on each html page. 
--  Apple devices the text on the buttons for the images information does not show. Tested this bug through [Responsive Design Checker:](http://ami.responsivedesign.is/#)
+-  Apple devices the text on the buttons for the image's information does not show. Tested this bug through [Responsive Design Checker:](http://ami.responsivedesign.is/#)
 -  Bootstrap 4 footer was not staying at the bottom of the page. This was rectified by styling the layout of the website to fill the page in a way that forced the footer to stay at the bottom and in return it was responsive throughout all pages and all devices.
--  On the Contact Us page the modal popup I had for when the message was sent was by using anchor tags withing a button, it was a cheeky way of making it work cosmetically. I spoke to my tutor and he advised me to use jQuery and JS to fix this issue and now it is working well for successful messages sent AND unsuccessful messages sent.
--  Skewed images on the Physiotherapy and Services page. There are three rounded circles that contained images, orignially the images just looked off. I had a friend test my website and he verified to me that the scale was incorrect and to remove and build around the scale of an empty circle. I basically found images online that were matching the scale and it worked.
--  On the Member page where the image contents are, I have a button on each, when each button is cliked there is a dropdown similar to how the burger button worked, but this was built with JavaScript. Before I got this working to the way I wanted, I tried floating comment popups, overlays and tool tips but none of these either worked or looked terrible when an image was clicked. I turned to a very simple JS toggle function for when a click has occurred on the button the dropdown of text will now appear, it looks great, it's tidy and responsive!
+-  On the Contact Us page the modal popup I had for when the message was sent was by using anchor tags withing a button, it was a cheeky way of making it work cosmetically. I spoke to my tutor, and he advised me to use jQuery and JS to fix this issue and now it is working well for successful messages sent AND unsuccessful messages sent.
+-  Skewed images on the Physiotherapy and Services page. There are three rounded circles that contained images, originally the images just looked off. I had a friend test my website and he verified to me that the scale was incorrect and to remove and build around the scale of an empty circle. I basically found images online that were matching the scale and it worked.
+-  On the Member page where the image contents are, I have a button on each, when each button is clicked there is a dropdown similar to how the burger button worked, but this was built with JavaScript. Before I got this working to the way I wanted, I tried floating comment popups, overlays and tool tips but none of these either worked or looked terrible when an image was clicked. I turned to a very simple JS toggle function for when a click has occurred on the button the dropdown of text will now appear, it looks great, it's tidy and responsive!
 
 -   ### Issues still to fix
 
