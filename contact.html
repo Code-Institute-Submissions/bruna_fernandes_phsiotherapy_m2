@@ -14,6 +14,7 @@
     <script src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
   </head>
   <body>
+    <!-- Navbar holding links to pages on the website -->
     <nav class="navbar navbar-light bg-light navbar-expand-sm" id="navbar-color">
       <a href="index.html" class="navbar-brand">
         <img src="assets/images/bf-logo(1).png" height="60" width="60" class="nav-img" alt="business logo with two letters B and F in between is a spine seperating the two letters">
@@ -94,6 +95,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 col-lg-6">
+          <!-- Form powered by mail.js -->
           <form onsubmit="return sendMail(this);" class="form-text">
             <h2 class="contact-heading"> Contact Us </h2>
             <label> Name: <input class="name-field" type="text" name="name" size="25" maxlength="50" placeholder="Enter your full name" required>
@@ -132,6 +134,7 @@
         </div>
       </div>
     </div>
+    <!-- Modal confirmation popup to let user know that the message has been sent successfully -->
     <div class="modal" tabindex="-1" id="message-confirm">
       <div class="modal-dialog" role="document">
         <div class="modal-content-contact">
@@ -157,6 +160,7 @@
       </div>
     </div>
 
+    <!-- Modal popup to let the user know that their message has not been successfully sent -->
     <div class="modal" tabindex="-1" id="message-error">
       <div class="modal-dialog" role="document">
         <div class="modal-content-contact">
@@ -180,6 +184,7 @@
         </div>
       </div>
     </div>
+    <!-- Footer section holding social media icons -->
     <footer class="footer fixed container-fluid">
       <ul class="social-networks">
         <li>
