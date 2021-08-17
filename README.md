@@ -174,18 +174,12 @@ Google's documentation is strong for this API, so this guide will mostly link to
 -   https://developers.google.com/maps/documentation/javascript/ and
 -   https://developers.google.com/maps/documentation/javascript/tutorial
 
-### How Refuge Restrooms uses the Maps API:
-
--   Starting with the simplest use, we use the Map feature to show actual maps of where our restrooms are. To take a look at how we do this, go to any restroom details page, such as: http://www.refugerestrooms.org/restrooms/847.
-
 ### Why do we use Google Maps? (What is is good for?)
 As an app that locates restrooms, we need a way to handle both addresses (e.g. 1 Embarcadero Center, San Francisco, CA) and physical locations (latitude + longitude). Otherwise we wouldn't be able to keep track of our restrooms properly, and the app wouldn't work. Google Maps does what we need, and it was the first thing Refuge was developed with.
 
 It also lets us request an address from Google (we give them a physical location (latitude and longitude), they turn it into an address); We can do the reverse, by giving Google an address, and requesting a physical location (latitude and longitude). Try searching from the homepage to see this in action.
 
 We can also get information about businesses, landmarks, restaurants, etc. from the Google Maps "Places" library. This info includes when they open/close each day, for example.
-
-Google Maps helps autocomplete our users' typing, in the search box. This makes it easier and more intuitive to type a real location that will have good results.
 
 ## Technologies Used
 
