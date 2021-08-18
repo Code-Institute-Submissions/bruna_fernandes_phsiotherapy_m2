@@ -42,14 +42,19 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
         
     -   #### Pages: All pages contained the following elements.
         -   Header/Footer: Defining clean and simple navigation to what the user is looking for.
+
+        <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/navbar_screenshot.png?raw=true"></h2>
+        <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/footer_screenshot.png?raw=true"></h2>       
+        
         -   Website Brand Logo: On all pages the Brand logo sits on the Navbar and is a clickable link to redirect to the homepage.
+        <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/logo_screenshot.png?raw=true"></h2>
         -   Website Colors and Font: Website colors and font remain consistent throughout.
     
     -   #### Colour Scheme
     
         -   The color scheme on my website was based off the business card from Bruna's private practice where I wanted to keep it consistent throughout and where it was                 clean and simple and appealing to look at. I used a "mint green" trim color with a dark blue background across all pages for consistency. The member's page was                   colored in gold representing the status of members, VIP, etc.
         
-        <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
+       <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/colors/palette_colors.png?raw=true"></h2>
             
     -   #### Typography
     
