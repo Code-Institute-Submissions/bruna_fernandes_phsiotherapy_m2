@@ -217,18 +217,10 @@ s {
 
 /*----------Buttons-----------------*/
 .mem-btn {
-    background-image: linear-gradient(
-     to right,
-     #f6e27a 0,
-     #e9b15d 22%, 
-     #f6e27a 45%,
-     #f6f2c0 50%,
-     #f6e27a 55%,
-     #f1b863 78%,
-     #92524f 100%
-     );
-    color:transparent;
-    -webkit-background-clip:text;
+    margin-top: 10px;
+    background-image: linear-gradient( to right, #f6e27a 0, #e9b15d 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #f1b863 78%, #92524f 100% );
+    color: transparent;
+    -webkit-background-clip: text;
     background-color: #1e203f!important;
     border-style: groove;
     border-color: gold;
@@ -248,7 +240,7 @@ s {
     padding: 15px;
     border-radius: 25px;
     font-size: 18px;
-    margin-top: -40px;
+    margin-top: 10px;
     margin-bottom: 25px;
     margin-left: 49%;
 }
