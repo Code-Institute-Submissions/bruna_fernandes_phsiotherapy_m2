@@ -1,6 +1,6 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
+let today = new Date();
+let hourNow = today.getHours();
+let greeting;
 
 if (hourNow > 18) {
     greeting = "Good Evening And Welcome To Bruna Fernandes Fisioterpia";
