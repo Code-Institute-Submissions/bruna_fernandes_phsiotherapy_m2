@@ -78,6 +78,9 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
    
    #### The Home page includes:
 -   Logo Banner: Easy on the eye colors from customer business card. It's large enough and unmissable, reinforcing brand awareness to users.
+
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/logo_banner_screenshot.png?raw=true"></h2>
+    
 -   Three cards on display the top two cards are: Member and Appointment information. Icons on each card are clickable links to take the user to the page requested.
     The bottom card is a testimonial card on a carousel that automatically transitions from one slide to another displaying comments and feedback star ratings.
     The indicators on the bottom are clickable, allowing the user to navigate through each slide when they want.
@@ -85,7 +88,8 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
    ##### Home page Modals:
 -  Clicking on the Members icon will display a pop-up modal asking the user to enter their login details.
 -  The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
-
+   
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/sign_log_modal_screenshot.png?raw=true"></h2>
 
 #### The  Physiotherapy & Pilates page includes:
 -   A quick to read page of the services that Bruna Fernandes Physiotherapy is offering to all clients.
@@ -93,21 +97,35 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
    
    #### The Appointment page includes:
 -   An Appointment request card. This is very easy to use, looking for your name and email address. The user will then click the dropdown to choose the problem and then can proceed to check multiple (if required) problems related to their query and then choose a time that suits an appointment and lastly a date that can be chosen by clicking the calendar button and simply hitting send.
+
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/appointment_screenshot.png?raw=true"></h2>
+
 -   The next card is for COVID 19 a breakdown of appointment guidelines for the user prior to attending their chosen appointment.
     The user must click the C19 form text for a page to open in a separate tab to download the form and fill in the details required.
+    
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/covid_form_screenshot.png?raw=true"></h2>
+    
 -   The last card is simply service operation hours with a phone number to call (which, if the user has their mobile phone linked to their computer, a click on this number will     automatically make the call for you on the user's mobile phone.
 
    ##### Appointment page Modals:
 -   Clicking on the send button on the appointment form will display a pop-up modal telling the user that their appointment request has been sent and that they will receive     an email confirming their appointment booking.
     Clicking the "Thank you!" button on this modal will bring the user back to the Home page.
+    
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/appointment_sent_screenshot.png?raw=true"></h2>
+    
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
 
    #### The Member page includes:
 -   The Member loads with a message to greet the user depending on the time of the day (morning, afternoon and evening) this was done with the use of JavaScript.
+
+    <h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/javascript_message_screenshot.png?raw=true"></h2>
+
 -   The two icons on the Member page are a video camera and an image representing photos. These are clickable icons that would jump to the video section or image section.
 -   The Member page is a library of videos and images covering all areas of physiotherapy. The first section of the Member page is 1:1 YouTube videos for members to gain access     to, to watch and use of their own home.
 -   After the video section, the member will see a library of images These images have a button below which once clicked, will drop down a paragraph with detailed information     on each image card.
 -   Finally at the bottom of the page just above the footer there is a gold up-right arrow icon which is clickable. When this icon is clicked it will scroll the user to the top     of the page.
+
+<h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/scroll_up_arrow_screenshot.png?raw=true"></h2>
     
    ##### Member page Modals:
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
@@ -125,10 +143,14 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 -   The Contact page is kept simple and easy to use and has two purposes. The first is to give existing and new users the ability to contact Bruna anytime with any query.
 -   The second is to provide a written work address and a functioning Google Maps for users to locate the work address and a contact number for users to reach out with.
 -   The Contact Us form is simple, it requires the user to input a full name and email. It also has an option for users to type in a message and send their query to Bruna.
+
+<h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/contact_us_screenshot.png?raw=true"></h2>
     
    ##### Contact page Modals:
 -   The Sign In / Sign Up button on the right side of the navigation bar, once clicked will pop-up another modal for users to register for the website.
 -   Once the send button is clicked a modal popup will display confirming the message has been sent. Clicking the "Thank You!" button will return the user to the Contact Us         page.
+
+<h2 align="center"><img src="https://github.com/Elippsis007/bruna_fernandes_phsiotherapy_m2/blob/master/assets/website_screens/contact_us_sent_screenshot.png?raw=true"></h2>
 
 ### Potential features to use in the future
 
