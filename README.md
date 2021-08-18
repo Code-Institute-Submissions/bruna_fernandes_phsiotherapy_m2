@@ -189,6 +189,9 @@ This is BFF (Bruna Fernandes Physiotherapy) a project website designed to be res
 
 ## Google Maps API
 
+### What is the Google Maps Platform?
+The Google Maps Platform is a set of APIs and SDKs that allows developers to embed Google Maps into mobile apps and web pages, or to retrieve data from Google Maps.
+
 The Maps API returns helpful data about places and locations. It is called by javascript.
 It does two major things:
 -   It can cause maps to appear for the user.
